@@ -1,12 +1,12 @@
 # Cisco UK Partnership Agreement
-**Gamma Communications PLC - Technology Alliance**
+**Snowmobile Telco PLC - Technology Alliance**
 
 ## Agreement Summary
 
 | Field | Details |
 |-------|---------|
 | Agreement Type | Technology Partner Agreement |
-| Parties | Gamma Communications PLC / Cisco Systems UK Ltd |
+| Parties | Snowmobile Telco PLC / Cisco Systems UK Ltd |
 | Effective Date | 1 April 2022 |
 | Term | 5 years |
 | Total Commitment | £8M (technology + services) |
@@ -17,9 +17,9 @@
 
 ### Products Covered
 
-| Product | Description | Gamma Role |
+| Product | Description | Snowmobile Telco Role |
 |---------|-------------|------------|
-| Webex for Gamma | UCaaS platform | Reseller/Partner |
+| Webex for Snowmobile | UCaaS platform | Reseller/Partner |
 | Cisco BroadWorks | Platform licensing | Licensee |
 | Webex Contact Centre | CCaaS solution | Reseller |
 | Cisco Networking | Infrastructure | Reseller |
@@ -66,7 +66,7 @@
 
 ### Interoperability
 
-| Requirement | Gamma Commitment |
+| Requirement | Snowmobile Telco Commitment |
 |-------------|------------------|
 | SIP interconnect | Maintain certified |
 | Codec support | Full suite |
@@ -88,7 +88,7 @@
 
 ### Escalation Path
 
-| Level | Cisco Contact | Gamma Contact |
+| Level | Cisco Contact | Snowmobile Telco Contact |
 |-------|---------------|---------------|
 | 1 | TAC | NOC |
 | 2 | TAC Manager | Ops Director |
@@ -132,7 +132,7 @@
 
 ### Key Contacts
 
-| Function | Cisco | Gamma |
+| Function | Cisco | Snowmobile Telco |
 |----------|-------|-------|
 | Account Lead | Partner Manager | Alliance Director |
 | Technical | Solutions Architect | CTO |
@@ -150,7 +150,7 @@
 | ISO 27001 | Certified | Both |
 | SOC 2 | Certified | Both |
 | GDPR | Compliant | Both |
-| UK Telecom | Licensed | Gamma |
+| UK Telecom | Licensed | Snowmobile Telco |
 
 ### Audit Rights
 

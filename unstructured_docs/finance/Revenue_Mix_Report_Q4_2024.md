@@ -1,5 +1,5 @@
 # Revenue Mix Report Q4 2024
-**Gamma Communications - Product and Segment Analysis**
+**Snowmobile Telco - Product and Segment Analysis**
 
 ## Executive Summary
 
@@ -9,16 +9,16 @@ Q4 2024 revenue of £132M reflects a continuing shift towards higher-value UCaaS
 
 ## Revenue by Product Category
 
-### Gamma Elements Portfolio
+### Snowmobile Elements Portfolio
 
 | Category | Q4 2024 | Q4 2023 | YoY | % Mix |
 |----------|---------|---------|-----|-------|
-| **Gamma Connect** | £60M | £50M | +20% | 45% |
+| **Snowmobile Connect** | £60M | £50M | +20% | 45% |
 | - Horizon Cloud | £38M | £34M | +12% | 29% |
 | - Teams Phone | £12M | £8M | +50% | 9% |
-| - Webex for Gamma | £6M | £5M | +20% | 5% |
+| - Webex for Snowmobile | £6M | £5M | +20% | 5% |
 | - CircleLoop | £4M | £3M | +33% | 3% |
-| **Gamma Enable** | £32M | £34M | -6% | 24% |
+| **Snowmobile Enable** | £32M | £34M | -6% | 24% |
 | - SIP Trunking | £22M | £24M | -8% | 17% |
 | - Inbound Services | £6M | £6M | 0% | 5% |
 | - Other Voice | £4M | £4M | 0% | 3% |
@@ -26,7 +26,7 @@ Q4 2024 revenue of £132M reflects a continuing shift towards higher-value UCaaS
 | - Broadband | £14M | £13M | +8% | 11% |
 | - Ethernet | £8M | £7M | +14% | 6% |
 | - Mobile | £2M | £2M | 0% | 2% |
-| **Gamma Experience** | £11M | £9M | +22% | 8% |
+| **Snowmobile Experience** | £11M | £9M | +22% | 8% |
 | - Horizon Contact | £7M | £5M | +40% | 5% |
 | - Cirrus | £3M | £3M | 0% | 2% |
 | - AWS Connect | £1M | £1M | 0% | 1% |
@@ -208,10 +208,10 @@ Q4 2024 revenue of £132M reflects a continuing shift towards higher-value UCaaS
 
 | Category | 2024 Mix | 2025E Mix | Shift |
 |----------|----------|-----------|-------|
-| Gamma Connect | 45% | 50% | +5pp |
-| Gamma Enable | 24% | 21% | -3pp |
+| Snowmobile Connect | 45% | 50% | +5pp |
+| Snowmobile Enable | 24% | 21% | -3pp |
 | Connectivity | 18% | 17% | -1pp |
-| Gamma Experience | 8% | 10% | +2pp |
+| Snowmobile Experience | 8% | 10% | +2pp |
 | Other | 4% | 2% | -2pp |
 
 ### Revenue Guidance

@@ -1,8 +1,8 @@
 # Vendor SLA and Credit Policies Summary
-**Gamma Communications PLC**
+**Snowmobile Telco PLC**
 
 ## Overview
-This document summarises the service level agreements and credit policies for Gamma's key technology partners.
+This document summarises the service level agreements and credit policies for Snowmobile Telco's key technology partners.
 
 ---
 

@@ -1,6 +1,6 @@
-# Unstructured Documents for Gamma Communications Demo
+# Unstructured Documents for Snowmobile Telco Demo
 
-This directory contains comprehensive business documents across multiple formats to demonstrate Snowflake Cortex Search capabilities for document embedding, indexing, and intelligent retrieval for **Gamma Communications PLC**.
+This directory contains comprehensive business documents across multiple formats to demonstrate Snowflake Cortex Search capabilities for document embedding, indexing, and intelligent retrieval for **Snowmobile Telco PLC**.
 
 ## Document Collection Overview
 
@@ -107,12 +107,12 @@ This directory contains comprehensive business documents across multiple formats
 - "How does our NPS compare to competitors?"
 - "What is our market share in UK UCaaS?"
 
-## Gamma-Specific Content
+## Snowmobile-Specific Content
 
 ### Products Referenced
-- **Gamma Connect**: Horizon, Teams Phone, Webex, CircleLoop
-- **Gamma Experience**: Horizon Contact, Cirrus, Amazon Connect
-- **Gamma Enable**: SIP Trunks, Inbound, Phoneline+
+- **Snowmobile Connect**: Horizon, Teams Phone, Webex, CircleLoop
+- **Snowmobile Experience**: Horizon Contact, Cirrus, Amazon Connect
+- **Snowmobile Enable**: SIP Trunks, Inbound, Phoneline+
 - **Connectivity**: Business Broadband, Ethernet, SD-WAN
 
 ### Competitors Referenced

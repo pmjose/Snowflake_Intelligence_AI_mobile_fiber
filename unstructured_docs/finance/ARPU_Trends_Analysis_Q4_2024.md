@@ -1,9 +1,9 @@
 # ARPU Trends Analysis H1 2025
-**Gamma Communications - Revenue Per Seat Analysis**
+**Snowmobile Telco - Revenue Per Seat Analysis**
 
 ## Executive Summary
 
-This analysis examines Average Revenue Per User (ARPU) trends across Gamma's cloud communications portfolio. With **1.8 million Cloud seats** (up 50% YoY), Gamma maintains strong unit economics despite some customers opting for lower-cost solutions in the challenging macro-economic environment. The Group added **587,000 seats** since June 2024, with Germany contributing significantly following the Starface and Placetel acquisitions.
+This analysis examines Average Revenue Per User (ARPU) trends across Snowmobile Telco's cloud communications portfolio. With **1.8 million Cloud seats** (up 50% YoY), Snowmobile Telco maintains strong unit economics despite some customers opting for lower-cost solutions in the challenging macro-economic environment. The Group added **587,000 seats** since June 2024, with Germany contributing significantly following the Starface and Placetel acquisitions.
 
 ---
 
@@ -37,7 +37,7 @@ This analysis examines Average Revenue Per User (ARPU) trends across Gamma's clo
 
 ## Segment Performance
 
-### Gamma Business (UK SME Channel)
+### Snowmobile Business (UK SME Channel)
 
 | Metric | H1 2025 | H1 2024 | Change |
 |--------|---------|---------|--------|
@@ -52,7 +52,7 @@ This analysis examines Average Revenue Per User (ARPU) trends across Gamma's clo
 - Copper-to-fibre migration reducing connectivity ARPU (£1.5M GP headwind)
 - Annual price rises partially offset declining trends
 
-### Gamma Enterprise (Direct)
+### Snowmobile Enterprise (Direct)
 
 | Metric | H1 2025 | H1 2024 | Change |
 |--------|---------|---------|--------|
@@ -115,7 +115,7 @@ This analysis examines Average Revenue Per User (ARPU) trends across Gamma's clo
 |----------|-------|--------------|-------------|
 | SIP - Traditional PBX (UK) | 902K | £4.50 | £4.1M |
 | SIP - Traditional PBX (DE) | 194K | €3.80 | €0.7M |
-| SIP - Non-Gamma Cloud (UK) | 498K | £4.20 | £2.1M |
+| SIP - Non-Snowmobile Telco Cloud (UK) | 498K | £4.20 | £2.1M |
 | **Total SIP** | **1,594K** | **£4.35** | **~£7.5M** |
 
 ### Microsoft Teams Voice Enablement
@@ -163,24 +163,24 @@ This analysis examines Average Revenue Per User (ARPU) trends across Gamma's clo
 
 ### UK UCaaS Market Comparison
 
-| Provider | Est. ARPU | vs Gamma | Notes |
+| Provider | Est. ARPU | vs Snowmobile Telco | Notes |
 |----------|-----------|----------|-------|
 | 8x8 | £18.50 | +34% | Direct enterprise focus |
 | RingCentral | £20.20 | +46% | Premium positioning |
 | Mitel (cloud) | £14.80 | +7% | Legacy transition |
 | Vonage | £12.50 | -9% | SMB focus |
 | Microsoft Teams Phone | £9.50 | -31% | Bundled pricing pressure |
-| **Gamma (blended)** | **£13.80** | **-** | **Channel efficiency** |
+| **Snowmobile Telco (blended)** | **£13.80** | **-** | **Channel efficiency** |
 
 ### Germany UCaaS Market
 
-| Provider | Est. ARPU (€) | vs Gamma | Notes |
+| Provider | Est. ARPU (€) | vs Snowmobile Telco | Notes |
 |----------|---------------|----------|-------|
 | NFON | €15.50 | +42% | Direct sales model |
 | Sipgate | €11.80 | +8% | SMB focus |
 | Starface | €14.50 | +33% | Premium enterprise |
 | Placetel | €8.50 | -22% | Self-serve efficiency |
-| **Gamma Germany (blended)** | **€10.90** | **-** | **Multi-brand strategy** |
+| **Snowmobile Telco Germany (blended)** | **€10.90** | **-** | **Multi-brand strategy** |
 
 ---
 
@@ -225,5 +225,5 @@ This analysis examines Average Revenue Per User (ARPU) trends across Gamma's clo
 
 **Prepared by**: Commercial Finance  
 **Date**: September 2025  
-**Source**: Gamma Communications H1 2025 Interim Results  
+**Source**: Snowmobile Telco H1 2025 Interim Results  
 **Classification**: Internal

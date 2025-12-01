@@ -1,22 +1,22 @@
 # Investor Relations FAQ
-**Gamma Communications PLC - Approved Messaging**
+**Snowmobile Telco PLC - Approved Messaging**
 
 ## Company Overview
 
-### Q: What does Gamma do?
+### Q: What does Snowmobile Telco do?
 
-**A:** Gamma is a leading provider of Unified Communications as a Service (UCaaS), voice, and connectivity solutions for the UK business market. We sell primarily through a network of over 1,000 channel partners including IT resellers, managed service providers, and telecommunications dealers. Our products help businesses communicate more effectively through cloud-based voice, video, messaging, and contact centre solutions.
+**A:** Snowmobile Telco is a leading provider of Unified Communications as a Service (UCaaS), voice, and connectivity solutions for the UK business market. We sell primarily through a network of over 1,000 channel partners including IT resellers, managed service providers, and telecommunications dealers. Our products help businesses communicate more effectively through cloud-based voice, video, messaging, and contact centre solutions.
 
-### Q: What is Gamma's market position?
+### Q: What is Snowmobile Telco's market position?
 
-**A:** Gamma is the UK's leading channel-focused business communications provider. We have:
+**A:** Snowmobile Telco is the UK's leading channel-focused business communications provider. We have:
 - Over 100,000 business customers served through partners
 - Approximately 850,000 UCaaS seats deployed
 - 45,000 contact centre seats
 - £500 million in annual revenue (FY2024E)
 - Operations in UK (primary), Netherlands, Spain, and Germany
 
-### Q: Who are Gamma's competitors?
+### Q: Who are Snowmobile Telco's competitors?
 
 **A:** Our competitive landscape includes:
 - **UCaaS**: 8x8, RingCentral, Mitel, Vonage
@@ -29,7 +29,7 @@
 
 ## Financial Performance
 
-### Q: What are Gamma's key financial metrics?
+### Q: What are Snowmobile Telco's key financial metrics?
 
 **A:** Key metrics for FY2024 (estimated):
 - Revenue: £500 million (+8% YoY)
@@ -39,14 +39,14 @@
 - Cash Conversion: >95%
 - Net Debt: £45 million (0.4x EBITDA)
 
-### Q: How does Gamma generate revenue?
+### Q: How does Snowmobile Telco generate revenue?
 
 **A:** Revenue is generated through:
 - **Recurring Revenue (85%)**: Monthly subscriptions for UCaaS, voice, and connectivity
 - **Usage Revenue (10%)**: Call minutes, international, and overage charges
 - **One-time Revenue (5%)**: Hardware, professional services, installation
 
-### Q: What is Gamma's revenue mix by product?
+### Q: What is Snowmobile Telco's revenue mix by product?
 
 **A:** FY2024 estimated mix:
 - UCaaS (Horizon, Teams Phone, Webex): 45%
@@ -68,13 +68,13 @@
 
 ## Dividend and Returns
 
-### Q: What is Gamma's dividend policy?
+### Q: What is Snowmobile Telco's dividend policy?
 
-**A:** Gamma operates a progressive dividend policy targeting approximately 30% of adjusted earnings. The current annual dividend is approximately 18p per share, paid in two instalments (interim in September, final in May).
+**A:** Snowmobile Telco operates a progressive dividend policy targeting approximately 30% of adjusted earnings. The current annual dividend is approximately 18p per share, paid in two instalments (interim in September, final in May).
 
-### Q: Does Gamma conduct share buybacks?
+### Q: Does Snowmobile Telco conduct share buybacks?
 
-**A:** Gamma may conduct share buybacks opportunistically to manage dilution from employee share schemes. We maintain authorisation for buybacks but prioritise organic investment and strategic acquisitions.
+**A:** Snowmobile Telco may conduct share buybacks opportunistically to manage dilution from employee share schemes. We maintain authorisation for buybacks but prioritise organic investment and strategic acquisitions.
 
 ### Q: What is the target capital structure?
 
@@ -84,7 +84,7 @@
 
 ## Growth Strategy
 
-### Q: What is Gamma's growth strategy?
+### Q: What is Snowmobile Telco's growth strategy?
 
 **A:** Our growth strategy has four pillars:
 1. **Organic UK Growth**: PSTN migration, Teams Phone, partner expansion
@@ -100,11 +100,11 @@
 - Market Opportunity: 5+ million UK business users on Teams
 - We are a certified Operator Connect partner with Direct Routing expertise
 
-### Q: How will the PSTN switch-off benefit Gamma?
+### Q: How will the PSTN switch-off benefit Snowmobile Telco?
 
 **A:** The UK PSTN switch-off (2025-2027) is a significant growth catalyst:
 - 5.5 million business PSTN lines to migrate
-- Gamma targeting 500,000 line migrations (10% share)
+- Snowmobile Telco targeting 500,000 line migrations (10% share)
 - Average revenue per migrated line: £15-20/month
 - Incremental revenue opportunity: £75-100M annually
 
@@ -112,11 +112,11 @@
 
 ## Listing and Governance
 
-### Q: Where are Gamma shares traded?
+### Q: Where are Snowmobile Telco shares traded?
 
-**A:** Gamma Communications PLC shares are traded on the AIM market of the London Stock Exchange under ticker "GAMA". We announced plans to move to the Main Market of the London Stock Exchange in May 2025.
+**A:** Snowmobile Telco PLC shares are traded on the AIM market of the London Stock Exchange under ticker "GAMA". We announced plans to move to the Main Market of the London Stock Exchange in May 2025.
 
-### Q: Why is Gamma moving to the Main Market?
+### Q: Why is Snowmobile Telco moving to the Main Market?
 
 **A:** The Main Market listing will:
 - Increase visibility with institutional investors
@@ -137,7 +137,7 @@
 
 ## ESG and Sustainability
 
-### Q: What are Gamma's ESG commitments?
+### Q: What are Snowmobile Telco's ESG commitments?
 
 **A:** Key ESG commitments:
 - **Environment**: Net Zero by 2040, 80% renewable energy by 2025
@@ -145,7 +145,7 @@
 - **Governance**: Independent board majority, diversity targets
 - Carbon footprint reduction through cloud migration for customers
 
-### Q: Does Gamma have sustainability certifications?
+### Q: Does Snowmobile Telco have sustainability certifications?
 
 **A:** Current certifications:
 - ISO 14001 (Environmental Management)
@@ -158,7 +158,7 @@
 
 ## M&A Strategy
 
-### Q: What is Gamma's acquisition strategy?
+### Q: What is Snowmobile Telco's acquisition strategy?
 
 **A:** We pursue selective acquisitions that provide:
 - **Technology**: Accelerate product roadmap
@@ -170,7 +170,7 @@
 
 **A:** Recent acquisitions include:
 - HFO Telecom (Germany) - 2023
-- Gamma Spain (rebranding) - 2022
+- Snowmobile Telco Spain (rebranding) - 2022
 - Mission Labs (technology) - 2021
 - Voz Telecom (Spain entry) - 2019
 
@@ -178,7 +178,7 @@
 
 ## Guidance
 
-### Q: What guidance has Gamma provided for 2025?
+### Q: What guidance has Snowmobile Telco provided for 2025?
 
 **A:** FY2025 guidance:
 - Revenue growth: 8-10%
@@ -200,9 +200,9 @@
 
 ## Analyst Coverage
 
-### Q: Who covers Gamma?
+### Q: Who covers Snowmobile Telco?
 
-**A:** Gamma is covered by:
+**A:** Snowmobile Telco is covered by:
 - Berenberg
 - Jefferies
 - Peel Hunt

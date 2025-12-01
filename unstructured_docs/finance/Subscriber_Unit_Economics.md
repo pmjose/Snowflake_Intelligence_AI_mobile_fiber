@@ -1,9 +1,9 @@
 # Customer Unit Economics Analysis
-**Gamma Communications - LTV/CAC Analysis**
+**Snowmobile Telco - LTV/CAC Analysis**
 
 ## Executive Summary
 
-This analysis examines customer lifetime value (LTV), customer acquisition cost (CAC), and payback metrics across Gamma's customer segments. The blended LTV:CAC ratio of 6.2x demonstrates strong unit economics with an average payback period of 14 months.
+This analysis examines customer lifetime value (LTV), customer acquisition cost (CAC), and payback metrics across Snowmobile Telco's customer segments. The blended LTV:CAC ratio of 6.2x demonstrates strong unit economics with an average payback period of 14 months.
 
 ---
 
@@ -162,7 +162,7 @@ This analysis examines customer lifetime value (LTV), customer acquisition cost 
 
 ### Partner Contribution Analysis
 
-| Tier | Margin to Partner | Gamma GP | Partner LTV |
+| Tier | Margin to Partner | Snowmobile Telco GP | Partner LTV |
 |------|-------------------|----------|-------------|
 | Platinum | 42% | 58% | £185,000 |
 | Gold | 38% | 62% | £75,000 |

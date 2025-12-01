@@ -1,8 +1,8 @@
 # Vendor Management Policy 2025
-**Gamma Communications PLC**
+**Snowmobile Telco PLC**
 
 ## Overview
-This policy establishes guidelines for vendor selection, management, and evaluation to ensure cost-effectiveness, quality service delivery, and risk mitigation across Gamma Communications' technology partnerships.
+This policy establishes guidelines for vendor selection, management, and evaluation to ensure cost-effectiveness, quality service delivery, and risk mitigation across Snowmobile Telco' technology partnerships.
 
 ## Vendor Selection Criteria
 - Financial stability and creditworthiness
@@ -10,7 +10,7 @@ This policy establishes guidelines for vendor selection, management, and evaluat
 - Compliance with security and regulatory requirements (ISO 27001, SOC 2)
 - Cost competitiveness and value proposition
 - References from similar B2B communications providers
-- Integration capability with Gamma platforms
+- Integration capability with Snowmobile Telco platforms
 
 ## Key Vendor Categories
 
@@ -36,7 +36,7 @@ This policy establishes guidelines for vendor selection, management, and evaluat
 | Broadsoft (Cisco) | £3M | UCaaS Platform |
 | Enghouse | £1.5M | Contact Centre |
 | Akixi | £500K | Analytics & Reporting |
-| Gamma Mobile (internal) | £2M | Mobile Services |
+| Snowmobile Mobile (internal) | £2M | Mobile Services |
 
 ## Vendor Performance Metrics
 

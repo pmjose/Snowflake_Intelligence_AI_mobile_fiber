@@ -1,0 +1,36 @@
+device_key,device_name,manufacturer,device_type,rrp_price,5g_capable,esim_capable,enterprise_grade,vertical
+1,iPhone 16 Pro Max,Apple,Smartphone,1199.00,Yes,Yes,Yes,Enterprise
+2,iPhone 16 Pro,Apple,Smartphone,999.00,Yes,Yes,Yes,Enterprise
+3,iPhone 16,Apple,Smartphone,799.00,Yes,Yes,Yes,All
+4,iPhone 16 Plus,Apple,Smartphone,899.00,Yes,Yes,Yes,All
+5,iPhone SE (4th Gen),Apple,Smartphone,499.00,Yes,Yes,Yes,SMB
+6,Samsung Galaxy S25 Ultra,Samsung,Smartphone,1299.00,Yes,Yes,Yes,Enterprise
+7,Samsung Galaxy S25+,Samsung,Smartphone,999.00,Yes,Yes,Yes,Enterprise
+8,Samsung Galaxy S25,Samsung,Smartphone,799.00,Yes,Yes,Yes,All
+9,Samsung Galaxy A56 5G,Samsung,Smartphone,449.00,Yes,Yes,Yes,SMB
+10,Samsung Galaxy A36 5G,Samsung,Smartphone,349.00,Yes,Yes,No,SMB
+11,Samsung Galaxy XCover7 Pro,Samsung,Rugged Smartphone,549.00,Yes,Yes,Yes,Enterprise
+12,Google Pixel 9 Pro XL,Google,Smartphone,1099.00,Yes,Yes,Yes,Enterprise
+13,Google Pixel 9 Pro,Google,Smartphone,999.00,Yes,Yes,Yes,Enterprise
+14,Google Pixel 9,Google,Smartphone,799.00,Yes,Yes,Yes,All
+15,Google Pixel 9a,Google,Smartphone,499.00,Yes,Yes,Yes,SMB
+16,iPad Pro 13-inch (M4),Apple,Tablet,1299.00,Yes,Yes,Yes,Enterprise
+17,iPad Pro 11-inch (M4),Apple,Tablet,999.00,Yes,Yes,Yes,Enterprise
+18,iPad Air 13-inch (M3),Apple,Tablet,799.00,Yes,Yes,Yes,All
+19,iPad Air 11-inch (M3),Apple,Tablet,699.00,Yes,Yes,Yes,All
+20,iPad (11th Gen),Apple,Tablet,449.00,Yes,Yes,Yes,SMB
+21,Samsung Galaxy Tab S10 Ultra,Samsung,Tablet,1199.00,Yes,Yes,Yes,Enterprise
+22,Samsung Galaxy Tab S10+,Samsung,Tablet,999.00,Yes,Yes,Yes,Enterprise
+23,Samsung Galaxy Tab Active5 Pro,Samsung,Rugged Tablet,699.00,Yes,Yes,Yes,Enterprise
+24,Apple Watch Ultra 3,Apple,Smartwatch,799.00,Yes,Yes,Yes,Enterprise
+25,Apple Watch Series 10,Apple,Smartwatch,449.00,Yes,Yes,Yes,All
+26,Samsung Galaxy Watch 7,Samsung,Smartwatch,349.00,Yes,Yes,Yes,All
+27,Nighthawk M6 Pro 5G,Netgear,Mobile Hotspot,599.00,Yes,No,Yes,Enterprise
+28,Nighthawk M6 5G,Netgear,Mobile Hotspot,399.00,Yes,No,Yes,SMB
+29,Cradlepoint R2100 5G,Cradlepoint,IoT Router,1299.00,Yes,No,Yes,Enterprise
+30,Cradlepoint E3000 5G,Cradlepoint,Enterprise Router,1899.00,Yes,No,Yes,Enterprise
+31,Teltonika RUTX50 5G,Teltonika,Industrial Router,549.00,Yes,No,Yes,Enterprise
+32,Teltonika FMC650,Teltonika,Fleet Tracker,199.00,Yes,No,Yes,Enterprise
+33,Quectel RG650U-EU,Quectel,IoT Module,89.00,Yes,No,Yes,Enterprise
+34,Hikvision DS-2XS6A87G1,Hikvision,5G CCTV Camera,699.00,Yes,No,Yes,Enterprise
+35,Huawei 5G CPE Pro 3,Huawei,Fixed Wireless,449.00,Yes,No,Yes,Enterprise

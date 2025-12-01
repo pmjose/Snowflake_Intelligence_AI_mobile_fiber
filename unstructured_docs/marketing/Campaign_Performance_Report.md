@@ -1,5 +1,5 @@
 # Campaign Performance Report Q4 2024
-**Gamma Communications - Marketing Analytics**
+**Snowmobile Telco - Marketing Analytics**
 
 ## Executive Summary
 
@@ -42,7 +42,7 @@ Q4 2024 marketing delivered strong results with 6,850 MQLs generated from £4.2M
 | Teams Phone Push | £620K | 1,450 | £428 | £9.5M | 15.3x |
 | Partner Recruitment | £380K | 185 | £2,054 | £8M | 21.1x |
 | Contact Centre | £420K | 920 | £457 | £6.5M | 15.5x |
-| Gamma Secure Launch | £280K | 650 | £431 | £3.8M | 13.6x |
+| Snowmobile Secure Launch | £280K | 650 | £431 | £3.8M | 13.6x |
 | SMB Digital | £520K | 1,200 | £433 | £4.2M | 8.1x |
 | Brand Awareness | £450K | N/A | N/A | N/A | N/A |
 | Partner Events | £380K | 345 | £1,101 | £2M | 5.3x |
@@ -173,7 +173,7 @@ Q4 2024 marketing delivered strong results with 6,850 MQLs generated from £4.2M
 
 ### Share of Voice
 
-| Platform | Gamma | 8x8 | RingCentral |
+| Platform | Snowmobile Telco | 8x8 | RingCentral |
 |----------|-------|-----|-------------|
 | LinkedIn | 22% | 18% | 24% |
 | Trade media | 28% | 15% | 20% |

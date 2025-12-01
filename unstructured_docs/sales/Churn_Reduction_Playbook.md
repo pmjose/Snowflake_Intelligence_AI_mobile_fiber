@@ -1,9 +1,9 @@
 # Customer Retention Playbook
-**Gamma Communications - Churn Reduction Guide**
+**Snowmobile Telco - Churn Reduction Guide**
 
 ## Executive Summary
 
-This playbook provides strategies and tactics for reducing customer churn across Gamma's customer base. With current churn at 0.9% monthly (10.8% annual), our target is to reduce this to 0.8% monthly (9.2% annual), protecting £8M in annual recurring revenue.
+This playbook provides strategies and tactics for reducing customer churn across Snowmobile Telco's customer base. With current churn at 0.9% monthly (10.8% annual), our target is to reduce this to 0.8% monthly (9.2% annual), protecting £8M in annual recurring revenue.
 
 ---
 

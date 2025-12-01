@@ -1,5 +1,5 @@
 # Seat Growth Report Q4 2024
-**Gamma Communications - Business Performance Analysis**
+**Snowmobile Telco - Business Performance Analysis**
 
 ## Executive Summary
 

@@ -1,9 +1,9 @@
 -- Debug: Check if network documents exist in parsed_content
-USE DATABASE GAMMA_AI_DEMO;
-USE SCHEMA GAMMA_SCHEMA;
+USE DATABASE SNOWMOBILE_AI_DEMO;
+USE SCHEMA SNOWMOBILE_SCHEMA;
 
 -- 1. Check what files exist on the stage
-SELECT * FROM DIRECTORY('@GAMMA_DOC_STAGE') 
+SELECT * FROM DIRECTORY('@SNOWMOBILE_DOC_STAGE') 
 WHERE RELATIVE_PATH ILIKE '%network%';
 
 -- 2. Check if network documents are in parsed_content
@@ -21,7 +21,7 @@ ORDER BY folder_name;
 
 -- 4. Test the search service directly
 SELECT SNOWFLAKE.CORTEX.SEARCH_PREVIEW(
-    'GAMMA_AI_DEMO.GAMMA_SCHEMA.SEARCH_NETWORK_DOCS',
+    'SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SEARCH_NETWORK_DOCS',
     '{
         "query": "data centre locations network capacity",
         "columns": ["content", "relative_path"],
@@ -30,5 +30,5 @@ SELECT SNOWFLAKE.CORTEX.SEARCH_PREVIEW(
 );
 
 -- 5. If no results, check if search service exists
-SHOW CORTEX SEARCH SERVICES IN SCHEMA GAMMA_AI_DEMO.GAMMA_SCHEMA;
+SHOW CORTEX SEARCH SERVICES IN SCHEMA SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA;
 

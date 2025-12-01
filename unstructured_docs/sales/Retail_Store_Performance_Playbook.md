@@ -1,9 +1,9 @@
 # Channel Partner Performance Playbook
-**Gamma Communications - Partner Excellence Guide**
+**Snowmobile Telco - Partner Excellence Guide**
 
 ## Executive Summary
 
-This playbook provides performance benchmarks, best practices, and improvement strategies for Gamma channel partners. Based on analysis of our top 100 partners, this guide outlines the characteristics of high-performing partners and pathways to excellence.
+This playbook provides performance benchmarks, best practices, and improvement strategies for Snowmobile Telco channel partners. Based on analysis of our top 100 partners, this guide outlines the characteristics of high-performing partners and pathways to excellence.
 
 ---
 
@@ -70,7 +70,7 @@ This playbook provides performance benchmarks, best practices, and improvement s
 | MDF utilisation | 100% of allocation | +30% leads |
 | Co-marketing | 2+ campaigns/quarter | +25% pipeline |
 | Content creation | Case studies, blogs | +20% credibility |
-| Event participation | Gammaverse + local | +15% relationships |
+| Event participation | Snowmobileverse + local | +15% relationships |
 
 #### 5. Operational Excellence
 
@@ -185,7 +185,7 @@ This playbook provides performance benchmarks, best practices, and improvement s
 - Full demo environment
 - 100% MDF utilisation
 - Proactive QBRs with all customers
-- Dedicated Gamma product manager
+- Dedicated Snowmobile Telco product manager
 
 ### Turnaround Example: Partner X
 
@@ -211,7 +211,7 @@ This playbook provides performance benchmarks, best practices, and improvement s
 
 | Resource | Access | Purpose |
 |----------|--------|---------|
-| Gamma Academy | Portal | Self-paced learning |
+| Snowmobile Academy | Portal | Self-paced learning |
 | Live training | Monthly | Interactive sessions |
 | Technical labs | Portal | Hands-on practice |
 | Certification exams | Portal | Validation |
@@ -241,10 +241,10 @@ This playbook provides performance benchmarks, best practices, and improvement s
 | Function | Contact | Purpose |
 |----------|---------|---------|
 | Channel Account Manager | Assigned | Day-to-day support |
-| Technical Pre-Sales | presales@gamma.co.uk | Solution design |
-| Partner Support | partnersupport@gamma.co.uk | Operational issues |
-| Partner Marketing | partnermarketing@gamma.co.uk | MDF, campaigns |
-| Partner Academy | academy@gamma.co.uk | Training, certification |
+| Technical Pre-Sales | presales@snowmobile.co.uk | Solution design |
+| Partner Support | partnersupport@snowmobile.co.uk | Operational issues |
+| Partner Marketing | partnermarketing@snowmobile.co.uk | MDF, campaigns |
+| Partner Academy | academy@snowmobile.co.uk | Training, certification |
 
 ---
 

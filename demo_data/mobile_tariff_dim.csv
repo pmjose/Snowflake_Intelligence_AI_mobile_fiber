@@ -1,0 +1,31 @@
+tariff_key,tariff_name,tariff_type,data_allowance_gb,minutes,texts,monthly_price,contract_months,network_priority,5g_included,roaming_included,vertical
+1,Business Essential 5GB,Business SIM,5,Unlimited,Unlimited,12.00,12,Standard,Yes,Yes,SMB
+2,Business Essential 15GB,Business SIM,15,Unlimited,Unlimited,16.00,12,Standard,Yes,Yes,SMB
+3,Business Essential 30GB,Business SIM,30,Unlimited,Unlimited,22.00,12,Standard,Yes,Yes,SMB
+4,Business Unlimited,Business SIM,Unlimited,Unlimited,Unlimited,32.00,12,Standard,Yes,Yes,SMB
+5,Enterprise 50GB,Enterprise SIM,50,Unlimited,Unlimited,20.00,24,Priority,Yes,Yes,Enterprise
+6,Enterprise 100GB,Enterprise SIM,100,Unlimited,Unlimited,28.00,24,Priority,Yes,Yes,Enterprise
+7,Enterprise Unlimited,Enterprise SIM,Unlimited,Unlimited,Unlimited,38.00,24,Priority,Yes,Yes,Enterprise
+8,Enterprise Pooled 500GB,Shared Data,500,Unlimited,Unlimited,165.00,24,Priority,Yes,Yes,Enterprise
+9,Enterprise Pooled 1TB,Shared Data,1000,Unlimited,Unlimited,295.00,24,Priority,Yes,Yes,Enterprise
+10,5G Business 50GB,5G Premium,50,Unlimited,Unlimited,28.00,24,5G Priority,Yes,Yes,Enterprise
+11,5G Business 100GB,5G Premium,100,Unlimited,Unlimited,38.00,24,5G Priority,Yes,Yes,Enterprise
+12,5G Business Unlimited,5G Premium,Unlimited,Unlimited,Unlimited,48.00,24,5G Priority,Yes,Yes,Enterprise
+13,IoT Basic 250MB,IoT Data,0.25,0,0,3.00,12,Standard,Yes,No,All
+14,IoT Standard 1GB,IoT Data,1,0,0,6.00,12,Standard,Yes,No,All
+15,IoT Advanced 5GB,IoT Data,5,0,0,12.00,12,Priority,Yes,No,Enterprise
+16,IoT Unlimited,IoT Data,Unlimited,0,0,18.00,12,Priority,Yes,No,Enterprise
+17,Fleet Tracker Standard,Fleet/M2M,0.5,0,0,5.00,24,Standard,Yes,No,Enterprise
+18,Fleet Tracker Pro,Fleet/M2M,2,0,0,10.00,24,Priority,Yes,No,Enterprise
+19,Smart Meter,Utility IoT,0.1,0,0,2.00,36,Standard,No,No,Enterprise
+20,CCTV/Security 5G,IoT Data,10,0,0,15.00,24,Priority,Yes,No,Enterprise
+21,Public Sector 30GB,Government,30,Unlimited,Unlimited,20.00,24,Priority,Yes,Yes,Public Sector
+22,Public Sector 60GB,Government,60,Unlimited,Unlimited,26.00,24,Priority,Yes,Yes,Public Sector
+23,Public Sector Unlimited,Government,Unlimited,Unlimited,Unlimited,36.00,24,Priority,Yes,Yes,Public Sector
+24,NHS Mobile,Healthcare,60,Unlimited,Unlimited,24.00,24,Critical,Yes,Yes,Public Sector
+25,Education 15GB,Education,15,Unlimited,Unlimited,12.00,12,Standard,Yes,Yes,Public Sector
+26,Data Only Tablet 25GB,Data Only,25,0,0,18.00,12,Standard,Yes,Yes,All
+27,Data Only Tablet 60GB,Data Only,60,0,0,26.00,12,Standard,Yes,Yes,All
+28,Mobile Broadband 150GB,MBB,150,0,0,35.00,12,Priority,Yes,No,SMB
+29,Mobile Broadband Unlimited,MBB,Unlimited,0,0,50.00,12,Priority,Yes,No,Enterprise
+30,eSIM Business 30GB,eSIM,30,Unlimited,Unlimited,24.00,12,Standard,Yes,Yes,Enterprise

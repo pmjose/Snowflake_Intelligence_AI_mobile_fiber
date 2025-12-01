@@ -1,9 +1,9 @@
 # Customer Satisfaction Report Q4 2024
-**Gamma Communications - NPS and Customer Experience Analysis**
+**Snowmobile Telco - NPS and Customer Experience Analysis**
 
 ## Executive Summary
 
-Q4 2024 customer satisfaction remained strong with overall NPS of +45, up 3 points from Q3. Partner satisfaction reached +52, demonstrating Gamma's commitment to the channel-first model. Key improvement areas include onboarding speed and contact centre features.
+Q4 2024 customer satisfaction remained strong with overall NPS of +45, up 3 points from Q3. Partner satisfaction reached +52, demonstrating Snowmobile Telco's commitment to the channel-first model. Key improvement areas include onboarding speed and contact centre features.
 
 ---
 
@@ -108,7 +108,7 @@ Q4 2024 customer satisfaction remained strong with overall NPS of +45, up 3 poin
 
 | Theme | Frequency | Example |
 |-------|-----------|---------|
-| Partner support | 28% | "Gamma treats us as partners, not just resellers" |
+| Partner support | 28% | "Snowmobile Telco treats us as partners, not just resellers" |
 | Product reliability | 24% | "Horizon just works - no complaints from our customers" |
 | UK-based support | 18% | "Speaking to someone in the UK who understands our needs" |
 | Competitive pricing | 15% | "Fair margins that make the business work" |
@@ -132,7 +132,7 @@ Q4 2024 customer satisfaction remained strong with overall NPS of +45, up 3 poin
 
 | Provider | Customer NPS | Partner NPS |
 |----------|--------------|-------------|
-| **Gamma** | +45 | +52 |
+| **Snowmobile Telco** | +45 | +52 |
 | 8x8 | +28 | +32 |
 | RingCentral | +32 | +18 |
 | Mitel | +22 | +38 |
@@ -140,7 +140,7 @@ Q4 2024 customer satisfaction remained strong with overall NPS of +45, up 3 poin
 
 ### NPS Leadership Factors
 
-| Factor | Gamma Score | Industry Avg |
+| Factor | Snowmobile Telco Score | Industry Avg |
 |--------|-------------|--------------|
 | Partner relationship | 4.5/5 | 3.8/5 |
 | Product reliability | 4.4/5 | 4.0/5 |

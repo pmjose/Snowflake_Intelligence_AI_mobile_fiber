@@ -2,7 +2,7 @@
 
 
     -- ========================================================================
-    -- Snowflake AI Demo - Complete Setup Script (Gamma UK)
+    -- Snowflake AI Demo - Complete Setup Script (Snowmobile Telco UK)
     -- This script creates the database, schema, tables, and loads all data
     -- Repository: https://github.com/pmjose/Snowflake_AI_Demo_Gamma.git
     -- ========================================================================
@@ -21,40 +21,40 @@
     GRANT USAGE ON SCHEMA snowflake_intelligence.agents TO ROLE PUBLIC;
 
 
-    create or replace role Gamma_Demo;
+    create or replace role Snowmobile_Demo;
 
 
     SET current_user_name = CURRENT_USER();
     
     -- Step 2: Use the variable to grant the role
-    GRANT ROLE Gamma_Demo TO USER IDENTIFIER($current_user_name);
-    GRANT CREATE DATABASE ON ACCOUNT TO ROLE Gamma_Demo;
+    GRANT ROLE Snowmobile_Demo TO USER IDENTIFIER($current_user_name);
+    GRANT CREATE DATABASE ON ACCOUNT TO ROLE Snowmobile_Demo;
     
     -- Create a dedicated warehouse for the demo with auto-suspend/resume
-    CREATE OR REPLACE WAREHOUSE Gamma_Demo_WH 
+    CREATE OR REPLACE WAREHOUSE Snowmobile_Demo_WH 
         WITH WAREHOUSE_SIZE = 'XSMALL'
         AUTO_SUSPEND = 300
         AUTO_RESUME = TRUE;
 
 
     -- Grant usage on warehouse to admin role
-    GRANT USAGE ON WAREHOUSE GAMMA_DEMO_WH TO ROLE Gamma_Demo;
+    GRANT USAGE ON WAREHOUSE SNOWMOBILE_DEMO_WH TO ROLE Snowmobile_Demo;
 
 
   -- Alter current user's default role and warehouse to the ones used here
-    ALTER USER IDENTIFIER($current_user_name) SET DEFAULT_ROLE = Gamma_Demo;
-    ALTER USER IDENTIFIER($current_user_name) SET DEFAULT_WAREHOUSE = Gamma_Demo_WH;
+    ALTER USER IDENTIFIER($current_user_name) SET DEFAULT_ROLE = Snowmobile_Demo;
+    ALTER USER IDENTIFIER($current_user_name) SET DEFAULT_WAREHOUSE = Snowmobile_Demo_WH;
     
 
-    -- Switch to Gamma_Demo role to create demo objects
-    use role Gamma_Demo;
+    -- Switch to Snowmobile_Demo role to create demo objects
+    use role Snowmobile_Demo;
   
     -- Create database and schema
-    CREATE OR REPLACE DATABASE GAMMA_AI_DEMO;
-    USE DATABASE GAMMA_AI_DEMO;
+    CREATE OR REPLACE DATABASE SNOWMOBILE_AI_DEMO;
+    USE DATABASE SNOWMOBILE_AI_DEMO;
 
-    CREATE SCHEMA IF NOT EXISTS GAMMA_SCHEMA;
-    USE SCHEMA GAMMA_SCHEMA;
+    CREATE SCHEMA IF NOT EXISTS SNOWMOBILE_SCHEMA;
+    USE SCHEMA SNOWMOBILE_SCHEMA;
 
     -- Create file format for CSV files
     CREATE OR REPLACE FILE FORMAT CSV_FORMAT
@@ -74,19 +74,19 @@
 
 use role accountadmin;
     -- Create API Integration for GitHub (public repository access)
-    CREATE OR REPLACE API INTEGRATION gamma_git_api_integration
+    CREATE OR REPLACE API INTEGRATION snowmobile_git_api_integration
         API_PROVIDER = git_https_api
         API_ALLOWED_PREFIXES = ('https://github.com/pmjose/')
         ENABLED = TRUE;
 
 
-GRANT USAGE ON INTEGRATION GAMMA_GIT_API_INTEGRATION TO ROLE Gamma_Demo;
+GRANT USAGE ON INTEGRATION SNOWMOBILE_GIT_API_INTEGRATION TO ROLE Snowmobile_Demo;
 
 
-use role Gamma_Demo;
-    -- Create Git repository integration for the Gamma UK demo repository
-    CREATE OR REPLACE GIT REPOSITORY GAMMA_AI_DEMO_REPO
-        API_INTEGRATION = gamma_git_api_integration
+use role Snowmobile_Demo;
+    -- Create Git repository integration for the Snowmobile Telco UK demo repository
+    CREATE OR REPLACE GIT REPOSITORY SNOWMOBILE_AI_DEMO_REPO
+        API_INTEGRATION = snowmobile_git_api_integration
         ORIGIN = 'https://github.com/pmjose/Snowflake_AI_Demo_Gamma.git';
 
     -- Create internal stage for copied data files
@@ -96,7 +96,7 @@ use role Gamma_Demo;
         DIRECTORY = ( ENABLE = TRUE)
         ENCRYPTION = (   TYPE = 'SNOWFLAKE_SSE');
 
-    ALTER GIT REPOSITORY GAMMA_AI_DEMO_REPO FETCH;
+    ALTER GIT REPOSITORY SNOWMOBILE_AI_DEMO_REPO FETCH;
 
     -- ========================================================================
     -- COPY DATA FROM GIT TO INTERNAL STAGE
@@ -105,12 +105,12 @@ use role Gamma_Demo;
     -- Copy all CSV files from Git repository demo_data folder to internal stage
     COPY FILES
     INTO @INTERNAL_DATA_STAGE/demo_data/
-    FROM @GAMMA_AI_DEMO_REPO/branches/main/demo_data/;
+    FROM @SNOWMOBILE_AI_DEMO_REPO/branches/main/demo_data/;
 
 
     COPY FILES
     INTO @INTERNAL_DATA_STAGE/unstructured_docs/
-    FROM @GAMMA_AI_DEMO_REPO/branches/main/unstructured_docs/;
+    FROM @SNOWMOBILE_AI_DEMO_REPO/branches/main/unstructured_docs/;
 
     -- Verify files were copied
     LS @INTERNAL_DATA_STAGE;
@@ -223,6 +223,51 @@ use role Gamma_Demo;
     );
 
     -- ========================================================================
+    -- MOBILE & NETWORK DIMENSION TABLES
+    -- ========================================================================
+
+    -- Network Coverage Dimension
+    CREATE OR REPLACE TABLE network_coverage_dim (
+        coverage_key INT PRIMARY KEY,
+        region_name VARCHAR(100) NOT NULL,
+        postcode_area VARCHAR(10) NOT NULL,
+        coverage_4g_percent DECIMAL(5,2),
+        coverage_5g_percent DECIMAL(5,2),
+        tower_count INT,
+        population_covered INT,
+        last_updated DATE
+    );
+
+    -- Mobile Tariff Dimension
+    CREATE OR REPLACE TABLE mobile_tariff_dim (
+        tariff_key INT PRIMARY KEY,
+        tariff_name VARCHAR(200) NOT NULL,
+        tariff_type VARCHAR(50),
+        data_allowance_gb DECIMAL(10,2),
+        minutes VARCHAR(20),
+        texts VARCHAR(20),
+        monthly_price DECIMAL(10,2),
+        contract_months INT,
+        network_priority VARCHAR(50),
+        five_g_included VARCHAR(10),
+        roaming_included VARCHAR(10),
+        vertical VARCHAR(50)
+    );
+
+    -- Device Dimension
+    CREATE OR REPLACE TABLE device_dim (
+        device_key INT PRIMARY KEY,
+        device_name VARCHAR(200) NOT NULL,
+        manufacturer VARCHAR(100),
+        device_type VARCHAR(50),
+        rrp_price DECIMAL(10,2),
+        five_g_capable VARCHAR(10),
+        esim_capable VARCHAR(10),
+        enterprise_grade VARCHAR(10),
+        vertical VARCHAR(50)
+    );
+
+    -- ========================================================================
     -- FACT TABLES
     -- ========================================================================
 
@@ -281,6 +326,45 @@ use role Gamma_Demo;
         location_key INT NOT NULL,
         salary DECIMAL(10,2) NOT NULL,
         attrition_flag INT NOT NULL
+    );
+
+    -- ========================================================================
+    -- MOBILE & NETWORK FACT TABLES
+    -- ========================================================================
+
+    -- Network KPI Fact Table
+    CREATE OR REPLACE TABLE network_kpi_fact (
+        kpi_id INT PRIMARY KEY,
+        date DATE NOT NULL,
+        region_key INT NOT NULL,
+        network_type VARCHAR(10) NOT NULL,
+        avg_download_mbps DECIMAL(10,2),
+        avg_upload_mbps DECIMAL(10,2),
+        avg_latency_ms DECIMAL(10,2),
+        packet_loss_pct DECIMAL(5,4),
+        signal_strength_dbm INT,
+        active_connections INT,
+        data_consumed_tb DECIMAL(10,2),
+        voice_minutes_m DECIMAL(10,2),
+        sms_count_m DECIMAL(10,2)
+    );
+
+    -- Mobile Subscriber Fact Table
+    CREATE OR REPLACE TABLE mobile_subscriber_fact (
+        subscriber_id INT PRIMARY KEY,
+        date DATE NOT NULL,
+        region_key INT NOT NULL,
+        tariff_key INT NOT NULL,
+        device_key INT NOT NULL,
+        customer_key INT NOT NULL,
+        vertical VARCHAR(50),
+        mrr DECIMAL(10,2),
+        data_used_gb DECIMAL(10,2),
+        voice_minutes INT,
+        sms_count INT,
+        roaming_charges DECIMAL(10,2),
+        overage_charges DECIMAL(10,2),
+        churn_flag INT
     );
 
     -- ========================================================================
@@ -447,6 +531,40 @@ use role Gamma_Demo;
     ON_ERROR = 'CONTINUE';
 
     -- ========================================================================
+    -- LOAD MOBILE & NETWORK DATA FROM INTERNAL STAGE
+    -- ========================================================================
+
+    -- Load Network Coverage Dimension
+    COPY INTO network_coverage_dim
+    FROM @INTERNAL_DATA_STAGE/demo_data/network_coverage_dim.csv
+    FILE_FORMAT = CSV_FORMAT
+    ON_ERROR = 'CONTINUE';
+
+    -- Load Mobile Tariff Dimension
+    COPY INTO mobile_tariff_dim
+    FROM @INTERNAL_DATA_STAGE/demo_data/mobile_tariff_dim.csv
+    FILE_FORMAT = CSV_FORMAT
+    ON_ERROR = 'CONTINUE';
+
+    -- Load Device Dimension
+    COPY INTO device_dim
+    FROM @INTERNAL_DATA_STAGE/demo_data/device_dim.csv
+    FILE_FORMAT = CSV_FORMAT
+    ON_ERROR = 'CONTINUE';
+
+    -- Load Network KPI Fact
+    COPY INTO network_kpi_fact
+    FROM @INTERNAL_DATA_STAGE/demo_data/network_kpi_fact.csv
+    FILE_FORMAT = CSV_FORMAT
+    ON_ERROR = 'CONTINUE';
+
+    -- Load Mobile Subscriber Fact
+    COPY INTO mobile_subscriber_fact
+    FROM @INTERNAL_DATA_STAGE/demo_data/mobile_subscriber_fact.csv
+    FILE_FORMAT = CSV_FORMAT
+    ON_ERROR = 'CONTINUE';
+
+    -- ========================================================================
     -- LOAD SALESFORCE DATA FROM INTERNAL STAGE
     -- ========================================================================
 
@@ -525,10 +643,24 @@ use role Gamma_Demo;
     UNION ALL
     SELECT '', 'sf_opportunities', COUNT(*) FROM sf_opportunities
     UNION ALL
-    SELECT '', 'sf_contacts', COUNT(*) FROM sf_contacts;
+    SELECT '', 'sf_contacts', COUNT(*) FROM sf_contacts
+    UNION ALL
+    SELECT '', '', NULL
+    UNION ALL
+    SELECT 'MOBILE & NETWORK TABLES', '', NULL
+    UNION ALL
+    SELECT '', 'network_coverage_dim', COUNT(*) FROM network_coverage_dim
+    UNION ALL
+    SELECT '', 'mobile_tariff_dim', COUNT(*) FROM mobile_tariff_dim
+    UNION ALL
+    SELECT '', 'device_dim', COUNT(*) FROM device_dim
+    UNION ALL
+    SELECT '', 'network_kpi_fact', COUNT(*) FROM network_kpi_fact
+    UNION ALL
+    SELECT '', 'mobile_subscriber_fact', COUNT(*) FROM mobile_subscriber_fact;
 
     -- Show all tables
-    SHOW TABLES IN SCHEMA GAMMA_SCHEMA; 
+    SHOW TABLES IN SCHEMA SNOWMOBILE_SCHEMA; 
 
 
 
@@ -538,15 +670,15 @@ use role Gamma_Demo;
   -- Creates business unit-specific semantic views for natural language queries
   -- Based on: https://docs.snowflake.com/en/user-guide/views-semantic/sql
   -- ========================================================================
-  USE ROLE Gamma_Demo;
-  USE DATABASE GAMMA_AI_DEMO;
-  USE SCHEMA GAMMA_SCHEMA;
+  USE ROLE Snowmobile_Demo;
+  USE DATABASE SNOWMOBILE_AI_DEMO;
+  USE SCHEMA SNOWMOBILE_SCHEMA;
 
   -- ========================================================================
   -- FINANCE SEMANTIC VIEW
   -- ========================================================================
 
-create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.FINANCE_SEMANTIC_VIEW
+create or replace semantic view SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.FINANCE_SEMANTIC_VIEW
     tables (
         TRANSACTIONS as FINANCE_TRANSACTIONS primary key (TRANSACTION_ID) with synonyms=('finance transactions','financial data') comment='All financial transactions across departments',
         ACCOUNTS as ACCOUNT_DIM primary key (ACCOUNT_KEY) with synonyms=('chart of accounts','account types') comment='Account dimension for financial categorization',
@@ -598,7 +730,7 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.FINANCE_SEMANTIC_VIEW
   -- SALES SEMANTIC VIEW
   -- ========================================================================
 
-create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.SALES_SEMANTIC_VIEW
+create or replace semantic view SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SALES_SEMANTIC_VIEW
   tables (
     CUSTOMERS as CUSTOMER_DIM primary key (CUSTOMER_KEY) with synonyms=('clients','customers','accounts') comment='Customer information for sales analysis',
     PRODUCTS as PRODUCT_DIM primary key (PRODUCT_KEY) with synonyms=('products','items','SKUs') comment='Product catalog for sales analysis',
@@ -654,14 +786,14 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.SALES_SEMANTIC_VIEW
     SALES.TOTAL_REVENUE as SUM(sales.amount) comment='Total sales revenue',
     SALES.TOTAL_UNITS as SUM(sales.units) comment='Total units sold'
   )
-  comment='Semantic view for Gamma UK B2B UCaaS/CCaaS sales analysis'
-  with extension (CA='{"tables":[{"name":"CUSTOMERS","dimensions":[{"name":"CUSTOMER_KEY"},{"name":"CUSTOMER_NAME","sample_values":["Harrison Martin Ltd","Lee Turner Solutions","Williams Hill UK"]},{"name":"INDUSTRY","sample_values":["Healthcare","Manufacturing","Financial Services","Technology","Legal Services","Education","Hospitality"]}]},{"name":"PRODUCTS","dimensions":[{"name":"CATEGORY_KEY","unique":false},{"name":"PRODUCT_KEY"},{"name":"PRODUCT_NAME","sample_values":["Horizon Cloud Phone System","Microsoft Teams Phone","SIP Trunks Standard","Horizon Contact Centre","Business Broadband"]}]},{"name":"PRODUCT_CATEGORY_DIM","dimensions":[{"name":"CATEGORY_KEY","sample_values":["1","2","3","4","5","6","7","8","9","10"]},{"name":"CATEGORY_NAME","sample_values":["Gamma Connect","Gamma Experience","Gamma Enable","Gamma Secure","Gamma Solutions","Connectivity","Professional Services","Add-Ons","Channel Partner Services","Public Sector Solutions"]},{"name":"VERTICAL","sample_values":["Enterprise","SMB","All","Partner","Public Sector"]}]},{"name":"REGIONS","dimensions":[{"name":"REGION_KEY"},{"name":"REGION_NAME","sample_values":["London","South East","Scotland","Wales","North West","Yorkshire"]}]},{"name":"SALES","dimensions":[{"name":"CUSTOMER_KEY"},{"name":"PRODUCT_KEY"},{"name":"REGION_KEY"},{"name":"SALES_REP_KEY"},{"name":"SALE_DATE","sample_values":["2024-01-01","2024-06-15","2024-12-01"]},{"name":"SALE_ID"},{"name":"SALE_MONTH"},{"name":"SALE_YEAR"},{"name":"VENDOR_KEY"}],"facts":[{"name":"SALE_AMOUNT"},{"name":"SALE_RECORD"},{"name":"UNITS_SOLD"}],"metrics":[{"name":"AVERAGE_DEAL_SIZE"},{"name":"AVERAGE_UNITS_PER_SALE"},{"name":"TOTAL_DEALS"},{"name":"TOTAL_REVENUE"},{"name":"TOTAL_UNITS"}]},{"name":"SALES_REPS","dimensions":[{"name":"SALES_REP_KEY"},{"name":"SALES_REP_NAME","sample_values":["Daniel Jones","Luna Anderson","Charlotte Scott"]}]},{"name":"VENDORS","dimensions":[{"name":"VENDOR_KEY"},{"name":"VENDOR_NAME","sample_values":["Microsoft UK","Cisco UK","Amazon Web Services UK","BT Openreach","8x8 UK"]}]}],"relationships":[{"name":"PRODUCT_TO_CATEGORY"},{"name":"SALES_TO_CUSTOMERS","relationship_type":"many_to_one"},{"name":"SALES_TO_PRODUCTS","relationship_type":"many_to_one"},{"name":"SALES_TO_REGIONS","relationship_type":"many_to_one"},{"name":"SALES_TO_REPS","relationship_type":"many_to_one"},{"name":"SALES_TO_VENDORS","relationship_type":"many_to_one"}]}');
+  comment='Semantic view for Snowmobile Telco UK B2B UCaaS/CCaaS sales analysis'
+  with extension (CA='{"tables":[{"name":"CUSTOMERS","dimensions":[{"name":"CUSTOMER_KEY"},{"name":"CUSTOMER_NAME","sample_values":["Harrison Martin Ltd","Lee Turner Solutions","Williams Hill UK"]},{"name":"INDUSTRY","sample_values":["Healthcare","Manufacturing","Financial Services","Technology","Legal Services","Education","Hospitality"]}]},{"name":"PRODUCTS","dimensions":[{"name":"CATEGORY_KEY","unique":false},{"name":"PRODUCT_KEY"},{"name":"PRODUCT_NAME","sample_values":["Horizon Cloud Phone System","Microsoft Teams Phone","SIP Trunks Standard","Horizon Contact Centre","Business Broadband"]}]},{"name":"PRODUCT_CATEGORY_DIM","dimensions":[{"name":"CATEGORY_KEY","sample_values":["1","2","3","4","5","6","7","8","9","10"]},{"name":"CATEGORY_NAME","sample_values":["Snowmobile Connect","Snowmobile Experience","Snowmobile Enable","Snowmobile Secure","Snowmobile Solutions","Connectivity","Professional Services","Add-Ons","Channel Partner Services","Public Sector Solutions"]},{"name":"VERTICAL","sample_values":["Enterprise","SMB","All","Partner","Public Sector"]}]},{"name":"REGIONS","dimensions":[{"name":"REGION_KEY"},{"name":"REGION_NAME","sample_values":["London","South East","Scotland","Wales","North West","Yorkshire"]}]},{"name":"SALES","dimensions":[{"name":"CUSTOMER_KEY"},{"name":"PRODUCT_KEY"},{"name":"REGION_KEY"},{"name":"SALES_REP_KEY"},{"name":"SALE_DATE","sample_values":["2024-01-01","2024-06-15","2024-12-01"]},{"name":"SALE_ID"},{"name":"SALE_MONTH"},{"name":"SALE_YEAR"},{"name":"VENDOR_KEY"}],"facts":[{"name":"SALE_AMOUNT"},{"name":"SALE_RECORD"},{"name":"UNITS_SOLD"}],"metrics":[{"name":"AVERAGE_DEAL_SIZE"},{"name":"AVERAGE_UNITS_PER_SALE"},{"name":"TOTAL_DEALS"},{"name":"TOTAL_REVENUE"},{"name":"TOTAL_UNITS"}]},{"name":"SALES_REPS","dimensions":[{"name":"SALES_REP_KEY"},{"name":"SALES_REP_NAME","sample_values":["Daniel Jones","Luna Anderson","Charlotte Scott"]}]},{"name":"VENDORS","dimensions":[{"name":"VENDOR_KEY"},{"name":"VENDOR_NAME","sample_values":["Microsoft UK","Cisco UK","Amazon Web Services UK","BT Openreach","8x8 UK"]}]}],"relationships":[{"name":"PRODUCT_TO_CATEGORY"},{"name":"SALES_TO_CUSTOMERS","relationship_type":"many_to_one"},{"name":"SALES_TO_PRODUCTS","relationship_type":"many_to_one"},{"name":"SALES_TO_REGIONS","relationship_type":"many_to_one"},{"name":"SALES_TO_REPS","relationship_type":"many_to_one"},{"name":"SALES_TO_VENDORS","relationship_type":"many_to_one"}]}');
 
 
 -- ========================================================================
   -- MARKETING SEMANTIC VIEW
   -- ========================================================================
-create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.MARKETING_SEMANTIC_VIEW
+create or replace semantic view SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.MARKETING_SEMANTIC_VIEW
   tables (
     ACCOUNTS as SF_ACCOUNTS primary key (ACCOUNT_ID) with synonyms=('customers','accounts','clients') comment='Customer account information for revenue analysis',
     CAMPAIGNS as MARKETING_CAMPAIGN_FACT primary key (CAMPAIGN_FACT_ID) with synonyms=('marketing campaigns','campaign data') comment='Marketing campaign performance data',
@@ -760,7 +892,7 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.MARKETING_SEMANTIC_VI
   -- ========================================================================
   -- HR SEMANTIC VIEW
   -- ========================================================================
-create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
+create or replace semantic view SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.HR_SEMANTIC_VIEW
   tables (
     DEPARTMENTS as DEPARTMENT_DIM primary key (DEPARTMENT_KEY) with synonyms=('departments','business units') comment='Department dimension for organizational analysis',
     EMPLOYEES as EMPLOYEE_DIM primary key (EMPLOYEE_KEY) with synonyms=('employees','staff','workforce') comment='Employee dimension with personal information',
@@ -835,14 +967,14 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
     CREATE OR REPLACE TABLE parsed_content_docs AS 
     SELECT 
         relative_path, 
-        BUILD_STAGE_FILE_URL('@GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE', relative_path) as file_url,
-        TO_FILE(BUILD_STAGE_FILE_URL('@GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE', relative_path)) as file_object,
+        BUILD_STAGE_FILE_URL('@SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE', relative_path) as file_url,
+        TO_FILE(BUILD_STAGE_FILE_URL('@SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE', relative_path)) as file_object,
         SNOWFLAKE.CORTEX.PARSE_DOCUMENT(
-            @GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE,
+            @SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE,
             relative_path,
             {'mode':'LAYOUT'}
         ):content::string as content
-    FROM directory(@GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE) 
+    FROM directory(@SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE) 
     WHERE relative_path ilike 'unstructured_docs/%.pdf'
        OR relative_path ilike 'unstructured_docs/%.docx'
        OR relative_path ilike 'unstructured_docs/%.pptx';
@@ -851,14 +983,14 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
     CREATE OR REPLACE TABLE parsed_content_md AS
     SELECT 
         relative_path,
-        BUILD_STAGE_FILE_URL('@GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE', relative_path) as file_url,
-        TO_FILE(BUILD_STAGE_FILE_URL('@GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE', relative_path)) as file_object,
+        BUILD_STAGE_FILE_URL('@SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE', relative_path) as file_url,
+        TO_FILE(BUILD_STAGE_FILE_URL('@SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE', relative_path)) as file_object,
         SNOWFLAKE.CORTEX.PARSE_DOCUMENT(
-            @GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE,
+            @SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE,
             relative_path,
             {'mode':'LAYOUT'}
         ):content::string as content
-    FROM directory(@GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE) 
+    FROM directory(@SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE) 
     WHERE relative_path ilike 'unstructured_docs/%.md';
 
     -- Combine all document types into unified parsed_content table
@@ -885,14 +1017,14 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
 
 
     -- Switch to admin role for remaining operations
-    USE ROLE Gamma_Demo;
+    USE ROLE Snowmobile_Demo;
 
     -- Create search service for finance documents
     -- This enables semantic search over finance-related content
     CREATE OR REPLACE CORTEX SEARCH SERVICE Search_finance_docs
         ON content
         ATTRIBUTES relative_path, file_url, title
-        WAREHOUSE = GAMMA_DEMO_WH
+        WAREHOUSE = SNOWMOBILE_DEMO_WH
         TARGET_LAG = '30 day'
         EMBEDDING_MODEL = 'snowflake-arctic-embed-l-v2.0'
         AS (
@@ -910,7 +1042,7 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
     CREATE OR REPLACE CORTEX SEARCH SERVICE Search_hr_docs
         ON content
         ATTRIBUTES relative_path, file_url, title
-        WAREHOUSE = GAMMA_DEMO_WH
+        WAREHOUSE = SNOWMOBILE_DEMO_WH
         TARGET_LAG = '30 day'
         EMBEDDING_MODEL = 'snowflake-arctic-embed-l-v2.0'
         AS (
@@ -928,7 +1060,7 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
     CREATE OR REPLACE CORTEX SEARCH SERVICE Search_marketing_docs
         ON content
         ATTRIBUTES relative_path, file_url, title
-        WAREHOUSE = GAMMA_DEMO_WH
+        WAREHOUSE = SNOWMOBILE_DEMO_WH
         TARGET_LAG = '30 day'
         EMBEDDING_MODEL = 'snowflake-arctic-embed-l-v2.0'
         AS (
@@ -946,7 +1078,7 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
     CREATE OR REPLACE CORTEX SEARCH SERVICE Search_sales_docs
         ON content
         ATTRIBUTES relative_path, file_url, title
-        WAREHOUSE = GAMMA_DEMO_WH
+        WAREHOUSE = SNOWMOBILE_DEMO_WH
         TARGET_LAG = '30 day'
         EMBEDDING_MODEL = 'snowflake-arctic-embed-l-v2.0'
         AS (
@@ -964,7 +1096,7 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
     CREATE OR REPLACE CORTEX SEARCH SERVICE Search_strategy_docs
         ON content
         ATTRIBUTES relative_path, file_url, title
-        WAREHOUSE = GAMMA_DEMO_WH
+        WAREHOUSE = SNOWMOBILE_DEMO_WH
         TARGET_LAG = '30 day'
         EMBEDDING_MODEL = 'snowflake-arctic-embed-l-v2.0'
         AS (
@@ -982,7 +1114,7 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
     CREATE OR REPLACE CORTEX SEARCH SERVICE Search_demo_docs
         ON content
         ATTRIBUTES relative_path, file_url, title
-        WAREHOUSE = GAMMA_DEMO_WH
+        WAREHOUSE = SNOWMOBILE_DEMO_WH
         TARGET_LAG = '30 day'
         EMBEDDING_MODEL = 'snowflake-arctic-embed-l-v2.0'
         AS (
@@ -1000,7 +1132,7 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
     CREATE OR REPLACE CORTEX SEARCH SERVICE Search_network_docs
         ON content
         ATTRIBUTES relative_path, file_url, title
-        WAREHOUSE = GAMMA_DEMO_WH
+        WAREHOUSE = SNOWMOBILE_DEMO_WH
         TARGET_LAG = '30 day'
         EMBEDDING_MODEL = 'snowflake-arctic-embed-l-v2.0'
         AS (
@@ -1014,11 +1146,11 @@ create or replace semantic view GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW
         );
 
 
-use role gamma_demo;
+use role snowmobile_demo;
 
 
   -- NETWORK rule is part of db schema
-CREATE OR REPLACE NETWORK RULE Gamma_WebAccessRule
+CREATE OR REPLACE NETWORK RULE Snowmobile_WebAccessRule
   MODE = EGRESS
   TYPE = HOST_PORT
   VALUE_LIST = ('0.0.0.0:80', '0.0.0.0:443');
@@ -1026,30 +1158,30 @@ CREATE OR REPLACE NETWORK RULE Gamma_WebAccessRule
 
 use role accountadmin;
 
-GRANT ALL PRIVILEGES ON DATABASE GAMMA_AI_DEMO TO ROLE ACCOUNTADMIN;
-GRANT ALL PRIVILEGES ON SCHEMA GAMMA_AI_DEMO.GAMMA_SCHEMA TO ROLE ACCOUNTADMIN;
-GRANT USAGE ON NETWORK RULE gamma_webaccessrule TO ROLE accountadmin;
+GRANT ALL PRIVILEGES ON DATABASE SNOWMOBILE_AI_DEMO TO ROLE ACCOUNTADMIN;
+GRANT ALL PRIVILEGES ON SCHEMA SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA TO ROLE ACCOUNTADMIN;
+GRANT USAGE ON NETWORK RULE snowmobile_webaccessrule TO ROLE accountadmin;
 
-USE SCHEMA GAMMA_AI_DEMO.GAMMA_SCHEMA;
+USE SCHEMA SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA;
 
-CREATE OR REPLACE EXTERNAL ACCESS INTEGRATION Gamma_ExternalAccess_Integration
-ALLOWED_NETWORK_RULES = (Gamma_WebAccessRule)
+CREATE OR REPLACE EXTERNAL ACCESS INTEGRATION Snowmobile_ExternalAccess_Integration
+ALLOWED_NETWORK_RULES = (Snowmobile_WebAccessRule)
 ENABLED = true;
 
-CREATE OR REPLACE NOTIFICATION INTEGRATION gamma_email_int
+CREATE OR REPLACE NOTIFICATION INTEGRATION snowmobile_email_int
   TYPE=EMAIL
   ENABLED=TRUE;
 
-GRANT USAGE ON DATABASE snowflake_intelligence TO ROLE Gamma_Demo;
-GRANT USAGE ON SCHEMA snowflake_intelligence.agents TO ROLE Gamma_Demo;
-GRANT CREATE AGENT ON SCHEMA snowflake_intelligence.agents TO ROLE Gamma_Demo;
+GRANT USAGE ON DATABASE snowflake_intelligence TO ROLE Snowmobile_Demo;
+GRANT USAGE ON SCHEMA snowflake_intelligence.agents TO ROLE Snowmobile_Demo;
+GRANT CREATE AGENT ON SCHEMA snowflake_intelligence.agents TO ROLE Snowmobile_Demo;
 
-GRANT USAGE ON INTEGRATION Gamma_ExternalAccess_Integration TO ROLE Gamma_Demo;
+GRANT USAGE ON INTEGRATION Snowmobile_ExternalAccess_Integration TO ROLE Snowmobile_Demo;
 
-GRANT USAGE ON INTEGRATION GAMMA_EMAIL_INT TO ROLE GAMMA_DEMO;
+GRANT USAGE ON INTEGRATION SNOWMOBILE_EMAIL_INT TO ROLE SNOWMOBILE_DEMO;
 
 
-use role Gamma_Demo;
+use role Snowmobile_Demo;
 -- CREATES A SNOWFLAKE INTELLIGENCE AGENT WITH MULTIPLE TOOLS
 
 -- Create stored procedure to generate presigned URLs for files in internal stages
@@ -1067,7 +1199,7 @@ DECLARE
     presigned_url STRING;
     sql_stmt STRING;
     expiration_seconds INTEGER;
-    stage_name STRING DEFAULT '@GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE';
+    stage_name STRING DEFAULT '@SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE';
 BEGIN
     expiration_seconds := EXPIRATION_MINS * 60;
 
@@ -1097,7 +1229,7 @@ $$
 def send_mail(session, recipient, subject, text):
     session.call(
         'SYSTEM$SEND_EMAIL',
-        'gamma_email_int',
+        'snowmobile_email_int',
         recipient,
         subject,
         text,
@@ -1111,7 +1243,7 @@ RETURNS STRING
 LANGUAGE PYTHON
 RUNTIME_VERSION = 3.11
 HANDLER = 'get_page'
-EXTERNAL_ACCESS_INTEGRATIONS = (Gamma_ExternalAccess_Integration)
+EXTERNAL_ACCESS_INTEGRATIONS = (Snowmobile_ExternalAccess_Integration)
 PACKAGES = ('requests', 'beautifulsoup4')
 --SECRETS = ('cred' = oauth_token )
 AS
@@ -1128,7 +1260,7 @@ def get_page(weburl):
 $$;
 
 
-CREATE OR REPLACE PROCEDURE GAMMA_AI_DEMO.GAMMA_SCHEMA.GENERATE_STREAMLIT_APP("USER_INPUT" VARCHAR)
+CREATE OR REPLACE PROCEDURE SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.GENERATE_STREAMLIT_APP("USER_INPUT" VARCHAR)
 RETURNS VARCHAR
 LANGUAGE PYTHON
 RUNTIME_VERSION = '3.11'
@@ -1256,7 +1388,7 @@ dependencies:
                 f.write(environment_yml_content)
             
             # Upload both files to Snowflake stage
-            stage_path = ''@GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE''
+            stage_path = ''@SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE''
             
             # Upload Python file
             session.file.put(
@@ -1280,11 +1412,11 @@ dependencies:
             
             # Create Streamlit app
             app_name = ''AUTO_GENERATED_1''
-            warehouse = ''gamma_demo_wh''
+            warehouse = ''snowmobile_demo_wh''
             
             create_streamlit_sql = f"""
-            CREATE OR REPLACE STREAMLIT GAMMA_AI_DEMO.GAMMA_SCHEMA.{app_name}
-                FROM @GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE
+            CREATE OR REPLACE STREAMLIT SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.{app_name}
+                FROM @SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE
                 MAIN_FILE = ''test.py''
                 QUERY_WAREHOUSE = {warehouse}
             """
@@ -1298,7 +1430,7 @@ dependencies:
                 org_name = account_info[0][''ORG'']
                 
                 # Construct app URL
-                app_url = f"https://app.snowflake.com/{org_name}/{account_name}/#/streamlit-apps/GAMMA_AI_DEMO.GAMMA_SCHEMA.{app_name}"
+                app_url = f"https://app.snowflake.com/{org_name}/{account_name}/#/streamlit-apps/SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.{app_name}"
                 
                 # Return only the URL if successful
                 return app_url
@@ -1311,8 +1443,8 @@ dependencies:
 ⚠️  Warning: Could not auto-create Streamlit app: {str(create_error)}
 
 To create manually, run:
-CREATE OR REPLACE STREAMLIT GAMMA_AI_DEMO.GAMMA_SCHEMA.{app_name}
-    FROM @GAMMA_AI_DEMO.GAMMA_SCHEMA.INTERNAL_DATA_STAGE
+CREATE OR REPLACE STREAMLIT SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.{app_name}
+    FROM @SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.INTERNAL_DATA_STAGE
     MAIN_FILE = ''test.py''
     QUERY_WAREHOUSE = {warehouse};
 
@@ -1333,17 +1465,17 @@ CREATE OR REPLACE STREAMLIT GAMMA_AI_DEMO.GAMMA_SCHEMA.{app_name}
 
 
 
-CREATE OR REPLACE AGENT SNOWFLAKE_INTELLIGENCE.AGENTS.Gamma_Executive_Agent
-WITH PROFILE='{ "display_name": "Gamma UK Executive Agent" }'
-    COMMENT=$$ Gamma Communications B2B intelligence agent for C-level executives (CEO, CFO, CMO, CCO). Covers UCaaS seats, channel partner revenue, ARR/MRR, NPS, campaigns, and UK B2B market analysis. All figures in British Pounds (£). $$
+CREATE OR REPLACE AGENT SNOWFLAKE_INTELLIGENCE.AGENTS.Snowmobile_Executive_Agent
+WITH PROFILE='{ "display_name": "Snowmobile Telco UK Executive Agent" }'
+    COMMENT=$$ Snowmobile Telco B2B intelligence agent for C-level executives (CEO, CFO, CMO, CCO). Covers UCaaS seats, channel partner revenue, ARR/MRR, NPS, campaigns, and UK B2B market analysis. All figures in British Pounds (£). $$
 FROM SPECIFICATION $$
 {
   "models": {
     "orchestration": ""
   },
   "instructions": {
-    "response": "You are a business intelligence analyst for Gamma Communications, a UK B2B communications provider. You have access to sales transactions, financial metrics, marketing campaigns, HR information, and network infrastructure data. All monetary values are in British Pounds (£). Customer verticals are SMB, Enterprise, Public Sector, and Partner. Industries include Healthcare, Manufacturing, Financial Services, Technology, Legal Services, and more. UK regions include London, South East, Scotland, Wales, North West, and others. Competitors are 8x8, RingCentral, Mitel, Vonage, and Microsoft Direct. Products include Horizon, Microsoft Teams Phone, SIP Trunks, Contact Centre, and Connectivity. Network infrastructure includes data centres (London, Manchester, Glasgow), carrier connections (BT, Virgin Media, CityFibre), and platform metrics. Provide visualizations where helpful - use line charts for trends, bar charts for comparisons.\n\n**IMPORTANT GUARDRAILS:**\n- You MUST ONLY answer questions related to Gamma Communications business data, including sales, finance, marketing, HR, strategy documents, network infrastructure, and competitive analysis.\n- You MUST NOT answer general knowledge questions, trivia, current events, politics, celebrities, sports, or any topic not directly related to Gamma's business operations.\n- If asked about unrelated topics (like 'who is the prime minister', 'what is the weather', 'tell me a joke', etc.), politely decline and redirect: 'I can only help with questions about Gamma Communications business data. For example, you could ask about sales performance, revenue by product, network uptime, or competitive analysis.'\n- Never use external knowledge to answer questions - only use the data and documents available through your tools.",
-    "orchestration": "Use cortex search for policy documents, strategy reports, vendor contracts, network infrastructure, and competitive analysis. Use cortex analyst for structured data queries on sales, revenue, campaigns, and HR.\n\n**GUARDRAIL CHECK:** Before processing ANY query, first determine if it relates to Gamma Communications business data. If the query is about general knowledge, current events, politics, entertainment, or any topic NOT related to Gamma's sales, finance, marketing, HR, network infrastructure, strategy, or competitive landscape - DO NOT use any tools and instead respond with a polite redirect to business-related questions.\n\nFor Sales Datamart: Contains B2B sales transactions. Products include UCaaS (Horizon, Teams Phone, Webex), CCaaS (Horizon Contact, Cirrus), Voice (SIP Trunks, Inbound), Connectivity (Broadband, Ethernet, SD-WAN), and Security (MDR, SOC). Customer verticals are SMB, Enterprise, Public Sector, Partner. Industries include Healthcare, Manufacturing, Financial Services, Technology, Legal Services, Education, Hospitality.\n\nFor Marketing Datamart: Campaigns include Horizon Launch, Teams Phone Migration, Partner Recruitment, PSTN Switch-off Awareness. Channels include Channel Partners, Direct Enterprise, Webinars, LinkedIn, Events.\n\nFor Strategy Documents: Search for market position, competitive analysis vs 8x8/RingCentral/Mitel, Microsoft partnership, ESG reports, Ofcom compliance, board presentations, investor relations.\n\nFor Network Infrastructure (USE 'Search Internal Documents: Network' tool): When users ask about data centres, data center locations, network capacity, uptime, platform performance, carrier connections (BT, Virgin Media, CityFibre), concurrent call capacity, SBC clusters, media servers, or voice quality (MOS scores, jitter, latency) - ALWAYS use the Network search tool. Data centres are in London (LD4), Manchester (MA1), and Glasgow (GL1).\n\n",
+    "response": "You are a business intelligence analyst for Snowmobile Telco, a UK B2B communications provider. You have access to sales transactions, financial metrics, marketing campaigns, HR information, and network infrastructure data. All monetary values are in British Pounds (£). Customer verticals are SMB, Enterprise, Public Sector, and Partner. Industries include Healthcare, Manufacturing, Financial Services, Technology, Legal Services, and more. UK regions include London, South East, Scotland, Wales, North West, and others. Competitors are 8x8, RingCentral, Mitel, Vonage, and Microsoft Direct. Products include Horizon, Microsoft Teams Phone, SIP Trunks, Contact Centre, and Connectivity. Network infrastructure includes data centres (London, Manchester, Glasgow), carrier connections (BT, Virgin Media, CityFibre), and platform metrics. Provide visualizations where helpful - use line charts for trends, bar charts for comparisons.\n\n**IMPORTANT GUARDRAILS:**\n- You MUST ONLY answer questions related to Snowmobile Telco business data, including sales, finance, marketing, HR, strategy documents, network infrastructure, and competitive analysis.\n- You MUST NOT answer general knowledge questions, trivia, current events, politics, celebrities, sports, or any topic not directly related to Snowmobile Telco's business operations.\n- If asked about unrelated topics (like 'who is the prime minister', 'what is the weather', 'tell me a joke', etc.), politely decline and redirect: 'I can only help with questions about Snowmobile Telco business data. For example, you could ask about sales performance, revenue by product, network uptime, or competitive analysis.'\n- Never use external knowledge to answer questions - only use the data and documents available through your tools.",
+    "orchestration": "Use cortex search for policy documents, strategy reports, vendor contracts, network infrastructure, and competitive analysis. Use cortex analyst for structured data queries on sales, revenue, campaigns, and HR.\n\n**GUARDRAIL CHECK:** Before processing ANY query, first determine if it relates to Snowmobile Telco business data. If the query is about general knowledge, current events, politics, entertainment, or any topic NOT related to Snowmobile Telco's sales, finance, marketing, HR, network infrastructure, strategy, or competitive landscape - DO NOT use any tools and instead respond with a polite redirect to business-related questions.\n\nFor Sales Datamart: Contains B2B sales transactions. Products include UCaaS (Horizon, Teams Phone, Webex), CCaaS (Horizon Contact, Cirrus), Voice (SIP Trunks, Inbound), Connectivity (Broadband, Ethernet, SD-WAN), and Security (MDR, SOC). Customer verticals are SMB, Enterprise, Public Sector, Partner. Industries include Healthcare, Manufacturing, Financial Services, Technology, Legal Services, Education, Hospitality.\n\nFor Marketing Datamart: Campaigns include Horizon Launch, Teams Phone Migration, Partner Recruitment, PSTN Switch-off Awareness. Channels include Channel Partners, Direct Enterprise, Webinars, LinkedIn, Events.\n\nFor Strategy Documents: Search for market position, competitive analysis vs 8x8/RingCentral/Mitel, Microsoft partnership, ESG reports, Ofcom compliance, board presentations, investor relations.\n\nFor Network Infrastructure (USE 'Search Internal Documents: Network' tool): When users ask about data centres, data center locations, network capacity, uptime, platform performance, carrier connections (BT, Virgin Media, CityFibre), concurrent call capacity, SBC clusters, media servers, or voice quality (MOS scores, jitter, latency) - ALWAYS use the Network search tool. Data centres are in London (LD4), Manchester (MA1), and Glasgow (GL1).\n\n",
     "sample_questions": [
       {
         "question": "What is our total revenue by customer industry?"
@@ -1373,35 +1505,35 @@ FROM SPECIFICATION $$
       "tool_spec": {
         "type": "cortex_analyst_text_to_sql",
         "name": "Query Finance Datamart",
-        "description": "Query Gamma financial data: revenue by product category (UCaaS, CCaaS, Voice, Connectivity), partner economics, vendor spend (Microsoft, Cisco, AWS), expenses, and department costs. All amounts in British Pounds (£)."
+        "description": "Query Snowmobile Telco financial data: revenue by product category (UCaaS, CCaaS, Voice, Connectivity), partner economics, vendor spend (Microsoft, Cisco, AWS), expenses, and department costs. All amounts in British Pounds (£)."
       }
     },
     {
       "tool_spec": {
         "type": "cortex_analyst_text_to_sql",
         "name": "Query Sales Datamart",
-        "description": "Query Gamma B2B sales data: sales by customer vertical (SMB/Enterprise/Public Sector/Partner), customer industry (Healthcare, Manufacturing, Financial Services, etc.), products (Horizon, Teams Phone, SIP Trunks, Contact Centre), UK regions (London, Scotland, Wales), and revenue. Use for revenue analysis, top customers, and product performance."
+        "description": "Query Snowmobile Telco B2B sales data: sales by customer vertical (SMB/Enterprise/Public Sector/Partner), customer industry (Healthcare, Manufacturing, Financial Services, etc.), products (Horizon, Teams Phone, SIP Trunks, Contact Centre), UK regions (London, Scotland, Wales), and revenue. Use for revenue analysis, top customers, and product performance."
       }
     },
     {
       "tool_spec": {
         "type": "cortex_analyst_text_to_sql",
         "name": "Query HR Datamart",
-        "description": "Query Gamma workforce data: employees, departments, jobs, channel account managers, salaries, and attrition. Employee names include sales representatives and partner managers."
+        "description": "Query Snowmobile Telco workforce data: employees, departments, jobs, channel account managers, salaries, and attrition. Employee names include sales representatives and partner managers."
       }
     },
     {
       "tool_spec": {
         "type": "cortex_analyst_text_to_sql",
         "name": "Query Marketing Datamart",
-        "description": "Query Gamma marketing data: campaigns (Horizon Launch, Teams Phone Migration, Partner Recruitment, PSTN Switch-off), channels (Channel Partners, Digital, Events, Webinars, LinkedIn), spend, impressions, leads, and ROI. Use for campaign effectiveness and partner marketing analysis."
+        "description": "Query Snowmobile Telco marketing data: campaigns (Horizon Launch, Teams Phone Migration, Partner Recruitment, PSTN Switch-off), channels (Channel Partners, Digital, Events, Webinars, LinkedIn), spend, impressions, leads, and ROI. Use for campaign effectiveness and partner marketing analysis."
       }
     },
     {
       "tool_spec": {
         "type": "cortex_search",
         "name": "Search Internal Documents: Finance",
-        "description": "Search Gamma finance documents: Financial Reports, ARPU per seat analysis, B2B unit economics (LTV/CAC), partner revenue mix, ESG sustainability report, Ofcom compliance, and vendor contracts (Microsoft, Cisco, AWS)."
+        "description": "Search Snowmobile Telco finance documents: Financial Reports, ARPU per seat analysis, B2B unit economics (LTV/CAC), partner revenue mix, ESG sustainability report, Ofcom compliance, and vendor contracts (Microsoft, Cisco, AWS)."
       }
     },
     {
@@ -1415,7 +1547,7 @@ FROM SPECIFICATION $$
       "tool_spec": {
         "type": "cortex_search",
         "name": "Search Internal Documents: Sales",
-        "description": "Search Gamma sales documents: Channel Partner Playbook 2025, Churn Reduction Playbook, Partner Performance Reports, and Customer Success Stories. Includes competitive positioning vs 8x8, RingCentral, Mitel, Vonage."
+        "description": "Search Snowmobile Telco sales documents: Channel Partner Playbook 2025, Churn Reduction Playbook, Partner Performance Reports, and Customer Success Stories. Includes competitive positioning vs 8x8, RingCentral, Mitel, Vonage."
       }
     },
     {
@@ -1517,67 +1649,67 @@ FROM SPECIFICATION $$
       "execution_environment": {
         "query_timeout": 0,
         "type": "warehouse",
-        "warehouse": "GAMMA_DEMO_WH"
+        "warehouse": "SNOWMOBILE_DEMO_WH"
       },
-      "identifier": "GAMMA_AI_DEMO.GAMMA_SCHEMA.GET_FILE_PRESIGNED_URL_SP",
+      "identifier": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.GET_FILE_PRESIGNED_URL_SP",
       "name": "GET_FILE_PRESIGNED_URL_SP(VARCHAR, DEFAULT NUMBER)",
       "type": "procedure"
     },
     "Query Finance Datamart": {
-      "semantic_view": "GAMMA_AI_DEMO.GAMMA_SCHEMA.FINANCE_SEMANTIC_VIEW"
+      "semantic_view": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.FINANCE_SEMANTIC_VIEW"
     },
     "Query HR Datamart": {
-      "semantic_view": "GAMMA_AI_DEMO.GAMMA_SCHEMA.HR_SEMANTIC_VIEW"
+      "semantic_view": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.HR_SEMANTIC_VIEW"
     },
     "Query Marketing Datamart": {
-      "semantic_view": "GAMMA_AI_DEMO.GAMMA_SCHEMA.MARKETING_SEMANTIC_VIEW"
+      "semantic_view": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.MARKETING_SEMANTIC_VIEW"
     },
     "Query Sales Datamart": {
-      "semantic_view": "GAMMA_AI_DEMO.GAMMA_SCHEMA.SALES_SEMANTIC_VIEW"
+      "semantic_view": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SALES_SEMANTIC_VIEW"
     },
     "Search Internal Documents: Finance": {
       "id_column": "FILE_URL",
       "max_results": 5,
-      "name": "GAMMA_AI_DEMO.GAMMA_SCHEMA.SEARCH_FINANCE_DOCS",
+      "name": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SEARCH_FINANCE_DOCS",
       "title_column": "TITLE"
     },
     "Search Internal Documents: HR": {
       "id_column": "FILE_URL",
       "max_results": 5,
-      "name": "GAMMA_AI_DEMO.GAMMA_SCHEMA.SEARCH_HR_DOCS",
+      "name": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SEARCH_HR_DOCS",
       "title_column": "TITLE"
     },
     "Search Internal Documents: Marketing": {
       "id_column": "RELATIVE_PATH",
       "max_results": 5,
-      "name": "GAMMA_AI_DEMO.GAMMA_SCHEMA.SEARCH_MARKETING_DOCS",
+      "name": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SEARCH_MARKETING_DOCS",
       "title_column": "TITLE"
     },
     "Search Internal Documents: Sales": {
       "id_column": "FILE_URL",
       "max_results": 5,
-      "name": "GAMMA_AI_DEMO.GAMMA_SCHEMA.SEARCH_SALES_DOCS",
+      "name": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SEARCH_SALES_DOCS",
       "title_column": "TITLE"
     },
     "Search Internal Documents: Strategy": {
       "id_column": "RELATIVE_PATH",
       "max_results": 5,
-      "name": "GAMMA_AI_DEMO.GAMMA_SCHEMA.SEARCH_STRATEGY_DOCS",
+      "name": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SEARCH_STRATEGY_DOCS",
       "title_column": "TITLE"
     },
     "Search Internal Documents: Network": {
       "id_column": "RELATIVE_PATH",
       "max_results": 5,
-      "name": "GAMMA_AI_DEMO.GAMMA_SCHEMA.SEARCH_NETWORK_DOCS",
+      "name": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SEARCH_NETWORK_DOCS",
       "title_column": "TITLE"
     },
     "Send_Emails": {
       "execution_environment": {
         "query_timeout": 0,
         "type": "warehouse",
-        "warehouse": "GAMMA_DEMO_WH"
+        "warehouse": "SNOWMOBILE_DEMO_WH"
       },
-      "identifier": "GAMMA_AI_DEMO.GAMMA_SCHEMA.SEND_MAIL",
+      "identifier": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.SEND_MAIL",
       "name": "SEND_MAIL(VARCHAR, VARCHAR, VARCHAR)",
       "type": "procedure"
     },
@@ -1585,9 +1717,9 @@ FROM SPECIFICATION $$
       "execution_environment": {
         "query_timeout": 0,
         "type": "warehouse",
-        "warehouse": "GAMMA_DEMO_WH"
+        "warehouse": "SNOWMOBILE_DEMO_WH"
       },
-      "identifier": "GAMMA_AI_DEMO.GAMMA_SCHEMA.WEB_SCRAPE",
+      "identifier": "SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.WEB_SCRAPE",
       "name": "WEB_SCRAPE(VARCHAR)",
       "type": "function"
     }

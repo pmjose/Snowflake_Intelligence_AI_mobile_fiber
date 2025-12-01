@@ -1,9 +1,9 @@
 # ESG and Sustainability Report 2024
-**Gamma Communications PLC**
+**Snowmobile Telco PLC**
 
 ## Executive Summary
 
-Gamma is committed to responsible business practices and sustainable growth. This report outlines our Environmental, Social, and Governance (ESG) performance in 2024, demonstrating progress towards our Net Zero 2040 target and commitment to stakeholder value.
+Snowmobile Telco is committed to responsible business practices and sustainable growth. This report outlines our Environmental, Social, and Governance (ESG) performance in 2024, demonstrating progress towards our Net Zero 2040 target and commitment to stakeholder value.
 
 ---
 
@@ -63,7 +63,7 @@ Gamma is committed to responsible business practices and sustainable growth. Thi
 
 ### Cloud Migration Benefits
 
-By helping customers migrate to cloud communications, Gamma enables significant carbon savings:
+By helping customers migrate to cloud communications, Snowmobile Telco enables significant carbon savings:
 
 | Metric | Customer Impact |
 |--------|-----------------|
@@ -208,7 +208,7 @@ By helping customers migrate to cloud communications, Gamma enables significant 
 
 ### Materiality Assessment
 
-| Topic | Stakeholder Priority | Gamma Priority |
+| Topic | Stakeholder Priority | Snowmobile Telco Priority |
 |-------|---------------------|----------------|
 | Data privacy | High | High |
 | Carbon emissions | High | High |
@@ -279,4 +279,4 @@ Climate risks are integrated into the enterprise risk framework. Key risks inclu
 **Report Period**: FY 2024  
 **GRI Standards**: Core option  
 **External Assurance**: Limited assurance on carbon data  
-**Contact**: sustainability@gamma.co.uk
+**Contact**: sustainability@snowmobile.co.uk

@@ -1,9 +1,9 @@
 # Cloud Communications Roadmap 2025
-**Gamma Communications - Technology Strategy**
+**Snowmobile Telco - Technology Strategy**
 
 ## Executive Summary
 
-This document outlines Gamma's cloud communications technology roadmap for 2025 and beyond. As the UK market accelerates its transition from legacy telephony to cloud-based unified communications, Gamma is investing in platform modernisation, AI capabilities, and enhanced integrations to maintain market leadership.
+This document outlines Snowmobile Telco's cloud communications technology roadmap for 2025 and beyond. As the UK market accelerates its transition from legacy telephony to cloud-based unified communications, Snowmobile Telco is investing in platform modernisation, AI capabilities, and enhanced integrations to maintain market leadership.
 
 ---
 
@@ -29,7 +29,7 @@ This document outlines Gamma's cloud communications technology roadmap for 2025 
 | Contact Centre Integration | Q4 2025 | £3M | Horizon Contact for Teams |
 | Copilot Integration | Q4 2025 | £2M | AI meeting summaries |
 
-### Webex for Gamma
+### Webex for Snowmobile
 
 | Initiative | Timeline | Investment | Impact |
 |------------|----------|------------|--------|
@@ -175,7 +175,7 @@ This document outlines Gamma's cloud communications technology roadmap for 2025 
 
 ### Technical Training
 
-- Gamma Academy online platform expansion
+- Snowmobile Academy online platform expansion
 - Certification programme refresh
 - Hands-on lab environments
 - Technical webinar series (monthly)

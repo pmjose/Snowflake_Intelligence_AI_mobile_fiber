@@ -1,11 +1,11 @@
 # CFO Demo Script (10 Minutes)
-## Snowflake Intelligence Platform - Gamma Communications PLC
+## Snowflake Intelligence Platform - Snowmobile Telco PLC
 
 ---
 
 ## Overview
 
-This demo is designed for CFO and Finance leadership at Gamma Communications, focusing on H1 2025 financial performance, segment profitability, partner revenue analysis, and German acquisition integration metrics.
+This demo is designed for CFO and Finance leadership at Snowmobile Telco, focusing on H1 2025 financial performance, segment profitability, partner revenue analysis, and German acquisition integration metrics.
 
 ---
 
@@ -26,8 +26,8 @@ This demo is designed for CFO and Finance leadership at Gamma Communications, fo
 - Gross Profit: £172.0M (+18% YoY)
 - Gross Margin: 54% (+2pp YoY)
 - **By Business Unit:**
-  - Gamma Business: £97.4M GP (57% of total)
-  - Gamma Enterprise: £30.9M GP (18% of total)
+  - Snowmobile Business: £97.4M GP (57% of total)
+  - Snowmobile Enterprise: £30.9M GP (18% of total)
   - Germany: £34.4M GP (20% of total) - up 251%!
   - Other Europe: £9.3M GP (5% of total)
 - Adjusted EBITDA: £70.9M (22.4% margin)
@@ -82,8 +82,8 @@ This demo is designed for CFO and Finance leadership at Gamma Communications, fo
 - **Gross Margins by Unit:**
   - Germany: 70.1% (highest - owned IP, no mobile)
   - Other Europe: 62%
-  - Gamma Business: 52.4%
-  - Gamma Enterprise: 46.5%
+  - Snowmobile Business: 52.4%
+  - Snowmobile Enterprise: 46.5%
 - **Margin Headwinds:**
   - Copper-to-fibre migration: £1.5M GP impact
   - Ethernet price war: £1.0M GP impact
@@ -150,8 +150,8 @@ As Bill Castell, our CFO, would appreciate - this transforms Finance from report
 
 | Segment | GP H1 2025 | Margin | GP H1 2024 | Change |
 |---------|------------|--------|------------|--------|
-| Gamma Business | £97.4M | 52.4% | £97.1M | +0% |
-| Gamma Enterprise | £30.9M | 46.5% | £28.9M | +7% |
+| Snowmobile Business | £97.4M | 52.4% | £97.1M | +0% |
+| Snowmobile Enterprise | £30.9M | 46.5% | £28.9M | +7% |
 | Germany | £34.4M | 70.1% | £9.8M | +251% |
 | Other Europe | £9.3M | 62% | £9.9M | -6% |
 

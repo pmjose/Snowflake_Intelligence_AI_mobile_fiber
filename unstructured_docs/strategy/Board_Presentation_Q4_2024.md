@@ -1,5 +1,5 @@
 # Q4 2024 Board Presentation
-**Gamma Communications PLC - Executive Summary**
+**Snowmobile Telco PLC - Executive Summary**
 
 ---
 
@@ -146,7 +146,7 @@
 
 ### Competitive Position
 
-| Factor | Gamma Position | Trend |
+| Factor | Snowmobile Telco Position | Trend |
 |--------|----------------|-------|
 | Partner Satisfaction | #1 in UK | Stable |
 | UCaaS Market Share | 10% | Growing |

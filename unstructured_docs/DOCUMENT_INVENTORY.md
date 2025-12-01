@@ -1,10 +1,10 @@
 # Complete Document Inventory
-**Gamma Communications - Snowflake Intelligence Demo Document Collection**
+**Snowmobile Telco - Snowflake Intelligence Demo Document Collection**
 
 ## Summary Statistics
-- **Total Documents**: 42 Markdown files
-- **Business Units**: 5 (Strategy, Finance, Marketing, Sales, HR)
-- **Focus**: Gamma Communications B2B Communications Business
+- **Total Documents**: 48 Markdown files
+- **Business Units**: 6 (Strategy, Finance, Marketing, Sales, HR, Network/Mobile)
+- **Focus**: Snowmobile Telco B2B Communications & Mobile Business
 - **Currency**: British Pounds (£)
 - **Market**: UK B2B with 8x8, RingCentral, Mitel, Vonage competitors
 
@@ -63,6 +63,19 @@
 | `Retail_Store_Performance_Playbook.md` | Partner Excellence Guide | Partner tier benchmarks |
 | `Customer_Success_Stories.md` | Customer references | Case studies by vertical |
 
+### Network & Mobile Department (8 files)
+
+| Document | Purpose | Key Metrics |
+|----------|---------|-------------|
+| `Mobile_Network_Strategy_2025.md` | 4G/5G network roadmap | £85M investment, 168K subscribers |
+| `5G_Coverage_Analysis_2025.md` | Coverage performance | 88% 5G coverage, 320 Mbps avg |
+| `5G_Network_Strategy_2025.md` | Cloud communications roadmap | Platform investment, AI features |
+| `Network_Coverage_Analysis_2025.md` | Platform performance | 99.97% uptime, voice quality |
+| `IoT_Connectivity_Solutions.md` | IoT/M2M solutions | 128K connections, fleet/utility |
+| `eSIM_Implementation_Guide.md` | Digital SIM activation | 48% eSIM adoption |
+| `Roaming_Policy_Guide.md` | International roaming | EU roaming, zone pricing |
+| `Fibre_Broadband_Services.md` | Business broadband | FTTP, Ethernet, SD-WAN |
+
 ### Demo Scripts (4 files)
 
 | Document | Audience | Duration |
@@ -91,6 +104,12 @@
 | EBITDA Margin | 22% | Finance, Board |
 | LTV (blended) | £56,500 | Finance, Marketing |
 | CAC (blended) | £9,100 | Finance, Marketing |
+| Mobile Subscribers | 168,000 | Network, Strategy |
+| 5G Coverage | 88% population | Network |
+| IoT Connections | 128,000 | Network, IoT |
+| 4G Coverage | 99.5% population | Network |
+| 5G Download Speed | 320 Mbps avg | Network |
+| Mobile ARPU | £21.20 | Network, Finance |
 
 ### Competitor References
 
@@ -137,7 +156,7 @@
 
 ---
 
-## Gamma-Specific Context
+## Snowmobile-Specific Context
 
 ### Key Data Points
 - **Currency**: All figures in British Pounds (£)
@@ -147,11 +166,16 @@
 - **Channel Model**: Partner-first (1,050 partners)
 
 ### Product Portfolio
-- **Gamma Connect**: Horizon, Teams Phone, Webex, CircleLoop
-- **Gamma Experience**: Horizon Contact, Cirrus, AWS Connect
-- **Gamma Enable**: SIP Trunks, Inbound, Phoneline+
-- **Gamma Secure**: MDR, SOC, Security Awareness
-- **Connectivity**: Broadband, Ethernet, SD-WAN
+- **Snowmobile Connect**: Horizon, Teams Phone, Webex, CircleLoop
+- **Snowmobile Experience**: Horizon Contact, Cirrus, AWS Connect
+- **Snowmobile Enable**: SIP Trunks, Inbound, Phoneline+
+- **Snowmobile Secure**: MDR, SOC, Security Awareness
+- **Mobile Business Plans**: Essential, Business, Enterprise SIMs
+- **5G Enterprise**: 5G Business, Private 5G, Network Slicing
+- **IoT & M2M**: IoT SIMs, Fleet Trackers, Smart Meters
+- **Mobile Devices**: iPhone, Samsung, Tablets, MiFi
+- **Fibre Broadband**: FTTP, Ethernet, Dedicated Lines
+- **Connectivity**: Broadband, Ethernet, SD-WAN, 4G/5G Backup
 
 ---
 
@@ -173,8 +197,8 @@
 
 **Document Collection Status**: ✅ Complete  
 **Ready for Cortex Search**: ✅ Yes  
-**Gamma Communications Context**: ✅ Comprehensive  
+**Snowmobile Telco Context**: ✅ Comprehensive  
 **C-Level Demo Ready**: ✅ Yes
 
 **Generated**: January 2025  
-**Target Audience**: Gamma Communications C-Suite Executives
+**Target Audience**: Snowmobile Telco C-Suite Executives

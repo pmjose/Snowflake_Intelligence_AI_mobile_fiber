@@ -1,19 +1,19 @@
-# Snowflake Intelligence Demo - Gamma Communications
+# Snowflake Intelligence Demo - Snowmobile Telco
 
-This project demonstrates the comprehensive Snowflake Intelligence capabilities for **Gamma Communications**, the UK's leading B2B communications provider, including:
+This project demonstrates the comprehensive Snowflake Intelligence capabilities for **Snowmobile Telco**, the UK's leading B2B communications provider, including:
 - **Cortex Analyst** (Text-to-SQL via semantic views)
 - **Cortex Search** (Vector search for unstructured documents)  
 - **Snowflake Intelligence Agent** (Multi-tool AI agent with orchestration)
 - **Git Integration** (Automated data loading from GitHub repository)
 
-## About Gamma Communications
+## About Snowmobile Telco
 
-Gamma is a UK-based B2B communications provider specialising in:
+Snowmobile Telco is a UK-based B2B communications provider specialising in:
 - **UCaaS** (Unified Communications): Horizon, Microsoft Teams Phone, Webex, CircleLoop
 - **CCaaS** (Contact Centre): Horizon Contact, Cirrus, Amazon Connect Managed
 - **Voice Services**: SIP Trunking, Inbound, Phoneline+
 - **Connectivity**: Business Broadband, Ethernet, SD-WAN
-- **Security**: Gamma Secure (MDR, SOC, Security Awareness)
+- **Security**: Snowmobile Secure (MDR, SOC, Security Awareness)
 
 **Key Facts:**
 - ~£500M annual revenue
@@ -25,12 +25,13 @@ Gamma is a UK-based B2B communications provider specialising in:
 ## Key Components
 
 ### 1. Data Infrastructure
-- **Star Schema Design**: 13 dimension tables and 4 fact tables covering Finance, Sales, Marketing, HR
+- **Star Schema Design**: 16 dimension tables and 6 fact tables covering Finance, Sales, Marketing, HR, Mobile, and Network
+- **Mobile & 5G Data**: Network coverage, tariffs, devices, KPIs, and subscriber metrics
 - **B2B Customer Model**: 1,000 business customers across SMB, Enterprise, Public Sector, and Partner segments
 - **Channel Partner Focus**: Sales through channel partners with customer vertical segmentation
 - **Realistic Sample Data**: B2B sales transactions with industry and regional breakdowns
-- **Database**: `GAMMA_AI_DEMO` with schema `GAMMA_SCHEMA`
-- **Warehouse**: `Gamma_Demo_WH` (XSMALL with auto-suspend/resume)
+- **Database**: `SNOWMOBILE_AI_DEMO` with schema `SNOWMOBILE_SCHEMA`
+- **Warehouse**: `Snowmobile_Demo_WH` (XSMALL with auto-suspend/resume)
 
 ### 2. Semantic Views (4 Business Domains)
 - **Finance Semantic View**: Revenue by product, partner economics, unit economics
@@ -44,7 +45,7 @@ Gamma is a UK-based B2B communications provider specialising in:
 - **Marketing Documents**: Campaign strategies, competitive analysis, NPS reports
 - **Sales Documents**: Channel partner playbooks, retention strategies, customer success
 - **Strategy Documents**: Market position, investor relations, board presentations
-- **Network Infrastructure**: Data centre capacity, platform uptime, carrier connections
+- **Network Infrastructure**: 4G/5G coverage, mobile network strategy, IoT solutions, fibre broadband, eSIM, roaming
 - **Demo Scripts**: CEO/CFO/CMO demo scripts and presentations
 
 ### 4. Snowflake Intelligence Agent
@@ -54,9 +55,9 @@ Gamma is a UK-based B2B communications provider specialising in:
 - **Natural Language Interface**: Responds to business questions across all departments
 - **Visualization Support**: Generates charts and visualizations for data insights
 
-## Demo Script: Gamma Communications C-Level Executive Demo
+## Demo Script: Snowmobile Telco C-Level Executive Demo
 
-This demo is tailored for **Gamma Communications** C-level executives (CEO, CFO, CMO, CCO). All data uses **British Pounds (£)**, **UK regions**, and references **B2B communications competitors** (8x8, RingCentral, Mitel, Vonage).
+This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO, CCO). All data uses **British Pounds (£)**, **UK regions**, and references **B2B communications competitors** (8x8, RingCentral, Mitel, Vonage).
 
 ### Key Metrics Reference
 | Metric | Value |
@@ -160,7 +161,7 @@ This demo is tailored for **Gamma Communications** C-level executives (CEO, CFO,
    "Which sales reps have the highest revenue?"
 
 5. **Product Category Trends** *(Structured Data)*  
-   "How does revenue compare across Gamma Elements categories?"
+   "How does revenue compare across Snowmobile Elements categories?"
 
 ---
 
@@ -210,18 +211,23 @@ This demo is tailored for **Gamma Communications** C-level executives (CEO, CFO,
 6. **Cross-Functional** (5 min): Product-segment analysis, campaign attribution, top customers
 7. **Document Search** (5 min): Investor relations, compliance, ESG commitments
 
-This progression showcases how Gamma executives can access strategic insights across all business domains through natural language queries, combining structured data analysis with unstructured document search for comprehensive decision support.
+This progression showcases how Snowmobile Telco executives can access strategic insights across all business domains through natural language queries, combining structured data analysis with unstructured document search for comprehensive decision support.
 
-## Gamma Elements Product Portfolio
+## Snowmobile Elements Product Portfolio
 
 | Category | Products |
 |----------|----------|
-| **Gamma Connect** | Horizon, Teams Phone, Webex, CircleLoop, iPECS |
-| **Gamma Experience** | Horizon Contact, Cirrus, Amazon Connect Managed |
-| **Gamma Enable** | SIP Trunks, Inbound, Phoneline+, FUSION IoT |
-| **Gamma Secure** | MDR, SOC, SafeWeb, Vulnerability Management |
-| **Gamma Solutions** | Managed Networks, Enterprise Solutions, GammaUCX |
-| **Connectivity** | Business Broadband, Ethernet, SD-WAN, 4G/5G Backup |
+| **Snowmobile Connect** | Horizon, Teams Phone, Webex, CircleLoop, iPECS |
+| **Snowmobile Experience** | Horizon Contact, Cirrus, Amazon Connect Managed |
+| **Snowmobile Enable** | SIP Trunks, Inbound, Phoneline+, FUSION IoT |
+| **Snowmobile Secure** | MDR, SOC, SafeWeb, Vulnerability Management |
+| **Snowmobile Solutions** | Managed Networks, Enterprise Solutions, SnowmobileUCX |
+| **Mobile Business Plans** | Business Essential SIMs, Enterprise SIMs, Pooled Data |
+| **5G Enterprise** | 5G Business Plans, Private 5G, Network Slicing |
+| **IoT & M2M** | IoT SIMs, Fleet Trackers, Smart Meters, CCTV |
+| **Mobile Devices** | iPhone, Samsung Galaxy, iPads, Tablets, MiFi |
+| **Fibre Broadband** | FTTP, Ethernet, Dedicated Lines |
+| **Connectivity** | Business Broadband, SD-WAN, 4G/5G Backup |
 
 ## Competitors Referenced
 
@@ -242,13 +248,13 @@ This progression showcases how Gamma executives can access strategic insights ac
    - Execute in a Snowflake worksheet
 
 2. **Post-Setup Verification**:
-   - Run `SHOW TABLES IN GAMMA_AI_DEMO.GAMMA_SCHEMA;` to verify 20 tables created
+   - Run `SHOW TABLES IN SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA;` to verify 20 tables created
    - Run `SHOW SEMANTIC VIEWS;` to verify 4 semantic views
    - Run `SHOW CORTEX SEARCH SERVICES;` to verify 6 search services
 
 3. **Access the Agent**:
    - Navigate to Snowflake Intelligence
-   - Select `Gamma_Executive_Agent` from agents list
+   - Select `Snowmobile_Executive_Agent` from agents list
 
 ---
 
@@ -270,7 +276,7 @@ This progression showcases how Gamma executives can access strategic insights ac
 |--------|-------------|
 | "What is our revenue breakdown by product category?" | Structured Data |
 | "Show me revenue breakdown by customer industry." | Structured Data |
-| "How does revenue compare across Gamma Elements categories?" | Structured Data |
+| "How does revenue compare across Snowmobile Elements categories?" | Structured Data |
 | "What is our customer lifetime value and acquisition cost?" | Documents |
 | "What are our key commitments with Microsoft, Cisco, and AWS?" | Documents |
 
@@ -300,14 +306,18 @@ This progression showcases how Gamma executives can access strategic insights ac
 | "What is our strategic response to 8x8's challenges?" | Documents |
 | "What are the key competitive threats from 8x8 and RingCentral?" | Documents |
 
-### Network Infrastructure
+### Network Infrastructure & Mobile
 | Prompt | Data Source |
 |--------|-------------|
 | "What is our network uptime and platform reliability?" | Documents |
 | "What is our data centre capacity and concurrent call handling?" | Documents |
-| "What carrier connections do we have and what's their utilisation?" | Documents |
-| "What is our platform uptime by service (Horizon, Teams Phone, SIP)?" | Documents |
-| "Where are our data centres located and what's their capacity?" | Documents |
+| "What carrier connections do we have?" | Documents |
+| "What is our 5G coverage by region?" | Documents |
+| "What mobile business plans do we offer?" | Documents |
+| "What are our IoT connectivity solutions?" | Documents |
+| "What is our mobile network strategy for 2025?" | Documents |
+| "What devices do we support for enterprise?" | Documents |
+| "How does eSIM activation work?" | Documents |
 
 ### Regulatory & Compliance
 | Prompt | Data Source |
@@ -327,7 +337,7 @@ This progression showcases how Gamma executives can access strategic insights ac
 
 ## 🚫 Questions the Agent Will NOT Answer
 
-The agent has guardrails and will politely decline questions unrelated to Gamma Communications business data:
+The agent has guardrails and will politely decline questions unrelated to Snowmobile Telco business data:
 
 | Off-Topic Question | Agent Response |
 |-------------------|----------------|
@@ -336,4 +346,4 @@ The agent has guardrails and will politely decline questions unrelated to Gamma 
 | "Tell me a joke" | Redirects to business questions |
 | "What's the weather?" | Redirects to business questions |
 
-The agent will respond: *"I can only help with questions about Gamma Communications business data. For example, you could ask about sales performance, revenue by product, network uptime, or competitive analysis."*
+The agent will respond: *"I can only help with questions about Snowmobile Telco business data. For example, you could ask about sales performance, revenue by product, network uptime, or competitive analysis."*

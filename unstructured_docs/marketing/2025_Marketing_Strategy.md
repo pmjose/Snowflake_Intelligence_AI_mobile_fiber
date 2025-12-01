@@ -1,9 +1,9 @@
 # 2025 Marketing Strategy
-**Gamma Communications - Partner-First Marketing**
+**Snowmobile Telco - Partner-First Marketing**
 
 ## Executive Summary
 
-Gamma's 2025 marketing strategy focuses on driving partner success, accelerating Microsoft Teams Phone adoption, and capitalising on the PSTN switch-off opportunity. With a £18M marketing investment, we target 20% revenue growth through partner enablement and demand generation.
+Snowmobile Telco's 2025 marketing strategy focuses on driving partner success, accelerating Microsoft Teams Phone adoption, and capitalising on the PSTN switch-off opportunity. With a £18M marketing investment, we target 20% revenue growth through partner enablement and demand generation.
 
 ---
 
@@ -58,7 +58,7 @@ Gamma's 2025 marketing strategy focuses on driving partner success, accelerating
 | Registered | 660 | 665 | +1% |
 | **Total** | **1,050** | **1,200** | **+14%** |
 
-### Gammaverse 2025
+### Snowmobileverse 2025
 
 **Flagship Partner Event**
 - Date: September 2025
@@ -78,7 +78,7 @@ Gamma's 2025 marketing strategy focuses on driving partner success, accelerating
 | PSTN Switch-Off | £1.2M | 8,000 | Full year |
 | Teams Phone | £800K | 5,000 | H1 focus |
 | Contact Centre | £600K | 3,500 | Q2-Q4 |
-| Gamma Secure | £400K | 2,500 | Q2-Q4 |
+| Snowmobile Secure | £400K | 2,500 | Q2-Q4 |
 | Partner Recruitment | £600K | 500 | Full year |
 | SMB Digital | £600K | 5,500 | Full year |
 
@@ -174,7 +174,7 @@ Gamma's 2025 marketing strategy focuses on driving partner success, accelerating
 
 | Event | Type | Budget | Attendees |
 |-------|------|--------|-----------|
-| Gammaverse | Flagship partner | £1.2M | 2,000 |
+| Snowmobileverse | Flagship partner | £1.2M | 2,000 |
 | Partner roadshows (6) | Regional | £400K | 1,200 |
 | UC Expo | Industry | £200K | Exhibition |
 | Channel Live | Industry | £150K | Exhibition |
@@ -253,13 +253,13 @@ Gamma's 2025 marketing strategy focuses on driving partner success, accelerating
 
 ### Q2 2025
 
-- Gammaverse planning
+- Snowmobileverse planning
 - Contact Centre campaign
 - Mid-year brand refresh
 
 ### Q3 2025
 
-- Gammaverse 2025 (September)
+- Snowmobileverse 2025 (September)
 - Partner recruitment push
 - International expansion support
 

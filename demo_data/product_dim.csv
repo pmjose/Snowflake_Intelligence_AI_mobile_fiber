@@ -1,46 +1,46 @@
 product_key,product_name,category_key,category_name,vertical
-1,Horizon Cloud Phone System,1,Gamma Connect,Enterprise
-2,Horizon Collaborate,1,Gamma Connect,Enterprise
-3,Microsoft Teams Phone,1,Gamma Connect,Enterprise
-4,Webex for Gamma,1,Gamma Connect,Enterprise
-5,CircleLoop,1,Gamma Connect,SMB
-6,iPECS Cloud,1,Gamma Connect,Enterprise
-7,Horizon Desktop App,1,Gamma Connect,All
-8,Horizon Mobile App,1,Gamma Connect,All
-9,Horizon Contact Centre,2,Gamma Experience,Enterprise
-10,Cirrus Contact Centre,2,Gamma Experience,Enterprise
-11,Amazon Connect Managed,2,Gamma Experience,Enterprise
-12,Secure Payments PCI,2,Gamma Experience,Enterprise
-13,Gamma Contact for Partners,2,Gamma Experience,Partner
-14,CX Analytics Suite,2,Gamma Experience,Enterprise
-15,Workforce Management,2,Gamma Experience,Enterprise
-16,SIP Trunks Standard,3,Gamma Enable,All
-17,SIP Trunks Enterprise,3,Gamma Enable,Enterprise
-18,Inbound Services,3,Gamma Enable,All
-19,Phoneline+,3,Gamma Enable,SMB
-20,FUSION IoT,3,Gamma Enable,Enterprise
-21,Cloud Connect Webex Calling,3,Gamma Enable,Enterprise
-22,Number Porting Services,3,Gamma Enable,All
-23,International Calling,3,Gamma Enable,All
-24,Gamma MDR,4,Gamma Secure,Enterprise
-25,Managed SOC,4,Gamma Secure,Enterprise
-26,SafeWeb Cyber Security,4,Gamma Secure,SMB
-27,Vulnerability Management,4,Gamma Secure,Enterprise
-28,Security Awareness Training,4,Gamma Secure,All
-29,Cyber Maturity Assessment,4,Gamma Secure,Enterprise
-30,Endpoint Detection Response,4,Gamma Secure,Enterprise
-31,Enterprise Managed Solutions,5,Gamma Solutions,Enterprise
-32,Managed Networks,5,Gamma Solutions,Enterprise
-33,SD-WAN Solution,5,Gamma Solutions,Enterprise
-34,Clearing as a Service,5,Gamma Solutions,Public Sector
-35,GammaUCX,5,Gamma Solutions,Enterprise
-36,Migration Services,5,Gamma Solutions,Enterprise
+1,Horizon Cloud Phone System,1,Snowmobile Connect,Enterprise
+2,Horizon Collaborate,1,Snowmobile Connect,Enterprise
+3,Microsoft Teams Phone,1,Snowmobile Connect,Enterprise
+4,Webex for Snowmobile,1,Snowmobile Connect,Enterprise
+5,CircleLoop,1,Snowmobile Connect,SMB
+6,iPECS Cloud,1,Snowmobile Connect,Enterprise
+7,Horizon Desktop App,1,Snowmobile Connect,All
+8,Horizon Mobile App,1,Snowmobile Connect,All
+9,Horizon Contact Centre,2,Snowmobile Experience,Enterprise
+10,Cirrus Contact Centre,2,Snowmobile Experience,Enterprise
+11,Amazon Connect Managed,2,Snowmobile Experience,Enterprise
+12,Secure Payments PCI,2,Snowmobile Experience,Enterprise
+13,Snowmobile Contact for Partners,2,Snowmobile Experience,Partner
+14,CX Analytics Suite,2,Snowmobile Experience,Enterprise
+15,Workforce Management,2,Snowmobile Experience,Enterprise
+16,SIP Trunks Standard,3,Snowmobile Enable,All
+17,SIP Trunks Enterprise,3,Snowmobile Enable,Enterprise
+18,Inbound Services,3,Snowmobile Enable,All
+19,Phoneline+,3,Snowmobile Enable,SMB
+20,FUSION IoT,3,Snowmobile Enable,Enterprise
+21,Cloud Connect Webex Calling,3,Snowmobile Enable,Enterprise
+22,Number Porting Services,3,Snowmobile Enable,All
+23,International Calling,3,Snowmobile Enable,All
+24,Snowmobile MDR,4,Snowmobile Secure,Enterprise
+25,Managed SOC,4,Snowmobile Secure,Enterprise
+26,SafeWeb Cyber Security,4,Snowmobile Secure,SMB
+27,Vulnerability Management,4,Snowmobile Secure,Enterprise
+28,Security Awareness Training,4,Snowmobile Secure,All
+29,Cyber Maturity Assessment,4,Snowmobile Secure,Enterprise
+30,Endpoint Detection Response,4,Snowmobile Secure,Enterprise
+31,Enterprise Managed Solutions,5,Snowmobile Solutions,Enterprise
+32,Managed Networks,5,Snowmobile Solutions,Enterprise
+33,SD-WAN Solution,5,Snowmobile Solutions,Enterprise
+34,Clearing as a Service,5,Snowmobile Solutions,Public Sector
+35,SnowmobileUCX,5,Snowmobile Solutions,Enterprise
+36,Migration Services,5,Snowmobile Solutions,Enterprise
 37,Business Broadband,6,Connectivity,SMB
 38,Ethernet First Mile,6,Connectivity,Enterprise
 39,Dedicated Ethernet,6,Connectivity,Enterprise
 40,FTTP Business,6,Connectivity,All
 41,4G/5G Backup,6,Connectivity,All
-42,Gamma Mobile,6,Connectivity,All
+42,Snowmobile Mobile,6,Connectivity,All
 43,Technical Onboarding,7,Professional Services,All
 44,Implementation Services,7,Professional Services,Enterprise
 45,Training and Certification,7,Professional Services,Partner
@@ -63,3 +63,43 @@ product_key,product_name,category_key,category_name,vertical
 62,Education Cloud Communications,10,Public Sector Solutions,Enterprise
 63,Local Government Suite,10,Public Sector Solutions,Enterprise
 64,Central Government Secure,10,Public Sector Solutions,Enterprise
+65,Business Essential 5GB SIM,11,Mobile Business Plans,SMB
+66,Business Essential 10GB SIM,11,Mobile Business Plans,SMB
+67,Business Essential 25GB SIM,11,Mobile Business Plans,SMB
+68,Business Unlimited SIM,11,Mobile Business Plans,SMB
+69,Enterprise 50GB SIM,11,Mobile Business Plans,Enterprise
+70,Enterprise 100GB SIM,11,Mobile Business Plans,Enterprise
+71,Enterprise Unlimited SIM,11,Mobile Business Plans,Enterprise
+72,Enterprise Pooled Data 500GB,11,Mobile Business Plans,Enterprise
+73,Enterprise Pooled Data 1TB,11,Mobile Business Plans,Enterprise
+74,5G Business 50GB,12,5G Enterprise,Enterprise
+75,5G Business 100GB,12,5G Enterprise,Enterprise
+76,5G Business Unlimited,12,5G Enterprise,Enterprise
+77,Private 5G Network,12,5G Enterprise,Enterprise
+78,5G Fixed Wireless Access,12,5G Enterprise,Enterprise
+79,Network Slicing Service,12,5G Enterprise,Enterprise
+80,IoT Basic 100MB,13,IoT & M2M,All
+81,IoT Standard 500MB,13,IoT & M2M,All
+82,IoT Advanced 1GB,13,IoT & M2M,Enterprise
+83,IoT Unlimited,13,IoT & M2M,Enterprise
+84,Fleet Tracker Basic,13,IoT & M2M,Enterprise
+85,Fleet Tracker Pro,13,IoT & M2M,Enterprise
+86,Smart Meter SIM,13,IoT & M2M,Enterprise
+87,CCTV/Security SIM,13,IoT & M2M,Enterprise
+88,iPhone 16 Pro Max,14,Mobile Devices,Enterprise
+89,iPhone 16 Pro,14,Mobile Devices,Enterprise
+90,iPhone 16,14,Mobile Devices,All
+91,Samsung Galaxy S25 Ultra,14,Mobile Devices,Enterprise
+92,Samsung Galaxy S25,14,Mobile Devices,All
+93,Samsung Galaxy XCover7 Pro,14,Mobile Devices,Enterprise
+94,Google Pixel 9 Pro,14,Mobile Devices,Enterprise
+95,iPad Pro 13-inch (M4),14,Mobile Devices,Enterprise
+96,Samsung Galaxy Tab S10 Ultra,14,Mobile Devices,Enterprise
+97,Nighthawk M6 Pro 5G,14,Mobile Devices,Enterprise
+98,Cradlepoint R2100 5G,14,Mobile Devices,Enterprise
+99,Business Fibre 150,15,Fibre Broadband,SMB
+100,Business Fibre 500,15,Fibre Broadband,SMB
+101,Business Fibre 900,15,Fibre Broadband,Enterprise
+102,Dedicated Ethernet 100Mbps,15,Fibre Broadband,Enterprise
+103,Dedicated Ethernet 1Gbps,15,Fibre Broadband,Enterprise
+104,Dedicated Ethernet 10Gbps,15,Fibre Broadband,Enterprise

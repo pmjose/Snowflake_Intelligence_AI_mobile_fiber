@@ -1,9 +1,9 @@
 # Digital Transformation Report 2024
-**Gamma Communications - Technology Adoption Analysis**
+**Snowmobile Telco - Technology Adoption Analysis**
 
 ## Executive Summary
 
-This report analyses digital transformation trends affecting Gamma's customer base and the adoption of cloud communications technologies. Key findings include accelerating Teams Phone adoption, strong partner portal engagement, and growing demand for AI-powered features.
+This report analyses digital transformation trends affecting Snowmobile Telco's customer base and the adoption of cloud communications technologies. Key findings include accelerating Teams Phone adoption, strong partner portal engagement, and growing demand for AI-powered features.
 
 ---
 
@@ -36,7 +36,7 @@ This report analyses digital transformation trends affecting Gamma's customer ba
 |--------|---------|---------|--------|
 | Customers with Teams | 85% | 92% | +7pp |
 | Teams Phone Enabled | 18% | 35% | +17pp |
-| Gamma Teams Phone | 8% | 15% | +7pp |
+| Snowmobile Telco Teams Phone | 8% | 15% | +7pp |
 | Direct Routing | 60% | 45% | -15pp |
 | Operator Connect | 40% | 55% | +15pp |
 

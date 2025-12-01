@@ -1,12 +1,12 @@
 # Microsoft UK Partnership Agreement
-**Gamma Communications PLC - Strategic Technology Partner**
+**Snowmobile Telco PLC - Strategic Technology Partner**
 
 ## Agreement Summary
 
 | Field | Details |
 |-------|---------|
 | Agreement Type | Operator Connect Partner Agreement |
-| Parties | Gamma Communications PLC / Microsoft Corporation |
+| Parties | Snowmobile Telco PLC / Microsoft Corporation |
 | Effective Date | 1 January 2023 |
 | Term | 3 years (auto-renewal) |
 | Total Commitment | £15M technology investment |
@@ -17,7 +17,7 @@
 
 ### Products Covered
 
-| Product | Description | Gamma Role |
+| Product | Description | Snowmobile Telco Role |
 |---------|-------------|------------|
 | Microsoft Teams Phone | Enterprise voice for Teams | Operator Connect Partner |
 | Microsoft 365 | Productivity integration | Integration Partner |
@@ -37,7 +37,7 @@
 
 ### Revenue Share Model
 
-| Product | Gamma Margin | Microsoft Share |
+| Product | Snowmobile Telco Margin | Microsoft Share |
 |---------|--------------|-----------------|
 | Teams Phone (calling) | 35% | 65% |
 | Direct Routing | 100% | 0% |
@@ -81,7 +81,7 @@
 
 ### Co-Marketing Investment
 
-| Activity | Microsoft Contribution | Gamma Match |
+| Activity | Microsoft Contribution | Snowmobile Telco Match |
 |----------|------------------------|-------------|
 | Campaign fund | £250K/year | £250K |
 | Events | £100K/year | £100K |
@@ -93,7 +93,7 @@
 | Activity | Frequency | Owner |
 |----------|-----------|-------|
 | Partner roadshows | Quarterly | Joint |
-| Webinar series | Monthly | Gamma-led |
+| Webinar series | Monthly | Snowmobile-led |
 | Case studies | Quarterly | Joint |
 | Sales training | Bi-annual | Microsoft-led |
 
@@ -103,7 +103,7 @@
 
 ### Relationship Management
 
-| Role | Microsoft | Gamma |
+| Role | Microsoft | Snowmobile Telco |
 |------|-----------|-------|
 | Executive Sponsor | UK Comms Director | CCO |
 | Account Manager | Partner Manager | Alliance Director |

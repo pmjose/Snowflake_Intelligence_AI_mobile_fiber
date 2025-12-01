@@ -1,25 +1,25 @@
 # CEO Demo Script (10 Minutes)
-## Snowflake Intelligence Platform - Gamma Communications PLC
+## Snowflake Intelligence Platform - Snowmobile Telco PLC
 
 ---
 
 ## Overview
 
-This demo is designed for CEO/Board-level audiences at Gamma Communications, focusing on strategic insights, market position, and business performance based on the latest H1 2025 results and FTSE 250 positioning.
+This demo is designed for CEO/Board-level audiences at Snowmobile Telco, focusing on strategic insights, market position, and business performance based on the latest H1 2025 results and FTSE 250 positioning.
 
 ---
 
 ## Opening (1 minute)
 
 **Presenter Says:**
-"Today I'll show you how our Snowflake Intelligence Platform enables instant access to strategic insights across all of Gamma's business operations - combining operational data with strategy documents in natural language. This is particularly timely as Gamma has just achieved FTSE 250 status following our Main Market move in May 2025."
+"Today I'll show you how our Snowflake Intelligence Platform enables instant access to strategic insights across all of Snowmobile Telco's business operations - combining operational data with strategy documents in natural language. This is particularly timely as Snowmobile Telco has just achieved FTSE 250 status following our Main Market move in May 2025."
 
 ---
 
 ## Demo Questions
 
 ### Question 1: Business Health Overview
-> "Give me an executive summary of Gamma's H1 2025 performance - revenue, cloud seats, adjusted EBITDA, and our key growth metrics."
+> "Give me an executive summary of Snowmobile Telco's H1 2025 performance - revenue, cloud seats, adjusted EBITDA, and our key growth metrics."
 
 **Expected Insights:**
 - £316.6M H1 revenue, up 12% YoY
@@ -49,14 +49,14 @@ This demo is designed for CEO/Board-level audiences at Gamma Communications, foc
 ---
 
 ### Question 3: Market Position
-> "How is Gamma positioned against 8x8, RingCentral, and Mitel? What opportunities does competitor weakness create?"
+> "How is Snowmobile Telco positioned against 8x8, RingCentral, and Mitel? What opportunities does competitor weakness create?"
 
 **Expected Insights:**
-- Gamma UK market share now ~12%, growing (vs 10% in 2024)
+- Snowmobile Telco UK market share now ~12%, growing (vs 10% in 2024)
 - 8x8: Financial pressures, cost restructuring - partner recruitment opportunity
 - RingCentral: Channel conflict - SMB/Mid-Market positioning advantage
 - Mitel: Cloud transition struggles - migration target
-- Gamma now in FTSE 250 - credibility and scale advantage
+- Snowmobile Telco now in FTSE 250 - credibility and scale advantage
 - Partner NPS significantly higher than competitors (+52 vs ~+28 industry avg)
 
 **Talking Point:** "Real-time competitive intelligence shows we're gaining share as competitors struggle."
@@ -131,8 +131,8 @@ This platform brings that insight to your fingertips."
 
 | Unit | H1 2025 | H1 2024 | Change |
 |------|---------|---------|--------|
-| Gamma Business (UK SME) | £97.4M | £97.1M | +0% |
-| Gamma Enterprise | £30.9M | £28.9M | +7% |
+| Snowmobile Business (UK SME) | £97.4M | £97.1M | +0% |
+| Snowmobile Enterprise | £30.9M | £28.9M | +7% |
 | Germany | £34.4M | £9.8M | +251% |
 | Other Europe | £9.3M | £9.9M | -6% |
 

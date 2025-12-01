@@ -1,12 +1,12 @@
 # AWS UK Partnership Agreement
-**Gamma Communications PLC - Cloud Infrastructure Partner**
+**Snowmobile Telco PLC - Cloud Infrastructure Partner**
 
 ## Agreement Summary
 
 | Field | Details |
 |-------|---------|
 | Agreement Type | AWS Partner Network (APN) Agreement |
-| Parties | Gamma Communications PLC / Amazon Web Services EMEA SARL |
+| Parties | Snowmobile Telco PLC / Amazon Web Services EMEA SARL |
 | Effective Date | 1 July 2023 |
 | Term | 3 years |
 | Total Commitment | £12M cloud consumption |
@@ -17,7 +17,7 @@
 
 ### Services Covered
 
-| Service | Description | Gamma Use Case |
+| Service | Description | Snowmobile Telco Use Case |
 |---------|-------------|----------------|
 | Amazon Connect | Contact Centre | Managed CCaaS |
 | AWS Direct Connect | Connectivity | Voice transport |
@@ -63,7 +63,7 @@
 |-------------|--------|---------|
 | AWS Organisation | Complete | Multi-account |
 | Connect instances | 25 live | UK region |
-| Voice integration | Complete | SIP to Gamma |
+| Voice integration | Complete | SIP to Snowmobile Telco |
 | Workforce Management | Deployed | 15 customers |
 | Quality Management | Deployed | 12 customers |
 
@@ -82,7 +82,7 @@
 
 ### Amazon Connect Managed Service
 
-| Component | Gamma Responsibility |
+| Component | Snowmobile Telco Responsibility |
 |-----------|---------------------|
 | Architecture | Design and deploy |
 | Integration | CRM, telephony |
@@ -161,7 +161,7 @@
 | Activity | Frequency | Owner |
 |----------|-----------|-------|
 | AWS Summit presence | Annual | Joint |
-| Webinar series | Quarterly | Gamma-led |
+| Webinar series | Quarterly | Snowmobile-led |
 | Customer workshops | Monthly | AWS-led |
 | Partner training | Bi-annual | AWS |
 
@@ -171,7 +171,7 @@
 
 ### Relationship Structure
 
-| Role | AWS | Gamma |
+| Role | AWS | Snowmobile Telco |
 |------|-----|-------|
 | Partner Manager | ISV Partner Manager | Alliance Director |
 | Solutions Architect | PSA | CTO |
@@ -193,7 +193,7 @@
 
 ### Shared Responsibility
 
-| Area | AWS | Gamma |
+| Area | AWS | Snowmobile Telco |
 |------|-----|-------|
 | Physical security | ✓ | - |
 | Network security | Shared | Shared |
@@ -203,7 +203,7 @@
 
 ### Certifications
 
-| Standard | AWS | Gamma |
+| Standard | AWS | Snowmobile Telco |
 |----------|-----|-------|
 | ISO 27001 | ✓ | ✓ |
 | SOC 2 Type II | ✓ | ✓ |

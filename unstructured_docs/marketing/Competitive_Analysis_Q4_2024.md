@@ -1,12 +1,12 @@
 # Competitive Analysis H1 2025
-**Gamma Communications PLC - Market Intelligence**
+**Snowmobile Telco PLC - Market Intelligence**
 
 ## Executive Summary
 
-The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Teams Phone is gaining share while traditional UCaaS competitors face financial and strategic challenges. Gamma's channel-first model provides significant differentiation. In Germany, Gamma has transformed its position through the Starface and Placetel acquisitions, now holding **565,000 cloud seats** and becoming one of the leading cloud communications providers in Europe's largest market.
+The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Teams Phone is gaining share while traditional UCaaS competitors face financial and strategic challenges. Snowmobile Telco's channel-first model provides significant differentiation. In Germany, Snowmobile Telco has transformed its position through the Starface and Placetel acquisitions, now holding **565,000 cloud seats** and becoming one of the leading cloud communications providers in Europe's largest market.
 
 **Key H1 2025 Developments:**
-- Gamma market share now estimated at **12% UK** (up from 10%)
+- Snowmobile Telco market share now estimated at **12% UK** (up from 10%)
 - **1.8 million total cloud seats** (+50% YoY)
 - FTSE 250 inclusion enhances competitive credibility
 - Germany now represents **20% of Group gross profit**
@@ -20,14 +20,14 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 | Provider | Market Share | YoY Change | Trend | Notes |
 |----------|--------------|------------|-------|-------|
 | Microsoft (Direct) | 38% | +6pp | ↑↑ | Teams Phone acceleration |
-| **Gamma** | 12% | +2pp | ↑↑ | Cloud seat growth + Teams enablement |
+| **Snowmobile Telco** | 12% | +2pp | ↑↑ | Cloud seat growth + Teams enablement |
 | 8x8 | 8% | -1pp | ↓ | Financial pressures continuing |
 | RingCentral | 10% | -1pp | ↓ | Enterprise focus, channel conflict |
 | Mitel | 5% | -1pp | ↓↓ | Cloud transition ongoing |
 | Vonage | 4% | -1pp | ↓ | CPaaS focus prioritised |
 | Others | 23% | -4pp | ↓ | Market consolidation |
 
-### Gamma UK Performance (H1 2025)
+### Snowmobile Telco UK Performance (H1 2025)
 
 | Metric | Value | YoY Change |
 |--------|-------|------------|
@@ -36,8 +36,8 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 | Cisco Collaboration Users | 28K | +75% (half) |
 | CCaaS Seats (UK) | 48K | +20% |
 | UK Active Partners | 1,500+ | Stable |
-| Gamma Business GP | £97.4M | +0% |
-| Gamma Enterprise GP | £30.9M | +7% |
+| Snowmobile Business GP | £97.4M | +0% |
+| Snowmobile Enterprise GP | £30.9M | +7% |
 
 ---
 
@@ -45,26 +45,26 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 
 ### German UCaaS Market Opportunity
 
-| Metric | Value | Gamma Position |
+| Metric | Value | Snowmobile Telco Position |
 |--------|-------|----------------|
 | German UCaaS Market Size | €4.2B | Now Top 5 |
 | Cloud Penetration | ~30% | **Major opportunity** |
 | Business Lines (total) | 18M | Early stage market |
-| Gamma Cloud Seats | 565K | Fastest growing |
-| Gamma H1 2025 GP | £34.4M | +251% YoY |
-| Gamma Gross Margin | 70.1% | Highest in Group |
+| Snowmobile Telco Cloud Seats | 565K | Fastest growing |
+| Snowmobile Telco H1 2025 GP | £34.4M | +251% YoY |
+| Snowmobile Telco Gross Margin | 70.1% | Highest in Group |
 
 ### German Competitor Landscape
 
 | Provider | Market Position | Strength | Weakness |
 |----------|-----------------|----------|----------|
-| **Gamma (Starface/Placetel)** | Rising Top 5 | Premium + Digital, owned IP | Integration phase |
+| **Snowmobile Telco (Starface/Placetel)** | Rising Top 5 | Premium + Digital, owned IP | Integration phase |
 | NFON | Market leader | Brand, presence | Growth slowing |
 | Sipgate | SMB leader | Digital platform | Enterprise weakness |
 | Deutsche Telekom | Enterprise | Scale, network | Cloud transition slow |
 | Microsoft Teams | Growing | Integration | Direct only |
 
-**Gamma Germany Advantage:** 
+**Snowmobile Telco Germany Advantage:** 
 - Dual brand strategy (Starface premium, Placetel self-serve)
 - 70%+ gross margin (owned IP, no licensing costs)
 - Double-digit proforma growth in both acquired businesses
@@ -92,15 +92,15 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 - **Partner Programme:** Margins under pressure
 - **Product:** XCaaS positioning, AI features launched but adoption unclear
 
-#### Gamma Positioning vs 8x8
+#### Snowmobile Telco Positioning vs 8x8
 
-| Factor | 8x8 | Gamma | Advantage |
+| Factor | 8x8 | Snowmobile Telco | Advantage |
 |--------|-----|-------|-----------|
-| Financial stability | Uncertain | **FTSE 250** | **Gamma** |
-| Partner margins | Reducing | Stable | **Gamma** |
-| UK support | Mixed | UK-based | **Gamma** |
+| Financial stability | Uncertain | **FTSE 250** | **Snowmobile Telco** |
+| Partner margins | Reducing | Stable | **Snowmobile Telco** |
+| UK support | Mixed | UK-based | **Snowmobile Telco** |
 | Platform capability | Good | Good | Tie |
-| Scale/credibility | Declining | Growing | **Gamma** |
+| Scale/credibility | Declining | Growing | **Snowmobile Telco** |
 
 **Key Message:** "FTSE 250 stability, long-term partner commitment"
 
@@ -126,15 +126,15 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 - **Microsoft Partnership:** RingCentral for Teams gaining traction
 - **Cost Optimisation:** UK restructuring ongoing
 
-#### Gamma Positioning vs RingCentral
+#### Snowmobile Telco Positioning vs RingCentral
 
-| Factor | RingCentral | Gamma | Advantage |
+| Factor | RingCentral | Snowmobile Telco | Advantage |
 |--------|-------------|-------|-----------|
-| Channel commitment | Low | High | **Gamma** |
-| SMB/Mid-Market | Deprioritised | Core focus | **Gamma** |
+| Channel commitment | Low | High | **Snowmobile Telco** |
+| SMB/Mid-Market | Deprioritised | Core focus | **Snowmobile Telco** |
 | Enterprise | Strong | Developing | RingCentral |
 | Brand | Strong | Growing (FTSE 250) | Mixed |
-| Pricing | Premium | Competitive | **Gamma** |
+| Pricing | Premium | Competitive | **Snowmobile Telco** |
 
 **Key Message:** "Channel-first, never competing with partners"
 
@@ -161,15 +161,15 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 - **Product Investment:** Limited vs competitors
 - **Merger Speculation:** Continues in industry press
 
-#### Gamma Positioning vs Mitel
+#### Snowmobile Telco Positioning vs Mitel
 
-| Factor | Mitel | Gamma | Advantage |
+| Factor | Mitel | Snowmobile Telco | Advantage |
 |--------|-------|-------|-----------|
-| Cloud platform | Legacy | Native | **Gamma** |
-| Financial stability | Weak | **FTSE 250** | **Gamma** |
-| Partner trust | Declining | Strong | **Gamma** |
-| Feature innovation | Limited | Strong | **Gamma** |
-| Future viability | Uncertain | Clear | **Gamma** |
+| Cloud platform | Legacy | Native | **Snowmobile Telco** |
+| Financial stability | Weak | **FTSE 250** | **Snowmobile Telco** |
+| Partner trust | Declining | Strong | **Snowmobile Telco** |
+| Feature innovation | Limited | Strong | **Snowmobile Telco** |
+| Future viability | Uncertain | Clear | **Snowmobile Telco** |
 
 **Key Message:** "Cloud-native platform, secure long-term future"
 
@@ -186,24 +186,24 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 | Est. UK Teams Phone | £280M | ↑↑ |
 | Growth Rate | 42% YoY | ↑ |
 | UK Operator Connect Partners | 75+ | ↑ |
-| Gamma Teams Users | 523K UK, 17K Europe | ↑↑ |
+| Snowmobile Telco Teams Users | 523K UK, 17K Europe | ↑↑ |
 
-#### Gamma's Microsoft Strategy
+#### Snowmobile Telco's Microsoft Strategy
 
 - **Operator Connect:** Live in UK and 14 European countries
 - **H1 2025 Performance:** +56K UK users (vs +28K in H1 2024) - doubled rate
 - **Operator Connect International:** Single pan-European solution launched
 - **Competitive Position:** Voice enablement partner, not competitor
 
-#### Gamma vs Microsoft Direct
+#### Snowmobile Telco vs Microsoft Direct
 
-| Factor | MS Direct | Gamma + Teams | Advantage |
+| Factor | MS Direct | Snowmobile Telco + Teams | Advantage |
 |--------|-----------|---------------|-----------|
-| Call quality | Variable | Carrier-grade | **Gamma** |
-| Support | Tiered | Dedicated | **Gamma** |
-| Advanced features | Basic | Advanced voice | **Gamma** |
-| Partner delivery | No | Yes | **Gamma** |
-| Pan-European | Complex | Single solution | **Gamma** |
+| Call quality | Variable | Carrier-grade | **Snowmobile Telco** |
+| Support | Tiered | Dedicated | **Snowmobile Telco** |
+| Advanced features | Basic | Advanced voice | **Snowmobile Telco** |
+| Partner delivery | No | Yes | **Snowmobile Telco** |
+| Pan-European | Complex | Single solution | **Snowmobile Telco** |
 
 **Key Message:** "Enterprise-grade Teams voice through trusted partners"
 
@@ -211,7 +211,7 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 
 ### Cisco Collaboration - Growing Partnership
 
-#### Gamma Position
+#### Snowmobile Telco Position
 
 | Metric | Value | Trend |
 |--------|-------|-------|
@@ -238,8 +238,8 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 
 | Provider | Basic | Standard | Premium |
 |----------|-------|----------|---------|
-| **Gamma (Horizon)** | £9 | £13 | £20 |
-| Gamma (PhoneLine+) | £5.50 | N/A | N/A |
+| **Snowmobile Telco (Horizon)** | £9 | £13 | £20 |
+| Snowmobile Telco (PhoneLine+) | £5.50 | N/A | N/A |
 | 8x8 | £11 | £16 | £28 |
 | RingCentral | £14 | £20 | £35 |
 | Mitel | £10 | £15 | £24 |
@@ -249,7 +249,7 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 
 | Provider | Basic | Advanced | Enterprise |
 |----------|-------|----------|------------|
-| **Gamma (Horizon Contact)** | £38 | £70 | £105 |
+| **Snowmobile Telco (Horizon Contact)** | £38 | £70 | £105 |
 | 8x8 | £50 | £95 | £140 |
 | RingCentral | £60 | £105 | £165 |
 | NICE CXone | £80 | £135 | £220 |

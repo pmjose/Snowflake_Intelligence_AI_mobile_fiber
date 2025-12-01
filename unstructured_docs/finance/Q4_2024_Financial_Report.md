@@ -1,9 +1,9 @@
 # H1 2025 Interim Financial Report
-## Gamma Communications PLC
+## Snowmobile Telco PLC
 
 ### Executive Summary
 
-H1 2025 delivered strong financial performance with total revenue of **£316.6 million**, up 12% year-over-year. Adjusted EBITDA reached **£70.9 million** (22.4% margin), driven by the successful strategic German acquisitions of Starface and Placetel, and continued UCaaS seat growth. The Group achieved a significant increase in total Cloud seats to **1.8 million** (up 50% since June 2024). Following the move to the Main Market of the London Stock Exchange in May, Gamma was included in the **FTSE 250 index** in June 2025.
+H1 2025 delivered strong financial performance with total revenue of **£316.6 million**, up 12% year-over-year. Adjusted EBITDA reached **£70.9 million** (22.4% margin), driven by the successful strategic German acquisitions of Starface and Placetel, and continued UCaaS seat growth. The Group achieved a significant increase in total Cloud seats to **1.8 million** (up 50% since June 2024). Following the move to the Main Market of the London Stock Exchange in May, Snowmobile Telco was included in the **FTSE 250 index** in June 2025.
 
 ---
 
@@ -32,8 +32,8 @@ H1 2025 delivered strong financial performance with total revenue of **£316.6 m
 
 | Business Unit | H1 2025 | H1 2024 | YoY | % of Total |
 |---------------|---------|---------|-----|------------|
-| Gamma Business (SME) | £186.0M | £184.1M | +1% | 59% |
-| Gamma Enterprise | £66.5M | £61.0M | +9% | 21% |
+| Snowmobile Business (SME) | £186.0M | £184.1M | +1% | 59% |
+| Snowmobile Enterprise | £66.5M | £61.0M | +9% | 21% |
 | Germany | £49.1M | £21.8M | +125% | 16% |
 | Other Europe | £15.0M | £15.6M | -4% | 5% |
 | **Total** | **£316.6M** | **£282.5M** | **+12%** | **100%** |
@@ -50,8 +50,8 @@ H1 2025 delivered strong financial performance with total revenue of **£316.6 m
 
 | Business Unit | H1 2025 | H1 2024 | YoY | Gross Margin |
 |---------------|---------|---------|-----|--------------|
-| Gamma Business (SME) | £97.4M | £97.1M | +0% | 52.4% |
-| Gamma Enterprise | £30.9M | £28.9M | +7% | 46.5% |
+| Snowmobile Business (SME) | £97.4M | £97.1M | +0% | 52.4% |
+| Snowmobile Enterprise | £30.9M | £28.9M | +7% | 46.5% |
 | Germany | £34.4M | £9.8M | +251% | 70.1% |
 | Other Europe | £9.3M | £9.9M | -6% | 62% |
 | **Total** | **£172.0M** | **£145.8M** | **+18%** | **54%** |
@@ -60,7 +60,7 @@ H1 2025 delivered strong financial performance with total revenue of **£316.6 m
 
 ### Segment Performance
 
-#### Gamma Business (UK SME - Channel)
+#### Snowmobile Business (UK SME - Channel)
 
 | Metric | H1 2025 | H1 2024 | YoY |
 |--------|---------|---------|-----|
@@ -74,10 +74,10 @@ H1 2025 delivered strong financial performance with total revenue of **£316.6 m
 - Continuing volume growth in UCaaS portfolio, particularly SIP Cloud solutions
 - Higher net additions on internally developed PhoneLine+ product (45,000 seats, +32%)
 - Continued migration from copper to fibre connectivity (£1.5M GP headwind)
-- Strong SIP trunk growth supporting non-Gamma Cloud PBX solutions
+- Strong SIP trunk growth supporting non-Snowmobile Telco Cloud PBX solutions
 - Over **1,500 active channel partners**
 
-#### Gamma Enterprise (Direct Large Business & Public Sector)
+#### Snowmobile Enterprise (Direct Large Business & Public Sector)
 
 | Metric | H1 2025 | H1 2024 | YoY |
 |--------|---------|---------|-----|
@@ -94,7 +94,7 @@ H1 2025 delivered strong financial performance with total revenue of **£316.6 m
 - SD-WAN wins: Utilita, The AA
 - Managed Cyber services: Morrisons, The Scott Group
 
-#### Germany (Gamma Europe)
+#### Germany (Snowmobile Telco Europe)
 
 | Metric | H1 2025 | H1 2024 | YoY |
 |--------|---------|---------|-----|
@@ -132,7 +132,7 @@ H1 2025 delivered strong financial performance with total revenue of **£316.6 m
 |----------|----------|----------|-----------|
 | SIP Trunks - Traditional PBX (UK) | 902 | 932 | -3% |
 | SIP Trunks - Traditional PBX (Germany) | 194 | 199 | -3% |
-| SIP Trunks - Non-Gamma Cloud PBX (UK) | 498 | 481 | +4% |
+| SIP Trunks - Non-Snowmobile Telco Cloud PBX (UK) | 498 | 481 | +4% |
 | MS Teams Voice Users (UK) | 523 | 467 | +12% |
 | MS Teams Voice Users (Europe) | 17 | 14 | +21% |
 | **Cisco Collaboration Users** | **28** | **16** | **+75%** |
@@ -263,6 +263,6 @@ H1 2025 delivered strong financial performance with total revenue of **£316.6 m
 
 **Prepared by**: Finance Team  
 **Date**: September 2025  
-**Source**: Gamma Communications plc Interim Results for six months ended 30 June 2025  
+**Source**: Snowmobile Telco plc Interim Results for six months ended 30 June 2025  
 **Next Report**: Full Year 2025 (March 2026)  
 **Classification**: Confidential

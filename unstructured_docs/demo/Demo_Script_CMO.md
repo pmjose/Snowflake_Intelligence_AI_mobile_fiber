@@ -1,11 +1,11 @@
 # CMO Demo Script (10 Minutes)
-## Snowflake Intelligence Platform - Gamma Communications
+## Snowflake Intelligence Platform - Snowmobile Telco
 
 ---
 
 ## Overview
 
-This demo is designed for CMO and Marketing leadership at Gamma Communications, focusing on campaign performance, partner marketing, competitive intelligence, and customer satisfaction metrics.
+This demo is designed for CMO and Marketing leadership at Snowmobile Telco, focusing on campaign performance, partner marketing, competitive intelligence, and customer satisfaction metrics.
 
 ---
 

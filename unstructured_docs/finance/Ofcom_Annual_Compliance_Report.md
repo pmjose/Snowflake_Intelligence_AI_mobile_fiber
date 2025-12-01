@@ -1,9 +1,9 @@
 # Ofcom Regulatory Compliance Report 2024
-**Gamma Communications PLC**
+**Snowmobile Telco PLC**
 
 ## Executive Summary
 
-Gamma Communications PLC maintains full compliance with Ofcom regulatory requirements as a provider of electronic communications services in the UK. This report summarises our compliance status, regulatory obligations, and performance against Ofcom standards.
+Snowmobile Telco PLC maintains full compliance with Ofcom regulatory requirements as a provider of electronic communications services in the UK. This report summarises our compliance status, regulatory obligations, and performance against Ofcom standards.
 
 ---
 
@@ -65,7 +65,7 @@ Gamma Communications PLC maintains full compliance with Ofcom regulatory require
 
 ### Service Quality Metrics
 
-| Metric | Requirement | Gamma Performance |
+| Metric | Requirement | Snowmobile Telco Performance |
 |--------|-------------|-------------------|
 | Network availability | 99.9% | 99.97% |
 | Fault repair (P1) | 24 hours | 4 hours avg |
@@ -210,7 +210,7 @@ Gamma Communications PLC maintains full compliance with Ofcom regulatory require
 | ADR referrals | 12 | 18 |
 | Resolved before ADR | 10 | 14 |
 | Ombudsman decisions | 2 | 4 |
-| Decisions against Gamma | 0 | 1 |
+| Decisions against Snowmobile Telco | 0 | 1 |
 | Compensation paid | £2,500 | £4,200 |
 
 ---
@@ -228,7 +228,7 @@ Gamma Communications PLC maintains full compliance with Ofcom regulatory require
 
 ### Industry Participation
 
-| Body | Gamma Role |
+| Body | Snowmobile Telco Role |
 |------|------------|
 | ISPA | Member |
 | ITSPA | Board member |
@@ -265,4 +265,4 @@ Gamma Communications PLC maintains full compliance with Ofcom regulatory require
 **Report Period**: Calendar Year 2024  
 **Submitted to**: Ofcom  
 **Classification**: Public  
-**Contact**: regulatory@gamma.co.uk
+**Contact**: regulatory@snowmobile.co.uk

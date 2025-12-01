@@ -1,5 +1,5 @@
 # Campaign ROI Analysis 2024
-**Gamma Communications - Marketing Effectiveness Report**
+**Snowmobile Telco - Marketing Effectiveness Report**
 
 ## Executive Summary
 
@@ -52,7 +52,7 @@ Full year 2024 marketing investment of **£18 million** generated **25,500 MQLs*
 | Partner Recruitment Blitz | £1.2M | 125 partners | £9,600 | 22.5x |
 | Teams Phone Acceleration | £2.1M | 4,200 | £500 | 15.8x |
 | Contact Centre Cloud | £1.5M | 2,800 | £536 | 14.2x |
-| Gammaverse 2024 | £1.2M | 85 partners + 1,200 MQLs | - | 12.5x |
+| Snowmobileverse 2024 | £1.2M | 85 partners + 1,200 MQLs | - | 12.5x |
 | Horizon Cloud Launch | £0.9M | 1,500 | £600 | 11.8x |
 
 ### Underperforming Campaigns
@@ -150,7 +150,7 @@ Full year 2024 marketing investment of **£18 million** generated **25,500 MQLs*
 
 | Event | Investment | Attendees | MQLs | Pipeline | ROI |
 |-------|------------|-----------|------|----------|-----|
-| Gammaverse 2024 | £1.2M | 1,800 | 1,450 | £15M | 12.5x |
+| Snowmobileverse 2024 | £1.2M | 1,800 | 1,450 | £15M | 12.5x |
 | Partner Roadshows (6) | £480K | 950 | 580 | £4.8M | 10.0x |
 | UC Expo | £185K | 350 | 180 | £1.5M | 8.1x |
 | Channel Live | £125K | 280 | 120 | £0.9M | 7.2x |
@@ -223,7 +223,7 @@ Full year 2024 marketing investment of **£18 million** generated **25,500 MQLs*
 |--------------|------------|------------------|--------|-----------|
 | LinkedIn | £3.5M | £4.5M | +29% | Best B2B performance |
 | Partner Marketing | £2.8M | £3.5M | +25% | Partner growth focus |
-| Events | £2.2M | £2.8M | +27% | Gammaverse expansion |
+| Events | £2.2M | £2.8M | +27% | Snowmobileverse expansion |
 | Email/Nurture | £1.2M | £1.8M | +50% | Highest efficiency |
 | Google/Search | £2.5M | £2.5M | 0% | Maintain |
 | Webinars | £1.0M | £1.5M | +50% | Scale success |

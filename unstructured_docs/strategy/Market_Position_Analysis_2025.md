@@ -1,11 +1,11 @@
 # European B2B Communications Market Position Analysis 2025
-**Strategic Planning Document - Gamma Communications PLC**
+**Strategic Planning Document - Snowmobile Telco PLC**
 
 ## Executive Summary
 
-This analysis provides a comprehensive view of Gamma's competitive position in the European business communications market as we enter the second half of 2025. Following the strategic acquisitions of Starface and Placetel in Germany, Gamma has achieved significant scale with **£316.6 million H1 2025 revenue** (+12% YoY), **1.8 million Cloud seats** (+50% YoY), and successful transition to the **Main Market of the London Stock Exchange with FTSE 250 inclusion** in June 2025.
+This analysis provides a comprehensive view of Snowmobile Telco's competitive position in the European business communications market as we enter the second half of 2025. Following the strategic acquisitions of Starface and Placetel in Germany, Snowmobile Telco has achieved significant scale with **£316.6 million H1 2025 revenue** (+12% YoY), **1.8 million Cloud seats** (+50% YoY), and successful transition to the **Main Market of the London Stock Exchange with FTSE 250 inclusion** in June 2025.
 
-Gamma is uniquely positioned as a pan-European channel-first communications provider with market-leading positions in both the UK (1,500+ partners) and Germany (rapidly growing following strategic acquisitions).
+Snowmobile Telco is uniquely positioned as a pan-European channel-first communications provider with market-leading positions in both the UK (1,500+ partners) and Germany (rapidly growing following strategic acquisitions).
 
 ---
 
@@ -13,7 +13,7 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 
 ### UK B2B Communications Market
 
-| Metric | 2024 Value | 2025 Forecast | Gamma Position |
+| Metric | 2024 Value | 2025 Forecast | Snowmobile Telco Position |
 |--------|------------|---------------|----------------|
 | UK UCaaS Market | £2.8B | £3.2B | #1 Channel Provider |
 | UK CCaaS Market | £1.2B | £1.5B | Top 5 |
@@ -23,7 +23,7 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 
 ### Germany B2B Communications Market
 
-| Metric | 2024 Value | 2025 Forecast | Gamma Position |
+| Metric | 2024 Value | 2025 Forecast | Snowmobile Telco Position |
 |--------|------------|---------------|----------------|
 | Germany UCaaS Market | €4.2B | €4.8B | Now Top 5 |
 | Cloud Penetration | 25% | 32% | Major growth opportunity |
@@ -38,7 +38,7 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 
 | Provider | Market Focus | Revenue (Est.) | Strength | Weakness |
 |----------|--------------|----------------|----------|----------|
-| **Gamma** | Channel-first B2B | £186M (H1 Business) | #1 partner network, UK-centric | Direct enterprise scale |
+| **Snowmobile Telco** | Channel-first B2B | £186M (H1 Business) | #1 partner network, UK-centric | Direct enterprise scale |
 | **8x8** | Direct + Channel | £450M | Global reach, XCaaS | Financial pressures, support |
 | **RingCentral** | Direct Enterprise | £350M | Brand, integrations | Partner conflict, premium pricing |
 | **Mitel** | On-prem transition | £280M | Legacy base | Cloud transition struggles |
@@ -49,7 +49,7 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 
 | Provider | Market Focus | Revenue (Est.) | Strength | Weakness |
 |----------|--------------|----------------|----------|----------|
-| **Gamma (Starface/Placetel)** | Channel + Digital | €49M+ (H1) | Premium + self-serve | Integration phase |
+| **Snowmobile Telco (Starface/Placetel)** | Channel + Digital | €49M+ (H1) | Premium + self-serve | Integration phase |
 | **NFON** | Direct + Channel | €85M | Market presence, brand | Growth slowing |
 | **Sipgate** | SMB Self-Serve | €60M | Digital platform | Enterprise capability |
 | **Deutsche Telekom** | Enterprise | €500M+ | Scale, network | Agility, cloud transition |
@@ -76,7 +76,7 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 - Support inconsistencies
 - Uncertain long-term strategy
 
-**Gamma Opportunity:** Partner recruitment from 8x8 channel
+**Snowmobile Telco Opportunity:** Partner recruitment from 8x8 channel
 
 ### RingCentral UK
 
@@ -95,7 +95,7 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 - Premium pricing limits SMB
 - US-centric roadmap
 
-**Gamma Opportunity:** SMB/Mid-Market partners seeking alternatives
+**Snowmobile Telco Opportunity:** SMB/Mid-Market partners seeking alternatives
 
 ### Mitel UK
 
@@ -114,7 +114,7 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 - Financial stability concerns
 - Technology debt
 
-**Gamma Opportunity:** Migration of Mitel partner base
+**Snowmobile Telco Opportunity:** Migration of Mitel partner base
 
 ### Microsoft Teams
 
@@ -123,16 +123,16 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 - Teams Phone/Operator Connect adoption accelerating
 - Native voice capability expanding
 
-**Gamma Position:**
+**Snowmobile Telco Position:**
 - **523K MS Teams voice users in UK** (+12% H1 2025)
 - Operator Connect International launched (14 countries)
 - **28K Cisco Collaboration users** (+75% H1 2025)
 
-**Gamma Strategy:** Voice enablement partner, not competitor
+**Snowmobile Telco Strategy:** Voice enablement partner, not competitor
 
 ---
 
-## Gamma Competitive Position
+## Snowmobile Telco Competitive Position
 
 ### SWOT Analysis (Updated September 2025)
 
@@ -174,7 +174,7 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 | Provider | 2023 | 2024 | H1 2025 | Trend |
 |----------|------|------|---------|-------|
 | Microsoft Teams (Direct) | 25% | 32% | 38% | ↑↑ |
-| **Gamma (Total)** | 8% | 10% | **12%** | ↑↑ |
+| **Snowmobile Telco (Total)** | 8% | 10% | **12%** | ↑↑ |
 | RingCentral | 12% | 11% | 10% | ↓ |
 | 8x8 | 10% | 9% | 8% | ↓ |
 | Mitel | 8% | 6% | 5% | ↓ |
@@ -188,13 +188,13 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 | Deutsche Telekom | 28% | 26% | 25% | ↓ |
 | NFON | 12% | 11% | 10% | ↓ |
 | Sipgate | 8% | 8% | 7% | → |
-| **Gamma (Starface/Placetel)** | 2% | **5%** | 7% | ↑↑↑ |
+| **Snowmobile Telco (Starface/Placetel)** | 2% | **5%** | 7% | ↑↑↑ |
 | Cisco (direct) | 5% | 5% | 5% | → |
 | Others | 45% | 45% | 46% | → |
 
 ---
 
-## Gamma H1 2025 Performance Highlights
+## Snowmobile Telco H1 2025 Performance Highlights
 
 ### Financial Performance
 
@@ -210,8 +210,8 @@ Gamma is uniquely positioned as a pan-European channel-first communications prov
 
 | Business Unit | Gross Profit H1 2025 | H1 2024 | YoY |
 |---------------|----------------------|---------|-----|
-| Gamma Business (UK SME) | £97.4M | £97.1M | +0% |
-| Gamma Enterprise | £30.9M | £28.9M | +7% |
+| Snowmobile Business (UK SME) | £97.4M | £97.1M | +0% |
+| Snowmobile Enterprise | £30.9M | £28.9M | +7% |
 | Germany | £34.4M | £9.8M | +251% |
 | Other Europe | £9.3M | £9.9M | -6% |
 

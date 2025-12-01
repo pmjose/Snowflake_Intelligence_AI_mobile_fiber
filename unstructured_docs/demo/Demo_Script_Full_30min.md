@@ -1,11 +1,11 @@
 # Full Executive Demo Script (30 Minutes)
-## Snowflake Intelligence Platform - Gamma Communications C-Suite Demo
+## Snowflake Intelligence Platform - Snowmobile Telco C-Suite Demo
 
 ---
 
 ## Overview
 
-This comprehensive demo covers all executive perspectives (CEO, CFO, CMO, CCO) and showcases the full power of the Snowflake Intelligence Platform for Gamma Communications' B2B communications business.
+This comprehensive demo covers all executive perspectives (CEO, CFO, CMO, CCO) and showcases the full power of the Snowflake Intelligence Platform for Snowmobile Telco' B2B communications business.
 
 ---
 
@@ -24,7 +24,7 @@ This comprehensive demo covers all executive perspectives (CEO, CFO, CMO, CCO) a
 ## Part 1: Introduction (2 minutes)
 
 **Presenter Says:**
-"Welcome to our demonstration of the Snowflake Intelligence Platform, designed specifically for Gamma Communications' executive decision-making."
+"Welcome to our demonstration of the Snowflake Intelligence Platform, designed specifically for Snowmobile Telco' executive decision-making."
 
 "What makes this unique:
 - **Single interface** for all business questions
@@ -53,7 +53,7 @@ This comprehensive demo covers all executive perspectives (CEO, CFO, CMO, CCO) a
 **Expected Insights:**
 - 10% market share (growing)
 - 8x8 financial challenges creating opportunity
-- RingCentral channel conflict benefiting Gamma
+- RingCentral channel conflict benefiting Snowmobile Telco
 - Mitel customers migrating to cloud
 
 ### Question 3: Microsoft Teams Opportunity
@@ -77,9 +77,9 @@ This comprehensive demo covers all executive perspectives (CEO, CFO, CMO, CCO) a
 > "Break down our Q4 revenue by product category and compare margins."
 
 **Expected Insights:**
-- Gamma Connect: £60M (52% margin)
-- Gamma Enable: £32M (65% margin)
-- Gamma Experience: £11M (48% margin)
+- Snowmobile Connect: £60M (52% margin)
+- Snowmobile Enable: £32M (65% margin)
+- Snowmobile Experience: £11M (48% margin)
 - Overall: £132M Q4 revenue
 
 ### Question 2: Unit Economics

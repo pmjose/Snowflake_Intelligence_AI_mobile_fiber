@@ -13,7 +13,7 @@ vendor_key,vendor_name,vertical,address,city,county,postcode
 12,Virgin Media Business,Connectivity Provider,500 Brook Drive,Reading,Berkshire,RG2 6UU
 13,TalkTalk Business,Connectivity Provider,11 Evesham Street,London,Greater London,W11 4AR
 14,Vodafone Business,Connectivity Provider,1 Kingdom Street,London,Greater London,W2 6BY
-15,Gamma Mobile Network,Mobile Partner,5 Fleet Place,London,Greater London,EC4M 7RD
+15,Snowmobile Mobile Network,Mobile Partner,5 Fleet Place,London,Greater London,EC4M 7RD
 16,Salesforce UK,CRM Partner,110 Bishopsgate,London,Greater London,EC2N 4AY
 17,HubSpot UK,CRM Partner,6th Floor One Lyric Square,London,Greater London,W6 0NB
 18,Zendesk UK,CX Platform,25 Wilton Road,London,Greater London,SW1V 1LW
@@ -49,3 +49,17 @@ vendor_key,vendor_name,vertical,address,city,county,postcode
 48,SentinelOne UK,Security Partner,32 London Bridge Street,London,Greater London,SE1 9SG
 49,Sophos UK,Security Partner,The Pentagon,Abingdon,Oxfordshire,OX14 3YP
 50,Darktrace UK,Security Partner,Maurice Wilkes Building,Cambridge,Cambridgeshire,CB4 0DS
+51,EE Business,Mobile Network,1 Trident Place,Hatfield,Hertfordshire,AL10 9BW
+52,Three Business,Mobile Network,450 Longwater Avenue,Reading,Berkshire,RG2 6GF
+53,O2 Business,Mobile Network,260 Bath Road,Slough,Berkshire,SL1 4DX
+54,Apple UK,Device Manufacturer,1 Apple Park Way,Battersea,Greater London,SW11 7BW
+55,Samsung UK,Device Manufacturer,Samsung House,Chertsey,Surrey,KT16 0PS
+56,Google Devices UK,Device Manufacturer,6 Pancras Square,London,Greater London,N1C 4AG
+57,Cradlepoint UK,IoT Hardware,22 Chancery Lane,London,Greater London,WC2A 1LS
+58,Teltonika UK,IoT Hardware,45 Fleet Street,London,Greater London,EC4Y 1BT
+59,Quectel UK,IoT Modules,12 Cannon Street,London,Greater London,EC4M 5TA
+60,Sierra Wireless UK,IoT Hardware,28 Queen Street,London,Greater London,EC4R 1BB
+61,Netgear UK,Network Hardware,350 Longwater Avenue,Reading,Berkshire,RG2 6GF
+62,Huawei UK,Network Equipment,300 South Oak Way,Reading,Berkshire,RG2 6UF
+63,Ericsson UK,Network Equipment,One Kingdom Street,London,Greater London,W2 6BD
+64,Nokia UK,Network Equipment,208 Bath Road,Slough,Berkshire,SL1 3XE

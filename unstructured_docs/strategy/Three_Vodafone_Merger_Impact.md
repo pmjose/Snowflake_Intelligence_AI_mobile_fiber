@@ -1,9 +1,9 @@
 # UCaaS Market Consolidation Analysis 2025
-**Gamma Communications - Competitive Intelligence**
+**Snowmobile Telco - Competitive Intelligence**
 
 ## Executive Summary
 
-The UK UCaaS and business communications market is experiencing significant consolidation, with major M&A activity, financial pressures on key players, and shifting competitive dynamics. This analysis examines the implications for Gamma and strategic recommendations for capitalising on market disruption.
+The UK UCaaS and business communications market is experiencing significant consolidation, with major M&A activity, financial pressures on key players, and shifting competitive dynamics. This analysis examines the implications for Snowmobile Telco and strategic recommendations for capitalising on market disruption.
 
 ---
 
@@ -29,18 +29,18 @@ The UK UCaaS and business communications market is experiencing significant cons
 
 **Potential Outcomes:**
 
-| Scenario | Probability | Impact on Gamma |
+| Scenario | Probability | Impact on Snowmobile Telco |
 |----------|-------------|-----------------|
 | Private Equity Acquisition | 35% | Partner programme disruption |
 | Strategic Sale to Large Tech | 25% | New competitor dynamics |
 | Continued Independence | 30% | Weakened competitor |
 | Break-up/Asset Sale | 10% | Acquisition opportunity |
 
-**Gamma Opportunity:**
+**Snowmobile Telco Opportunity:**
 - Target 8x8 partners seeking stability
 - Recruit 8x8 channel managers
 - Provide migration path for 8x8 customers
-- Position Gamma as stable, UK-focused alternative
+- Position Snowmobile Telco as stable, UK-focused alternative
 
 ### Mitel Financial Restructuring
 
@@ -50,7 +50,7 @@ The UK UCaaS and business communications market is experiencing significant cons
 - Partner network uncertainty
 - UK operation cost pressures
 
-**Gamma Opportunity:**
+**Snowmobile Telco Opportunity:**
 - Target Mitel partners for recruitment
 - Horizon as MiCloud alternative
 - Migration tools for MiVoice customers
@@ -65,7 +65,7 @@ The UK UCaaS and business communications market is experiencing significant cons
 | Competitor | 2024 Share | 2026E Share | Trend Driver |
 |------------|------------|-------------|--------------|
 | Microsoft Teams | 32% | 42% | Native voice growth |
-| **Gamma** | 10% | 14% | Partner focus, stability |
+| **Snowmobile Telco** | 10% | 14% | Partner focus, stability |
 | RingCentral | 11% | 9% | UK scaling back |
 | 8x8 | 9% | 7% | Strategic uncertainty |
 | Mitel | 6% | 4% | Cloud transition struggles |
@@ -75,7 +75,7 @@ The UK UCaaS and business communications market is experiencing significant cons
 
 | Provider | "Likely to Remain Partner" | Trend |
 |----------|---------------------------|-------|
-| Gamma | 92% | Stable |
+| Snowmobile Telco | 92% | Stable |
 | 8x8 | 68% | ↓ 15pts |
 | RingCentral | 71% | ↓ 8pts |
 | Mitel | 62% | ↓ 12pts |
@@ -103,7 +103,7 @@ The UK UCaaS and business communications market is experiencing significant cons
 - Teams Phone Mobile reducing need for SIP
 - Copilot integration driving platform stickiness
 
-**Gamma Response:**
+**Snowmobile Telco Response:**
 - Operator Connect positioning (premium features)
 - Contact centre integration differentiation
 - Partner-delivered value-add services
@@ -182,7 +182,7 @@ The UK UCaaS and business communications market is experiencing significant cons
 
 ## Risk Assessment
 
-### Risks to Gamma from Consolidation
+### Risks to Snowmobile Telco from Consolidation
 
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
@@ -206,7 +206,7 @@ The UK UCaaS and business communications market is experiencing significant cons
 
 ### Trigger-Based Responses
 
-| Trigger | Gamma Response |
+| Trigger | Snowmobile Telco Response |
 |---------|----------------|
 | 8x8 strategic sale announced | Activate partner recruitment blitz |
 | Mitel UK restructuring | Partner retention programme |

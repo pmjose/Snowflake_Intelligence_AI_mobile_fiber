@@ -1,11 +1,16 @@
 category_key,category_name,vertical
-1,Gamma Connect,Enterprise
-2,Gamma Experience,Enterprise
-3,Gamma Enable,All
-4,Gamma Secure,Enterprise
-5,Gamma Solutions,Enterprise
+1,Snowmobile Connect,Enterprise
+2,Snowmobile Experience,Enterprise
+3,Snowmobile Enable,All
+4,Snowmobile Secure,Enterprise
+5,Snowmobile Solutions,Enterprise
 6,Connectivity,All
 7,Professional Services,Enterprise
 8,Add-Ons,All
 9,Channel Partner Services,Partner
 10,Public Sector Solutions,Enterprise
+11,Mobile Business Plans,All
+12,5G Enterprise,Enterprise
+13,IoT & M2M,Enterprise
+14,Mobile Devices,All
+15,Fibre Broadband,All

@@ -1,9 +1,9 @@
 # Channel Partner Sales Playbook 2025
-**Gamma Communications - Partner Success Guide**
+**Snowmobile Telco - Partner Success Guide**
 
 ## Executive Summary
 
-This playbook provides the strategic framework for Gamma's channel-first sales model in 2025. With targets of 150,000 new UCaaS seats, 150 new partners, and £550M revenue, success requires excellence in partner enablement, deal support, and customer success.
+This playbook provides the strategic framework for Snowmobile Telco's channel-first sales model in 2025. With targets of 150,000 new UCaaS seats, 150 new partners, and £550M revenue, success requires excellence in partner enablement, deal support, and customer success.
 
 ---
 
@@ -57,18 +57,18 @@ This playbook provides the strategic framework for Gamma's channel-first sales m
 
 ---
 
-## Gamma Elements Portfolio
+## Snowmobile Elements Portfolio
 
-### Gamma Connect (UCaaS)
+### Snowmobile Connect (UCaaS)
 
 | Product | Target Customer | Key USPs | Pricing |
 |---------|-----------------|----------|---------|
 | Horizon Cloud | SMB-Enterprise | UK platform, reliability | £8-18/seat |
 | Teams Phone | 50+ seats | Native MS integration | £6-12/seat |
-| Webex for Gamma | Video-heavy | Cisco partnership | £12-20/seat |
+| Webex for Snowmobile | Video-heavy | Cisco partnership | £12-20/seat |
 | CircleLoop | Micro-SMB | Simple, mobile-first | £5-8/seat |
 
-### Gamma Experience (CCaaS)
+### Snowmobile Experience (CCaaS)
 
 | Product | Target Customer | Key USPs | Pricing |
 |---------|-----------------|----------|---------|
@@ -76,7 +76,7 @@ This playbook provides the strategic framework for Gamma's channel-first sales m
 | Cirrus | Mid-Enterprise | Advanced routing | £65-150/seat |
 | AWS Connect | Enterprise | Scalable, AI-ready | Custom |
 
-### Gamma Enable (Voice)
+### Snowmobile Enable (Voice)
 
 | Product | Target Customer | Key USPs | Pricing |
 |---------|-----------------|----------|---------|
@@ -90,7 +90,7 @@ This playbook provides the strategic framework for Gamma's channel-first sales m
 
 ### Partner-Assisted Sales Journey
 
-| Stage | Partner Activity | Gamma Support |
+| Stage | Partner Activity | Snowmobile Telco Support |
 |-------|------------------|---------------|
 | **Lead** | Identify opportunity | Marketing leads, MDF |
 | **Qualify** | Needs assessment | Deal registration |
@@ -117,7 +117,7 @@ This playbook provides the strategic framework for Gamma's channel-first sales m
 
 **Opportunity**: 5.5M UK business lines to migrate by 2027
 
-| Customer Situation | Gamma Solution | Typical Value |
+| Customer Situation | Snowmobile Telco Solution | Typical Value |
 |--------------------|----------------|---------------|
 | Legacy PBX | Horizon Cloud | £15/seat/month |
 | ISDN lines only | SIP Trunks | £5/channel |
@@ -162,7 +162,7 @@ This playbook provides the strategic framework for Gamma's channel-first sales m
 
 ### vs 8x8
 
-| Factor | 8x8 | Gamma | Message |
+| Factor | 8x8 | Snowmobile Telco | Message |
 |--------|-----|-------|---------|
 | Financial stability | Uncertain | Strong | "We're here for the long term" |
 | Partner margins | Reducing | Stable | "Fair margins that work" |
@@ -170,7 +170,7 @@ This playbook provides the strategic framework for Gamma's channel-first sales m
 
 ### vs RingCentral
 
-| Factor | RingCentral | Gamma | Message |
+| Factor | RingCentral | Snowmobile Telco | Message |
 |--------|-------------|-------|---------|
 | Channel conflict | High | None | "We never compete with you" |
 | Pricing | Premium | Value | "Enterprise quality, fair price" |
@@ -178,7 +178,7 @@ This playbook provides the strategic framework for Gamma's channel-first sales m
 
 ### vs Microsoft Direct
 
-| Factor | MS Direct | Gamma | Message |
+| Factor | MS Direct | Snowmobile Telco | Message |
 |--------|-----------|-------|---------|
 | Call quality | Variable | Carrier-grade | "99.99% uptime guaranteed" |
 | Support | Tiered | Dedicated | "Single point of contact" |
@@ -217,7 +217,7 @@ This playbook provides the strategic framework for Gamma's channel-first sales m
 
 | Certification | Target Audience | Validity |
 |---------------|-----------------|----------|
-| Gamma Sales Foundation | All sales | 12 months |
+| Snowmobile Sales Foundation | All sales | 12 months |
 | Horizon Technical | Technical staff | 12 months |
 | Teams Phone Specialist | Teams focus | 12 months |
 | Contact Centre | CC sales | 12 months |
@@ -288,7 +288,7 @@ This playbook provides the strategic framework for Gamma's channel-first sales m
 | March | Partner Roadshow (6 cities) |
 | April | Teams Phone certification |
 | June | H1 business reviews |
-| September | Gammaverse 2025 |
+| September | Snowmobileverse 2025 |
 | October | Partner Awards |
 | November | 2026 planning |
 | December | Year-end push |

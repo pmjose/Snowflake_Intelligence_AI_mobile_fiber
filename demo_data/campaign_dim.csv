@@ -2,18 +2,18 @@ campaign_key,campaign_name,objective
 1,Horizon Cloud Launch 2025,Product Launch
 2,Microsoft Teams Phone Migration,Product Launch
 3,Cirrus Contact Centre Launch,Product Launch
-4,Gamma Secure Portfolio Launch,Product Launch
+4,Snowmobile Secure Portfolio Launch,Product Launch
 5,SD-WAN Solution Launch,Product Launch
-6,Webex for Gamma Rebrand,Product Launch
+6,Webex for Snowmobile Rebrand,Product Launch
 7,CircleLoop SMB Push,Product Launch
 8,Amazon Connect Managed Launch,Product Launch
 9,FUSION IoT Launch,Product Launch
-10,Gamma MDR Security Launch,Product Launch
+10,Snowmobile MDR Security Launch,Product Launch
 11,Partner Recruitment Q1,Partner Acquisition
 12,Partner Recruitment Q2,Partner Acquisition
 13,Partner Recruitment Q3,Partner Acquisition
 14,Partner Recruitment Q4,Partner Acquisition
-15,Gammaverse 2025,Partner Engagement
+15,Snowmobileverse 2025,Partner Engagement
 16,Partner Roadshow UK,Partner Engagement
 17,Partner Technical Certification,Partner Engagement
 18,Partner Sales Enablement,Partner Engagement
@@ -41,7 +41,7 @@ campaign_key,campaign_name,objective
 40,At-Risk Account Save,Retention
 41,Contract Renewal Campaign,Retention
 42,Upsell Horizon Contact,Upsell
-43,Cross-Sell Gamma Secure,Upsell
+43,Cross-Sell Snowmobile Secure,Upsell
 44,Add Seats Campaign,Upsell
 45,Connectivity Upgrade Push,Upsell
 46,Managed Services Upsell,Upsell
@@ -59,3 +59,23 @@ campaign_key,campaign_name,objective
 58,International Expansion ES,Lead Gen
 59,International Expansion DE,Lead Gen
 60,Brand Refresh 2025,Awareness
+61,5G Business Launch,Product Launch
+62,5G Enterprise Rollout,Product Launch
+63,Mobile for Business Campaign,Lead Gen
+64,IoT Fleet Solutions Launch,Product Launch
+65,eSIM Activation Campaign,Product Launch
+66,Business SIM Migration,Lead Gen
+67,5G Coverage Expansion,Awareness
+68,Private 5G Enterprise,Lead Gen
+69,Mobile Device Trade-In,Lead Gen
+70,Enterprise Pooled Data Launch,Product Launch
+71,4G/5G Backup Solution,Product Launch
+72,Smart Meter IoT Campaign,Lead Gen
+73,Fleet Management Solutions,Lead Gen
+74,5G Fixed Wireless Access,Product Launch
+75,Mobile Security Campaign,Awareness
+76,International Roaming Promo,Lead Gen
+77,Business Fibre Launch,Product Launch
+78,Gigabit Fibre Campaign,Lead Gen
+79,Ethernet Upgrade Push,Upsell
+80,Fibre + Mobile Bundle,Lead Gen

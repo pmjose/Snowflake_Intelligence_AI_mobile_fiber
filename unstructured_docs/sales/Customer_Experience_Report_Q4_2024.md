@@ -1,5 +1,5 @@
 # Customer Experience Report Q4 2024
-**Gamma Communications - Quarterly CX Performance Analysis**
+**Snowmobile Telco - Quarterly CX Performance Analysis**
 
 ## Executive Summary
 
@@ -81,7 +81,7 @@ Q4 2024 delivered continued improvement in customer experience metrics, with **c
 | Microsoft Teams Phone | +58 | +3 | ↑ |
 | Horizon Cloud | +48 | +2 | ↑ |
 | Horizon Contact | +42 | +4 | ↑ |
-| Webex for Gamma | +45 | +1 | → |
+| Webex for Snowmobile | +45 | +1 | → |
 | SIP Trunking | +38 | -1 | ↓ |
 | Connectivity | +35 | +2 | ↑ |
 
@@ -198,7 +198,7 @@ Q4 2024 delivered continued improvement in customer experience metrics, with **c
 > "Moved from RingCentral last quarter - the difference in support quality is night and day. Actually speaking to someone in the UK who understands our business."
 
 **Partner - Positive:**
-> "Gamma treats us as a genuine partner, not just a reseller. The margins work, the support is there when we need it, and the product is solid."
+> "Snowmobile Telco treats us as a genuine partner, not just a reseller. The margins work, the support is there when we need it, and the product is solid."
 
 **Improvement Opportunity:**
 > "The partner portal is functional but feels dated. Would love to see a modern UI and better reporting dashboards."
@@ -209,9 +209,9 @@ Q4 2024 delivered continued improvement in customer experience metrics, with **c
 
 ### NPS vs Competitors
 
-| Provider | Customer NPS | Partner NPS | Gamma Advantage |
+| Provider | Customer NPS | Partner NPS | Snowmobile Advantage |
 |----------|--------------|-------------|-----------------|
-| **Gamma** | +45 | +52 | - |
+| **Snowmobile Telco** | +45 | +52 | - |
 | 8x8 | +28 | +32 | +17 / +20 |
 | RingCentral | +32 | +18 | +13 / +34 |
 | Mitel | +22 | +38 | +23 / +14 |
@@ -219,7 +219,7 @@ Q4 2024 delivered continued improvement in customer experience metrics, with **c
 
 ### Support Comparison
 
-| Metric | Gamma | Industry Avg | Advantage |
+| Metric | Snowmobile Telco | Industry Avg | Advantage |
 |--------|-------|--------------|-----------|
 | First Response | 45 min | 2 hrs | 63% faster |
 | Resolution Time | 6.5 hrs | 12 hrs | 46% faster |

@@ -1,9 +1,9 @@
 # Voice Network and Platform Analysis 2025
-**Gamma Communications - Infrastructure Report**
+**Snowmobile Telco - Infrastructure Report**
 
 ## Executive Summary
 
-This report provides a comprehensive analysis of Gamma's voice network infrastructure, platform performance, and service quality metrics. As a leading UK UCaaS provider, network reliability is critical to customer satisfaction and competitive positioning.
+This report provides a comprehensive analysis of Snowmobile Telco's voice network infrastructure, platform performance, and service quality metrics. As a leading UK UCaaS provider, network reliability is critical to customer satisfaction and competitive positioning.
 
 ---
 
@@ -173,7 +173,7 @@ This report provides a comprehensive analysis of Gamma's voice network infrastru
 |---------|----------|--------|----------|
 | BT Wholesale | PSTN, Numbering | 60% | 2027 |
 | Vodafone | Mobile, SIP | 25% | 2026 |
-| Gamma Mobile | MVNO | 10% | N/A |
+| Snowmobile Mobile | MVNO | 10% | N/A |
 | Virgin Media | Connectivity | 5% | 2025 |
 
 ### Number Porting Performance
@@ -214,7 +214,7 @@ This report provides a comprehensive analysis of Gamma's voice network infrastru
 
 ### vs Industry Standards
 
-| Metric | Gamma | Industry Avg | vs Competitor |
+| Metric | Snowmobile Telco | Industry Avg | vs Competitor |
 |--------|-------|--------------|---------------|
 | Uptime | 99.97% | 99.9% | +0.07pp |
 | MOS Score | 4.35 | 4.1 | +0.25 |
