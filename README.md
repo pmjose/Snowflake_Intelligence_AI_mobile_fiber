@@ -61,7 +61,7 @@ Snowmobile Telco is a UK-based B2B communications provider specialising in:
 
 ## Demo Script: Snowmobile Telco C-Level Executive Demo
 
-This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO, CCO). All data uses **British Pounds (£)**, **UK regions**, and references **B2B communications competitors** (8x8, RingCentral, Mitel, Vonage).
+This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO, CCO). All data uses **British Pounds (£)**, **UK regions**, and references **mobile network competitors** (EE, Vodafone, Three, O2) and **UCaaS competitors** (8x8, RingCentral, Mitel).
 
 ### Key Metrics Reference
 | Metric | Value |
@@ -91,13 +91,13 @@ This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO
    "Give me an executive summary of our H1 2025 performance."
 
 2. **Market Position** *(Documents)*  
-   "How are we positioned against 8x8, RingCentral, and Mitel?"
+   "How are we positioned against EE, Vodafone, and Three in business mobile?"
 
 3. **Microsoft Teams** *(Documents)*  
    "What's our progress on Microsoft Teams Phone?"
 
 4. **Competitive Threats** *(Documents)*  
-   "What opportunities does 8x8's strategic review create for us?"
+   "What competitive threats do EE and Vodafone pose in 5G enterprise?"
 
 5. **Revenue by Region** *(Structured Data)*  
    "What is our total revenue by UK region?"
@@ -133,7 +133,7 @@ This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO
    "Which campaigns generated the most leads?"
 
 4. **Competitive Intelligence** *(Documents)*  
-   "What are the key competitive threats from 8x8 and RingCentral?"
+   "How does our 5G coverage compare to EE, Vodafone, and Three?"
 
 5. **Channel Performance** *(Structured Data)*  
    "Which marketing channels generated the most leads and impressions?"
@@ -190,7 +190,7 @@ This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO
    "What are our sustainability targets and progress?"
 
 5. **Competitive Strategy**  
-   "What is our strategic response to 8x8's challenges?"
+   "What is our competitive positioning vs the Big Four mobile networks?"
 
 ---
 
@@ -261,6 +261,15 @@ This progression showcases how Snowmobile Telco executives can access strategic 
 
 ## Competitors Referenced
 
+### Mobile Network Operators (MNOs)
+| Competitor | Type | Key Positioning |
+|------------|------|-----------------|
+| **EE** | MNO (BT) | UK's largest 5G network, 93% coverage, enterprise focus |
+| **Vodafone** | MNO | Strong IoT/M2M, business mobile, 82% 5G coverage |
+| **Three** | MNO | 5G pioneer, aggressive pricing, unlimited data |
+| **O2** | MNO (VMO2) | Business mobile, retail presence, 74% 5G coverage |
+
+### UCaaS/CCaaS Competitors
 | Competitor | Type | Key Positioning |
 |------------|------|-----------------|
 | **8x8** | UCaaS/CCaaS | XCaaS platform, financial challenges |
@@ -331,11 +340,12 @@ This progression showcases how Snowmobile Telco executives can access strategic 
 ### Strategic Documents & Competitive Intelligence
 | Prompt | Data Source |
 |--------|-------------|
-| "How are we positioned against 8x8, RingCentral, and Mitel?" | Documents |
-| "What opportunities does 8x8's strategic review create for us?" | Documents |
-| "What's our progress on Microsoft Teams Phone?" | Documents |
+| "How are we positioned against EE, Vodafone, and Three in business mobile?" | Documents |
+| "What competitive threats do EE and Vodafone pose in 5G enterprise?" | Documents |
+| "How does our 5G coverage compare to EE, Vodafone, and Three?" | Documents |
+| "What is our competitive positioning vs the Big Four mobile networks?" | Documents |
 | "Give me an executive summary of our H1 2025 performance." | Documents |
-| "What is our strategic response to 8x8's challenges?" | Documents |
+| "What's our progress on Microsoft Teams Phone?" | Documents |
 | "What are the key competitive threats from 8x8 and RingCentral?" | Documents |
 
 ### Network Infrastructure & Mobile

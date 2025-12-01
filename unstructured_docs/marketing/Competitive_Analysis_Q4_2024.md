@@ -3,13 +3,168 @@
 
 ## Executive Summary
 
-The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Teams Phone is gaining share while traditional UCaaS competitors face financial and strategic challenges. Snowmobile Telco's channel-first model provides significant differentiation. In Germany, Snowmobile Telco has transformed its position through the Starface and Placetel acquisitions, now holding **565,000 cloud seats** and becoming one of the leading cloud communications providers in Europe's largest market.
+The UK B2B mobile and communications market continues to evolve rapidly. Snowmobile Telco competes across two key segments: **Mobile/5G Enterprise** against the Big Four MNOs (EE, Vodafone, Three, O2) and **UCaaS/CCaaS** against traditional cloud communications providers. Our unique positioning combines mobile network services with unified communications, offering businesses a single provider for all connectivity needs.
 
 **Key H1 2025 Developments:**
-- Snowmobile Telco market share now estimated at **12% UK** (up from 10%)
+- Mobile subscribers grown to **168,000** (+34% YoY)
+- 5G coverage now at **88%** population (vs EE 93%, Vodafone 82%)
+- IoT connections reached **128,000** (+51% YoY)
+- UCaaS market share estimated at **12% UK** (up from 10%)
 - **1.8 million total cloud seats** (+50% YoY)
-- FTSE 250 inclusion enhances competitive credibility
-- Germany now represents **20% of Group gross profit**
+
+---
+
+## UK Mobile Network Competition
+
+### Business Mobile Market Share (H1 2025 Estimated)
+
+| Provider | B2B Share | 5G Coverage | Strength | Weakness |
+|----------|-----------|-------------|----------|----------|
+| **EE (BT)** | 32% | 93% | Largest 5G, enterprise contracts | Premium pricing |
+| **Vodafone** | 28% | 82% | Strong IoT/M2M, global | UK service issues |
+| **O2 (VMO2)** | 22% | 74% | Retail presence, SMB | 5G behind EE |
+| **Three** | 12% | 78% | 5G pioneer, pricing | Network quality |
+| **Snowmobile Telco** | 4% | 88% | UCaaS bundle, channel | Scale vs MNOs |
+| Others (MVNOs) | 2% | Varies | Niche focus | Limited scope |
+
+### 5G Enterprise Competitive Position
+
+| Metric | Snowmobile | EE | Vodafone | Three | O2 |
+|--------|------------|-----|----------|-------|-----|
+| 5G Pop Coverage | 88% | 93% | 82% | 78% | 74% |
+| Avg Download (Mbps) | 320 | 315 | 285 | 275 | 265 |
+| Latency | 9ms | 10ms | 12ms | 13ms | 14ms |
+| Business SIM from | £12 | £18 | £16 | £14 | £15 |
+| IoT SIM from | £3 | £5 | £4 | £4 | £5 |
+| eSIM Support | 48% | 52% | 45% | 42% | 40% |
+
+### Snowmobile Telco Mobile Differentiators
+
+| Factor | Big Four MNOs | Snowmobile Telco | Advantage |
+|--------|---------------|------------------|-----------|
+| UCaaS Bundle | Separate vendors | **Integrated** | **Snowmobile** |
+| Channel Model | Direct-heavy | **Partner-first** | **Snowmobile** |
+| Contract Flexibility | 24-36 months | **12-24 months** | **Snowmobile** |
+| Single Bill | Often separate | **Unified billing** | **Snowmobile** |
+| UK Support | Offshore mix | **100% UK-based** | **Snowmobile** |
+| IoT Platform | Generic | **Vertical-specific** | **Snowmobile** |
+
+**Key Message:** "One provider for mobile, voice, and unified communications"
+
+---
+
+---
+
+## Mobile Network Competitor Deep Dive
+
+### EE Business (BT Group) - Market Leader
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| B2B Mobile Revenue | £1.8B | ↑ |
+| 5G Sites | 6,500+ | ↑↑ |
+| Business Customers | 450,000 | ↑ |
+| IoT Connections | 12M+ | ↑ |
+
+**Strengths:**
+- UK's largest 5G network (93% population)
+- BT Enterprise integration, bundling
+- Strong enterprise contracts (NHS, govt)
+- Premium brand positioning
+
+**Weaknesses:**
+- Premium pricing (20-30% above market)
+- Complex legacy systems
+- Channel conflict with BT direct
+
+**Snowmobile Telco Positioning:**
+- Price: 15-25% below EE for equivalent plans
+- Message: "Enterprise quality without enterprise pricing"
+- Target: SMB/mid-market customers overserved by EE
+
+---
+
+### Vodafone Business - IoT Leader
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| UK B2B Revenue | £1.5B | → |
+| 5G Coverage | 82% | ↑ |
+| IoT Platform Users | 160M global | ↑ |
+| UK Business Customers | 380,000 | ↓ |
+
+**Strengths:**
+- Global IoT/M2M platform
+- Strong in fleet/logistics
+- Vodafone Business brand
+- Pan-European capabilities
+
+**Weaknesses:**
+- UK network service issues
+- Customer satisfaction declining (NPS +18)
+- Complex pricing structures
+- High churn in SMB segment
+
+**Snowmobile Telco Positioning:**
+- Service: "UK-based support, 100% UK team"
+- Message: "Challenger service levels, carrier-grade network"
+- Target: Vodafone SMB customers frustrated with service
+
+---
+
+### Three Business - 5G Challenger
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| UK B2B Revenue | £620M | ↑ |
+| 5G Coverage | 78% | ↑↑ |
+| Business Customers | 180,000 | ↑ |
+| Avg ARPU | £16.50 | ↓ |
+
+**Strengths:**
+- Aggressive 5G pricing
+- Unlimited data propositions
+- 5G spectrum holdings
+- Merger with Vodafone pending
+
+**Weaknesses:**
+- Network quality perception
+- Limited enterprise presence
+- Brand awareness in B2B
+- Merger uncertainty
+
+**Snowmobile Telco Positioning:**
+- Quality: "Premium network, competitive pricing"
+- Message: "5G enterprise without the risk"
+- Target: Businesses wanting 5G but concerned about Three quality
+
+---
+
+### O2 Business (VMO2) - Retail Strength
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| UK B2B Revenue | £1.1B | → |
+| 5G Coverage | 74% | ↑ |
+| Business Customers | 320,000 | → |
+| Retail Partners | 450+ | → |
+
+**Strengths:**
+- Strong retail presence
+- Virgin Media bundle
+- O2 Priority rewards
+- SMB-friendly approach
+
+**Weaknesses:**
+- 5G rollout behind competitors
+- VMO2 integration challenges
+- Enterprise presence limited
+- Complex product portfolio
+
+**Snowmobile Telco Positioning:**
+- 5G: "88% coverage vs O2's 74%"
+- Message: "Future-proof 5G, partner delivery"
+- Target: SMB customers wanting faster 5G rollout
 
 ---
 
@@ -324,6 +479,28 @@ The European UCaaS market continues to evolve rapidly. In the UK, Microsoft Team
 2. **Enterprise Build**
    - Leverage Starface enterprise positioning
    - Cisco Collaboration Suite differentiation
+
+### Mobile Network Competitive Priorities
+
+1. **5G Enterprise Differentiation**
+   - Target: Businesses seeking 5G without MNO lock-in
+   - Message: "88% 5G coverage, 320 Mbps, 9ms latency"
+   - Programme: 5G Business trial programme
+
+2. **IoT Growth Campaign**
+   - Target: Fleet, logistics, utilities verticals
+   - Message: "UK-based IoT platform, vertical expertise"
+   - Programme: IoT starter bundles, free trial devices
+
+3. **EE/Vodafone SMB Conquest**
+   - Target: SMB customers on expensive MNO contracts
+   - Message: "Same network quality, 20% less cost"
+   - Programme: Contract buyout, migration support
+
+4. **UCaaS + Mobile Bundle**
+   - Target: Businesses with separate mobile/voice providers
+   - Message: "One bill, one support team, one partner"
+   - Programme: Converged business package
 
 ---
 
