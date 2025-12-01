@@ -117,8 +117,8 @@ This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO
 4. **Revenue by Vertical** *(Structured Data)*  
    "What is revenue by customer vertical - SMB, Enterprise, Public Sector?"
 
-5. **Vendor Contracts** *(Documents)*  
-   "What are our key commitments with Microsoft, Cisco, and AWS?"
+5. **Vendor Spend** *(Structured Data + Documents)*  
+   "Show me vendor spend breakdown by Ericsson, Nokia, Apple, and Samsung"
 
 ---
 
@@ -308,6 +308,8 @@ This progression showcases how Snowmobile Telco executives can access strategic 
 | "Show me revenue breakdown by customer industry." | Structured Data |
 | "How does revenue compare across Snowmobile Elements categories?" | Structured Data |
 | "What is our customer lifetime value and acquisition cost?" | Documents |
+| "Show me vendor spend breakdown by Ericsson, Nokia, Apple, and Samsung" | Structured Data |
+| "What are our network equipment costs vs device procurement costs?" | Structured Data |
 | "What are our key commitments with Microsoft, Cisco, and AWS?" | Documents |
 
 ### Marketing Campaign Analysis
@@ -359,6 +361,16 @@ This progression showcases how Snowmobile Telco executives can access strategic 
 | "What are our sustainability targets and progress?" | Documents |
 | "What does our investor relations FAQ say about dividend policy?" | Documents |
 | "What are the key terms of our Microsoft partnership?" | Documents |
+
+### Vendor Spend Analysis (Mobile/Telco)
+| Prompt | Data Source |
+|--------|-------------|
+| "Show me vendor spend breakdown by Ericsson, Nokia, Apple, and Samsung" | Structured Data |
+| "What are our network equipment costs vs device procurement costs?" | Structured Data |
+| "What is our spend with mobile network partners (EE, Three, O2)?" | Structured Data |
+| "What are our IoT hardware costs with Cradlepoint and Teltonika?" | Structured Data |
+| "Show me device procurement spend by Apple vs Samsung" | Structured Data |
+| "What is our total spend on network infrastructure vendors?" | Structured Data |
 
 ### Churn & Retention
 | Prompt | Data Source |
