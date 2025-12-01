@@ -87,7 +87,7 @@ use role Snowmobile_Demo;
     -- Create Git repository integration for the Snowmobile Telco UK demo repository
     CREATE OR REPLACE GIT REPOSITORY SNOWMOBILE_AI_DEMO_REPO
         API_INTEGRATION = snowmobile_git_api_integration
-        ORIGIN = 'https://github.com/pmjose/Snowflake_AI_Demo_Gamma.git';
+        ORIGIN = 'https://github.com/pmjose/Snowflake_Intelligence_AI_mobile_fiber.git';
 
     -- Create internal stage for copied data files
     CREATE OR REPLACE STAGE INTERNAL_DATA_STAGE

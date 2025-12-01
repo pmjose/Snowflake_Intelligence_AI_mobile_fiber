@@ -18,6 +18,9 @@ Snowmobile Telco is a UK-based B2B communications provider specialising in:
 **Key Facts:**
 - ~£500M annual revenue
 - 858,000+ UCaaS seats deployed
+- 168,000+ mobile subscribers
+- 128,000+ IoT connections
+- 88% 5G population coverage
 - 1,050+ active channel partners
 - Operations in UK, Netherlands, Spain, Germany
 - AIM listed (moving to Main Market May 2025)
@@ -33,11 +36,12 @@ Snowmobile Telco is a UK-based B2B communications provider specialising in:
 - **Database**: `SNOWMOBILE_AI_DEMO` with schema `SNOWMOBILE_SCHEMA`
 - **Warehouse**: `Snowmobile_Demo_WH` (XSMALL with auto-suspend/resume)
 
-### 2. Semantic Views (4 Business Domains)
+### 2. Semantic Views (5 Business Domains)
 - **Finance Semantic View**: Revenue by product, partner economics, unit economics
 - **Sales Semantic View**: Partner performance, seat growth, deal pipeline
 - **Marketing Semantic View**: Campaign ROI, partner marketing, competitive intelligence
 - **HR Semantic View**: Employee data, departments, certification tracking
+- **Network Semantic View**: 5G/4G coverage, mobile tariffs, devices, network KPIs, subscriber metrics
 
 ### 3. Cortex Search Services (7 Domain-Specific)
 - **Finance Documents**: Financial reports, vendor contracts (Microsoft, Cisco, AWS), ESG reports
@@ -66,10 +70,17 @@ This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO
 | Q4 Revenue | £132 million |
 | UCaaS Seats | 858,000 |
 | Teams Phone Seats | 82,000 |
+| Mobile Subscribers | 168,000 |
+| IoT Connections | 128,000 |
+| 5G Population Coverage | 88% |
+| 4G Population Coverage | 99.5% |
+| 5G Download Speed | 320 Mbps avg |
+| Mobile ARPU | £21.20 |
+| eSIM Adoption | 48% |
 | Active Partners | 1,050 |
 | Customer NPS | +45 |
 | Partner NPS | +52 |
-| Monthly Churn | 0.9% |
+| Monthly Churn | 0.95% |
 | EBITDA Margin | 22% |
 | LTV:CAC | 6.2x |
 
@@ -187,17 +198,35 @@ This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO
 1. **Network Uptime**  
    "What is our network uptime and platform reliability?"
 
-2. **Data Centre Capacity**  
-   "What is our data centre capacity and concurrent call handling?"
+2. **5G Coverage Analysis**  
+   "What is our 5G coverage by UK region and how do we compare to EE and Vodafone?"
 
-3. **Carrier Connections**  
-   "What carrier connections do we have and what's their utilisation?"
+3. **Mobile Network Performance**  
+   "What are our average 5G download speeds and latency?"
 
-4. **Platform Performance**  
-   "What is our platform uptime by service (Horizon, Teams Phone, SIP)?"
+4. **IoT Connectivity**  
+   "How many IoT connections do we have and what are the main use cases?"
 
 5. **Infrastructure Overview**  
    "Where are our data centres located and what's their capacity?"
+
+---
+
+### 📱 Mobile & 5G (CTO/CMO)
+1. **Mobile Subscriber Growth**  
+   "What is our mobile subscriber count and growth trend?"
+
+2. **5G Rollout Progress**  
+   "What is our 5G rollout status by region?"
+
+3. **Device Portfolio**  
+   "What devices do we offer - iPhone 16, Samsung Galaxy S25, Pixel 9?"
+
+4. **Mobile Tariffs**  
+   "What business mobile plans do we offer and what are the prices?"
+
+5. **eSIM Adoption**  
+   "What is our eSIM adoption rate and which devices support it?"
 
 ---
 
@@ -207,9 +236,10 @@ This demo is tailored for **Snowmobile Telco** C-level executives (CEO, CFO, CMO
 2. **CFO Deep Dive** (5 min): Revenue by product/industry/region, vendor contracts
 3. **CMO Analysis** (5 min): Campaign performance, NPS reports, competitive intelligence
 4. **CCO Operations** (5 min): Top products, regional sales, industry breakdown
-5. **CTO/CIO Infrastructure** (5 min): Network uptime, data centre capacity, platform performance
-6. **Cross-Functional** (5 min): Product-segment analysis, campaign attribution, top customers
-7. **Document Search** (5 min): Investor relations, compliance, ESG commitments
+5. **CTO/CIO Infrastructure** (5 min): Network uptime, 5G coverage, mobile performance
+6. **Mobile & 5G** (5 min): Subscriber growth, device portfolio, eSIM adoption, IoT
+7. **Cross-Functional** (5 min): Product-segment analysis, campaign attribution, top customers
+8. **Document Search** (5 min): Investor relations, compliance, ESG commitments
 
 This progression showcases how Snowmobile Telco executives can access strategic insights across all business domains through natural language queries, combining structured data analysis with unstructured document search for comprehensive decision support.
 
@@ -225,7 +255,7 @@ This progression showcases how Snowmobile Telco executives can access strategic 
 | **Mobile Business Plans** | Business Essential SIMs, Enterprise SIMs, Pooled Data |
 | **5G Enterprise** | 5G Business Plans, Private 5G, Network Slicing |
 | **IoT & M2M** | IoT SIMs, Fleet Trackers, Smart Meters, CCTV |
-| **Mobile Devices** | iPhone, Samsung Galaxy, iPads, Tablets, MiFi |
+| **Mobile Devices** | iPhone 16 series, Samsung Galaxy S25 series, Google Pixel 9 series, iPads, Tablets |
 | **Fibre Broadband** | FTTP, Ethernet, Dedicated Lines |
 | **Connectivity** | Business Broadband, SD-WAN, 4G/5G Backup |
 
@@ -248,9 +278,9 @@ This progression showcases how Snowmobile Telco executives can access strategic 
    - Execute in a Snowflake worksheet
 
 2. **Post-Setup Verification**:
-   - Run `SHOW TABLES IN SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA;` to verify 20 tables created
-   - Run `SHOW SEMANTIC VIEWS;` to verify 4 semantic views
-   - Run `SHOW CORTEX SEARCH SERVICES;` to verify 6 search services
+   - Run `SHOW TABLES IN SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA;` to verify 25 tables created
+   - Run `SHOW SEMANTIC VIEWS;` to verify 5 semantic views (Finance, Sales, Marketing, HR, Network)
+   - Run `SHOW CORTEX SEARCH SERVICES;` to verify 7 search services
 
 3. **Access the Agent**:
    - Navigate to Snowflake Intelligence
@@ -310,14 +340,17 @@ This progression showcases how Snowmobile Telco executives can access strategic 
 | Prompt | Data Source |
 |--------|-------------|
 | "What is our network uptime and platform reliability?" | Documents |
-| "What is our data centre capacity and concurrent call handling?" | Documents |
-| "What carrier connections do we have?" | Documents |
-| "What is our 5G coverage by region?" | Documents |
-| "What mobile business plans do we offer?" | Documents |
-| "What are our IoT connectivity solutions?" | Documents |
+| "What is our 5G coverage by UK region?" | Structured Data + Documents |
+| "What are our average 5G and 4G download speeds?" | Structured Data |
+| "How do we compare to EE, Vodafone, and Three on 5G coverage?" | Documents |
+| "What is our mobile subscriber count and ARPU?" | Structured Data |
+| "What mobile business plans do we offer and at what price points?" | Structured Data |
+| "What are our IoT connectivity solutions and how many connections?" | Documents |
 | "What is our mobile network strategy for 2025?" | Documents |
-| "What devices do we support for enterprise?" | Documents |
-| "How does eSIM activation work?" | Documents |
+| "What devices do we support - iPhone 16, Galaxy S25, Pixel 9?" | Structured Data + Documents |
+| "What is our eSIM adoption rate?" | Documents |
+| "What IoT/M2M tariffs do we offer?" | Structured Data |
+| "What is our network performance by region - latency, speed?" | Structured Data |
 
 ### Regulatory & Compliance
 | Prompt | Data Source |
