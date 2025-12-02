@@ -32,7 +32,7 @@
     
     -- Create a dedicated warehouse for the demo with auto-suspend/resume
     CREATE OR REPLACE WAREHOUSE Snowmobile_Demo_WH 
-        WITH WAREHOUSE_SIZE = 'XSMALL'
+        WITH WAREHOUSE_SIZE = 'MEDIUM'
         AUTO_SUSPEND = 300
         AUTO_RESUME = TRUE;
 
@@ -979,6 +979,7 @@ create or replace semantic view SNOWMOBILE_AI_DEMO.SNOWMOBILE_SCHEMA.HR_SEMANTIC
        OR relative_path ilike 'unstructured_docs/%.docx'
        OR relative_path ilike 'unstructured_docs/%.pptx';
 
+    -- Parse Markdown files using PARSE_DOCUMENT (supports plain text extraction)
     -- Parse Markdown files using PARSE_DOCUMENT (supports plain text extraction)
     CREATE OR REPLACE TABLE parsed_content_md AS
     SELECT 
